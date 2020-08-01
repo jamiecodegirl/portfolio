@@ -2,6 +2,14 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+  
+{%- set css -%}
+  {% include "css/post.css" %}
+{%- endset %}
+<style>
+  {{ css | cssmin | safe }}
+</style>
+
 <h1>{{ title }}</h1>
 
 {{ content | safe }}

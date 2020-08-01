@@ -1,0 +1,151 @@
+/* Start Base CSS */
+:root {
+  --white: #fff;
+  --black: #000;
+  --darkgray: #333;
+  --darkblue: #242b3b;
+  --purple: #9884fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: var(--darkgray);
+  background-color: var(--white);
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0.5em 0;
+}
+
+li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+/* End Base CSS */
+
+
+/* Start Custom Classes */
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+/* End Custom Classes */
+
+
+/* Start Top Nav Bar */
+.nav-bar {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+}
+
+.desktop-menu a {
+  color: var(--darkblue);
+  text-decoration: none;
+}
+
+.desktop-menu a:hover{
+  color: var(--purple);
+  font-weight: 700;
+}
+
+#openbtn {
+  position: fixed;
+  display: block;
+  top: 0.4em;
+  right: 1em;
+}
+
+#openbtn a {
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--darkblue);
+}
+
+#openbtn a:hover,
+#openbtn a:focus {
+  color: var(--purple);
+}
+/* End Top Nav Bar */

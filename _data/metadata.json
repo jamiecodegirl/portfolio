@@ -1,9 +1,9 @@
 {
-  "title": "Your Blog Name",
+  "title": "Jamie Thompson - UX Designer + Developer",
   "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "My Portfolio",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -13,7 +13,7 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "Jamie Thompson",
     "email": "youremailaddress@example.com",
     "url": "https://example.com/about-me/"
   }
