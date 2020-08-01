@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-project
+---
+  
+{%- set css -%}
+  {% include "css/project.css" %}
+{%- endset %}
+<style>
+  {{ css | cssmin | safe }}
+</style>
+
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+<hr>
+<ul>
+  {%- set nextProject = collections.projects | getNextCollectionItem(page) %}
+  {%- if nextProject %}<li>Next: <a href="{{ nextProject.url | url }}">{{ nextProject.data.title }}</a></li>{% endif %}
+  {%- set previousProject = collections.projects | getPreviousCollectionItem(page) %}
+  {%- if previousProject %}<li>Previous: <a href="{{ previousProject.url | url }}">{{ previousProject.data.title }}</a></li>{% endif %}
+</ul>

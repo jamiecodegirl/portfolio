@@ -1,0 +1,14 @@
+<ol reversed class="projectlist" style="counter-reset: start-from {{ (projectslistCounter or projectslist.length) + 1 }}">
+{% for project in projectslist | reverse %}
+  <li class="projectlist-item{% if project.url == url %} projectlist-item-active{% endif %}">
+    <a href="{{ project.url | url }}" class="projectlist-link">{% if project.data.title %}{{ project.data.title }}{% else %}<code>{{ project.url }}</code>{% endif %}</a>
+    <time class="projectlist-date" datetime="{{ project.date | htmlDateString }}">{{ project.date | readableDate }}</time>
+    {% for tag in project.data.tags %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="project-tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+  </li>
+{% endfor %}
+</ol>
