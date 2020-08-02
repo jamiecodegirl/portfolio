@@ -1,7 +1,81 @@
 .tmpl-project h1 {
-  background-color: #080808;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
   font-weight: bold;
   display: inline;
   padding: 0 7px;
 }
+
+
+/* Start Project Overview Section */
+.project-intro {
+  margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-content {
+    width: 80%;
+  }
+}
+
+section {
+  margin: 1em;
+  margin-bottom: 800px;
+}
+
+.arrow {
+  padding: 0 1em;
+}
+
+.arrow img {
+  width: 60px;
+  margin-top: 10px;
+}
+/* End Project Overview Section */
+
+
+/* Start Table of Contents */
+.content-table {
+  width: 200px;
+  position: fixed;
+  top: 20vh;
+  right: 0;
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .content-table {
+    display: block;
+  }
+}
+
+.content-table ol {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.content-table a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0 10px 20px;
+  font-size: 16px;
+  color: rgb(36, 43, 59);
+  transition: all 50ms ease-in-out;
+}
+
+.content-table li.active {
+  border-left: 3px solid #9884fc;
+}
+
+.content-table li.active > a {
+  color: #9884fc;
+  font-weight: 700;
+}
+
+.content-table a:hover,
+.content-table a:focus {
+  color: #9884fc;
+  font-weight: 700;
+}
+/* End Table of Contents */

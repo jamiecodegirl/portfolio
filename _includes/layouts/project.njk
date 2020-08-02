@@ -1,16 +1,25 @@
 ---
 layout: layouts/base.njk
 templateClass: tmpl-project
----
-  
-{%- set css -%}
-  {% include "css/project.css" %}
-{%- endset %}
-<style>
-  {{ css | cssmin | safe }}
-</style>
+--- 
 
 <h1>{{ title }}</h1>
+<p>{{ description }}</p>
+
+<nav class="content-table">
+  <ol>
+    <li><a href="#section1">{{ section1 }}</a></li>
+    <li><a href="#section2">{{ section2 }}</a></li>
+    <li><a href="#section3">{{ section3 }}</a></li>
+    <li><a href="#section4">{{ section4 }}</a></li>
+    <li><a href="#section5">{{ section5 }}</a></li>
+    <li><a href="#section6">{{ section6 }}</a></li>
+    <li><a href="#section7">{{ section7 }}</a></li>
+    <li><a href="#section8">{{ section8 }}</a></li>
+    <li><a href="#section9">{{ section9 }}</a></li>
+    <li><a href="#section10">{{ section10 }}</a></li>
+  </ol>
+</nav>
 
 {{ content | safe }}
 
