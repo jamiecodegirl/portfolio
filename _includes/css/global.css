@@ -3,7 +3,9 @@
   --white: #fff;
   --black: #080808;
   --blue: #3498DB;
+  --tealblue: #00bcd4;
   --green: #29D9C2;
+  --underline: #ddd;
 }
 
 * {
@@ -63,6 +65,7 @@ ul {
 li {
   font-size: 13px;
   margin-bottom: 5px;
+  list-style-type: none;
   width: max-content;
 }
 
@@ -105,6 +108,14 @@ a:focus {
 
 .space-between {
   justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
 }
 
 .margin-0 {

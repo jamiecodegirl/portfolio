@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1024px) {
+  .tmpl-project {
+    width: 80%;
+  }
+}
+
 .tmpl-project h1 {
   background-color: var(--black);
   color: var(--white);
@@ -7,50 +13,22 @@
 }
 
 
-/* Start Project Overview Section */
-.project-intro {
-  margin-bottom: 100px;
-}
-
-@media only screen and (min-width: 1024px) {
-  .main-content {
-    width: 80%;
-  }
-}
-
-section {
-  margin: 1em;
-  margin-bottom: 800px;
-}
-
-.arrow {
-  padding: 0 1em;
-}
-
-.arrow img {
-  width: 60px;
-  margin-top: 10px;
-}
-/* End Project Overview Section */
-
-
 /* Start Table of Contents */
 .content-table {
   width: 200px;
   position: fixed;
   top: 20vh;
   right: 0;
-  display: none;
+  display: block;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .content-table {
-    display: block;
+    display: none;
   }
 }
 
 .content-table ol {
-  list-style-type: none;
   padding-top: 10px;
   padding-left: 0;
 }
@@ -64,3 +42,50 @@ section {
   box-shadow: inset 0 -15px 0 var(--green);
 }
 /* End Table of Contents */
+
+
+/* Start Number Flags */
+.numberflag {
+  background-color: var(--tealblue);
+  color: var(--white);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.underline {
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid var(--underline);
+}
+/* End Number Flags */
+
+
+/* Start Project Overview Section */
+/* .project-intro {
+  margin-bottom: 100px;
+} */
+
+@media only screen and (min-width: 1024px) {
+  .main-content {
+    width: 80%;
+  }
+}
+
+section {
+  margin: 1em;
+  /* margin-bottom: 800px; */
+}
+
+.arrow {
+  padding: 0 1em;
+}
+
+.arrow img {
+  width: 60px;
+  margin-top: 10px;
+}
+/* End Project Overview Section */

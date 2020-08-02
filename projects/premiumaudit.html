@@ -1,47 +1,79 @@
----
-title: Premium Audit App
-layout: layouts/project.njk
-description: A description
-date: 2020-07-03
-section1: Project Overview
-section2: User Persona
-section3: Research
-section4: Sprint Planning
-section5: Design Sprint 1
-section6: Design Sprint 2
-section7: Design Sprint 3
-section8: Design Sprint 4
-section9: Design Sprint 5
-section10: What's Next
+---json
+{
+"title": "Premium Audit App",
+"layout": "layouts/project.njk",
+"description": "A description",
+"date": "2020-07-03",
+"section1": {
+  "title": "Project Overview"
+},
+"section2": {
+  "title": "User Persona",
+  "order": "1"
+},
+"section3": {
+  "title": "Research",
+  "order": "2"
+},
+"section4": {
+  "title": "Sprint Planning",
+  "order": "3"
+},
+"section5": {
+  "title": "Design Sprint 1",
+  "order": "4"
+},
+"section6": {
+  "title": "Design Sprint 2",
+  "order": "5"
+},
+"section7": {
+  "title": "Design Sprint 3",
+  "order": "6"
+},
+"section8": {
+  "title": "Design Sprint 4",
+  "order": "7"
+},
+"section9": {
+  "title": "What's Next?",
+  "order": "8"
+}
+}
 ---
 
 <section id="section1">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section2">
+  {% include "sectionheaders/section2.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section3">
+  {% include "sectionheaders/section3.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section4">
+  {% include "sectionheaders/section4.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section5">
+  {% include "sectionheaders/section5.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section6">
+  {% include "sectionheaders/section6.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section7">
+  {% include "sectionheaders/section7.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section8">
+  {% include "sectionheaders/section8.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
 <section id="section9">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
-</section>
-<section id="section10">
+  {% include "sectionheaders/section9.njk" %}
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet purus gravida. Commodo quis imperdiet massa tincidunt nunc pulvinar. Sem et tortor consequat id porta nibh venenatis cras sed. Quis viverra nibh cras pulvinar mattis nunc. A diam sollicitudin tempor id. Massa massa ultricies mi quis hendrerit dolor. Elit pellentesque habitant morbi tristique senectus et netus. Facilisi morbi tempus iaculis urna id volutpat. Vitae ultricies leo integer malesuada nunc. Morbi blandit cursus risus at ultrices. Feugiat pretium nibh ipsum consequat nisl vel. Id venenatis a condimentum vitae sapien pellentesque.</p>
 </section>
