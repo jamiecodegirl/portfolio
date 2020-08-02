@@ -33,6 +33,11 @@
   padding-left: 0;
 }
 
+.content-table li {
+  list-style-type: none;
+  width: max-content;
+}
+
 .content-table a {
   display: block;
   margin: 15px 0;
@@ -65,27 +70,7 @@
 
 
 /* Start Project Overview Section */
-/* .project-intro {
-  margin-bottom: 100px;
-} */
-
-@media only screen and (min-width: 1024px) {
-  .main-content {
-    width: 80%;
-  }
-}
-
-section {
-  margin: 1em;
-  /* margin-bottom: 800px; */
-}
-
 .arrow {
   padding: 0 1em;
-}
-
-.arrow img {
-  width: 60px;
-  margin-top: 10px;
 }
 /* End Project Overview Section */
