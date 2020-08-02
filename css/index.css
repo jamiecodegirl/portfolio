@@ -1,14 +1,3 @@
-p,
-.tmpl-post li,
-img {
-  max-width: 37.5em;
-}
-
-p,
-.tmpl-post li {
-  line-height: 1.45;
-}
-
 table {
   margin: 1em 0;
 }
