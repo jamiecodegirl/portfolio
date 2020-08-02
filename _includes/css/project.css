@@ -57,25 +57,10 @@ section {
 
 .content-table a {
   display: block;
-  text-decoration: none;
-  padding: 10px 0 10px 20px;
-  font-size: 16px;
-  color: rgb(36, 43, 59);
-  transition: all 50ms ease-in-out;
-}
-
-.content-table li.active {
-  border-left: 3px solid #9884fc;
+  margin: 15px 0;
 }
 
 .content-table li.active > a {
-  color: #9884fc;
-  font-weight: 700;
-}
-
-.content-table a:hover,
-.content-table a:focus {
-  color: #9884fc;
-  font-weight: 700;
+  box-shadow: inset 0 -15px 0 var(--green);
 }
 /* End Table of Contents */

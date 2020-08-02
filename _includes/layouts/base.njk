@@ -34,7 +34,28 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+
+      <div class="mobile-menu">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+            <i class="fas fa-times"></i>
+          </a>
+          <ul class="nav-mobile">
+          {%- for entry in collections.all | eleventyNavigation %}
+            <li class="mobile-nav-item{% if entry.url == page.url %} mobile-nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+          {%- endfor %}
+          </ul>
+        </div>
+      
+        <div id="openbtn">
+          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
     </header>
+
+    <div style="height:100px;"></div>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
@@ -43,6 +64,7 @@
     <footer></footer>
 
     <script src="{{ '/script/index.js' | url }}"></script>
+    <script src="https://kit.fontawesome.com/73b07144a7.js" crossorigin="anonymous"></script>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
