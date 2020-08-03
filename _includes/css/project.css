@@ -146,6 +146,7 @@ section {
 
 #section1 li {
   list-style-type: unset;
+  padding-bottom: 5px;
 }
 
 .arrow {
@@ -167,6 +168,28 @@ section {
 /* End User Persona Section */
 
 
-/* Start Sprint 1 Section */
+/* Start Sprint Planning Section */
+ol.sprint-planning li {
+  list-style-type: unset;
+  padding-bottom: 5px;
+}
 
-/* End Sprint 1 Section */
+.megan-large {
+  text-align: center;
+}
+
+.megan-large img {
+  height: 500px;
+}
+
+@media only screen and (max-width: 415px) {
+  .megan-large img {
+  height: 300px;
+  }
+}
+/* End Sprint Planning Section */
+
+
+/* Start Design Sprint 1 Section*/
+
+/* End Design Sprint 1 Section*/
