@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
   .tmpl-project {
     width: 80%;
   }
@@ -84,15 +84,6 @@ section {
   max-width: 700px;
 }
 
-#section1 h4 {
-  margin-bottom: 10px;
-  font-weight: bold;
-  background-color: var(--black);
-  color: var(--white);
-  padding: 0 10px;
-  width: max-content;
-}
-
 #section1 p {
   margin-top: 0;
   margin-left: 23px;
@@ -106,3 +97,40 @@ section {
   padding: 0 1em;
 }
 /* End Project Overview Section */
+
+
+/* Start User Persona Section */
+.side-by-side {
+  margin-top: 2em;
+}
+
+.side {
+  margin-right: 2em;
+  width: 80%;
+}
+
+.side p {
+  padding-bottom: 1.5em;
+}
+
+#section2 .intro {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.intro h2 {
+  font-weight: bold;
+  margin: 20px 0 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .side-by-side {
+    display: block;
+  }
+
+  .side {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+/* End User Persona Section */

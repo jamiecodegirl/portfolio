@@ -26,6 +26,12 @@ main {
   padding: 0 0 3em 3em;
 }
 
+@media only screen and (max-width: 1024px) {
+  main {
+    padding: 0 2em;
+  }
+}
+
 h1 {
   font-size: 65px;
   font-weight: 400;
@@ -43,11 +49,16 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: bold;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0 10px;
+  width: max-content;
+  margin-bottom: 10px;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 400;
 }
 
