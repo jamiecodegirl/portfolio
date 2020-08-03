@@ -66,6 +66,10 @@ section {
 
 
 /* Start Section Headers */
+.section-header {
+  margin-bottom: 50px;
+}
+
 .numberflag {
   background-color: var(--tealblue);
   color: var(--white);
@@ -77,23 +81,51 @@ section {
   margin-right: 10px;
 }
 
-.underline {
-  height: 2px;
-  width: 100%;
-  border-bottom: 1px solid var(--underline);
-}
-
 @media only screen and (max-width: 410px) {
-  h2.section-header {
-    font-size: 34px;
-  }
-
   .numberflag {
     height: 45px;
     font-size: 30px;
   }
 }
+
+.section-intro {
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-intro {
+    width: 100%;
+  }
+}
 /* End Section Headers */
+
+
+/* Start Side-by-Side */
+.side-by-side {
+  display: flex;
+}
+
+.side {
+  margin-right: 2em;
+  width: 80%;
+}
+
+.side p {
+  padding-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .side-by-side {
+    display: block;
+  }
+
+  .side {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+/* End Side-by-Side */
 
 
 /* Start Project Overview Section */
@@ -119,27 +151,10 @@ section {
 .arrow {
   padding: 0 1em;
 }
-
-.scrum-img img {
-  max-width: 100%;
-}
 /* End Project Overview Section */
 
 
 /* Start User Persona Section */
-.side-by-side {
-  margin-top: 2em;
-}
-
-.side {
-  margin-right: 2em;
-  width: 80%;
-}
-
-.side p {
-  padding-bottom: 1.5em;
-}
-
 #section2 .intro {
   text-align: center;
   padding-bottom: 4em;
@@ -149,15 +164,9 @@ section {
   font-weight: bold;
   margin: 20px 0 5px;
 }
-
-@media only screen and (max-width: 1024px) {
-  .side-by-side {
-    display: block;
-  }
-
-  .side {
-    margin-right: 0;
-    width: 100%;
-  }
-}
 /* End User Persona Section */
+
+
+/* Start Sprint 1 Section */
+
+/* End Sprint 1 Section */
