@@ -3,6 +3,10 @@ layout: layouts/base.njk
 templateClass: tmpl-project
 ---
 
+<h1>{{ title }}</h1>
+<div class="main-description">{{ description }}</div>
+<div class="underline"></div>
+
 <nav class="content-table">
   <ol>
     <li><a href="#section1">{{ section1.title }}</a></li>
@@ -17,41 +21,6 @@ templateClass: tmpl-project
     <li><a href="#section10">{{ section10.title }}</a></li>
   </ol>
 </nav>
-
-<h1>{{ title }}</h1>
-<div class="main-description">{{ description }}</div>
-<div class="underline"></div>
-
-<section id="section1">
-  <div>
-    <h4>My Role</h4>
-    <ul>
-      <li>{{ section1.role.first }}</li>
-      <li>{{ section1.role.second }}</li>
-      <li>{{ section1.role.third }}</li>
-    </ul>
-  </div>
-
-  <div>
-    <h4>Project Timeline</h4>
-    <div class="flex">
-      <p class="semi-bold italic margin-0">{{ section1.timeline.start }}</p>
-      <div class="arrow"><img src="/img/arrow.svg" width="60px" alt="arrow image"></div>
-      <p class="semi-bold italic margin-0" style="margin-left:0;">{{ section1.timeline.end }}</p>
-    </div>
-  </div>
-
-  <div>
-    <h4>About the Company</h4>
-    <p>{{ section1.company }}</p>
-  </div>
-
-  <div>
-    <h4>Interesting Facts</h4>
-    <p>{{ section1.facts.first }}</p>
-    <p>{{ section1.facts.second }}</p>
-  </div>
-</section>
 
 {{ content | safe }}
 

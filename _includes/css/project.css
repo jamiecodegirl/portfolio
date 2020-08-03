@@ -119,6 +119,10 @@ section {
 .arrow {
   padding: 0 1em;
 }
+
+.scrum-img img {
+  max-width: 100%;
+}
 /* End Project Overview Section */
 
 
