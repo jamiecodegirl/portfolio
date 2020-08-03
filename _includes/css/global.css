@@ -1,11 +1,12 @@
 /* Start Base CSS */
 :root {
-  --white: #fff;
+  --white: #FFF;
   --black: #080808;
   --blue: #3498DB;
-  --tealblue: #00bcd4;
+  --tealblue: #00BCD4;
   --green: #29D9C2;
-  --underline: #ddd;
+  --underline: #DDD;
+  --intro: rgba(230, 230, 230, 0.4);
 }
 
 * {
@@ -99,6 +100,11 @@ li {
   list-style-type: none;
 }
 
+ol.numbered-list li {
+  list-style-type: unset;
+  padding-bottom: 5px;
+}
+
 a {
   text-decoration: none;
   font-size: 16px;
@@ -154,6 +160,10 @@ img {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -164,6 +174,10 @@ img {
 
 .align-items {
   align-items: center;
+}
+
+.center {
+  text-align: center;
 }
 
 .margin-0 {
@@ -184,6 +198,10 @@ img {
 
 .margin-bottom-10 {
   margin-bottom: 10px;
+}
+
+.margin-right-20 {
+  margin-right: 20px;
 }
 /* End Custom Classes */
 
