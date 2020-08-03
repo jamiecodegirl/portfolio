@@ -12,6 +12,12 @@
   width: max-content;
 }
 
+@media only screen and (max-width: 415px) {
+  .tmpl-project h1 {
+    font-size: 55px;
+  }
+}
+
 .main-description {
   font-weight: 900;
   font-size: 28px;
@@ -20,7 +26,7 @@
 }
 
 section {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 
@@ -59,14 +65,14 @@ section {
 /* End Table of Contents */
 
 
-/* Start Number Flags */
+/* Start Section Headers */
 .numberflag {
   background-color: var(--tealblue);
   color: var(--white);
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -76,7 +82,18 @@ section {
   width: 100%;
   border-bottom: 1px solid var(--underline);
 }
-/* End Number Flags */
+
+@media only screen and (max-width: 410px) {
+  h2.section-header {
+    font-size: 34px;
+  }
+
+  .numberflag {
+    height: 45px;
+    font-size: 30px;
+  }
+}
+/* End Section Headers */
 
 
 /* Start Project Overview Section */
@@ -88,6 +105,12 @@ section {
   margin-top: 0;
   margin-left: 23px;
 }
+
+  @media only screen and (max-width: 415px) {
+    #section1 p {
+      margin-left: 10px;
+    }
+  }
 
 #section1 li {
   list-style-type: unset;
