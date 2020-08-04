@@ -36,12 +36,12 @@
   "order": "7"
 },
 "section9": {
-  "title": "Design Sprint 5",
-  "order": "8"
-},
-"section10": {
   "title": "What's Next?",
   "order": "9"
+},
+"section10": {
+  "title": "",
+  "order": ""
 }
 }
 ---
@@ -127,13 +127,12 @@
 {% include "sectionheaders/section4.njk" %}
   <div class="side-by-side">
     <div class="section-intro side">
-      <h2>The team focused on 5 areas that would help Megan <span class="black">easily manage her payments</span> on-the-go.</h2>
+      <h2>The team focused on 4 areas that would help Megan <span class="black">easily manage her payments</span> on-the-go.</h2>
       <ol class="numbered-list">
         <li>Save a payment method to use later</li>
         <li>Setup AutoPay with a card or bank account</li>
         <li>Make a flexible one-time payment</li>
         <li>View upcoming due dates and payment history</li>
-        <li>Receive email &amp; text alerts for upcoming payments</li>
       </ol>
     </div>
     <div class="megan-large center"><img src="/img/billpay/megan-large.svg" alt="full girl image"></div>
@@ -163,30 +162,30 @@
       <li><span class="black">Nice to Have</span><br>Bonus data that we'd like to collect.</li>
     </ol>
   </div>
-  <div class="flex wrap">
+  <div class="flex wrap space-around">
     <div>
       <h4>Must Have</h4>
-      <div style="padding-right:2em;"><img src="/img/billpay/must-have.svg" width="275px" alt="must-have-items"></div>
+      <div><img src="/img/billpay/must-have.svg" width="275px" alt="must-have-items"></div>
     </div>
     <div>
       <h4>Should Have</h4>
-      <div style="padding-right:2em;"><img src="/img/billpay/should-have.svg" width="275px" alt="should-have-items"></div>
+      <div><img src="/img/billpay/should-have.svg" width="275px" alt="should-have-items"></div>
     </div>
     <div>
       <h4>Nice to Have</h4>
-      <div style="padding-right:2em;"><img src="/img/billpay/nice-to-have.svg" width="275px" alt="nice-to-have-items"></div>
+      <div><img src="/img/billpay/nice-to-have.svg" width="275px" alt="nice-to-have-items"></div>
     </div>
   </div>
   <div class="underline-sm"></div>
   <div class="section-intro">
     <h2>We wanted to make the process easy by <span class="black">reducing the amount of data</span> the customer enters manually.</h2>
     <div>
-      <h4>The Problem</h4>
+      <h4 style="margin-top:60px;">The Problem</h4>
       <h5 class="margin-top-10">Eliminating data from the <span class="black">Must Have</span> and <span class="black">Should Have</span> categories would increase payment processing fees.</h5>
     </div>
     <div>
-      <h4>The Solution</h4>
-      <h5 class="margin-top-10"><span class="black">Auto-fill the application</span> with billing information from another system to reduce manual work for the user.</h5>
+      <h4 style="margin-top:60px;">The Solution</h4>
+      <h5 class="margin-top-10" style="padding-bottom:40px;"><span class="black">Auto-fill the application</span> with billing information from another system to reduce manual work for the user.</h5>
     </div>
   </div>
   <div><img src="/img/billpay/autofill-flow.svg" alt="user flow"></div>
@@ -196,7 +195,41 @@
     <h2>I created <span class="black">low-fidelity prototypes</span> to conduct <span class="black">usability testing</span> with users and get design feedback from business stakeholders.</h2>
     <h5><span class="black">Usability testing with 3 policyholders</span> and <span class="black">design reviews from business stakeholders</span> confirmed the new process was simple &amp; intuitive.</h5>
   </div>
-  <div class="flex wrap align-items space-between">
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">1.</div>
+      <div>
+        <h2>Add a New Payment Method</h2>
+        <h5>Easily accessible from the home screen</h5>
+        <p>The user selects the <span class="black">Add Card</span> option from the <span class="black">My Account</span> (home) screen to save a debit or credit card to use later.</p>
+      </div>
+    </div>
+    <div class=""><img src="/img/billpay/save-payment1.svg" width="300px" alt="image of save payment screen"></div>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">2.</div>
+      <div>
+        <h2>Enter Card Information</h2>
+        <h5>Only the Must Have information is required</h5>
+        <p>While entering card information, the user can edit the auto-filled billing information.</p>
+      </div>
+    </div>
+    <div class=""><img src="/img/billpay/save-payment2.svg" width="300px" alt="image of save payment screen"></div>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">3.</div>
+      <div>
+        <h2>Edit Billing Information</h2>
+        <h5>Auto-filled info makes the process quick</h5>
+        <p>Edits can be made to <span class="black">Name on Account</span> and <span class="black">Billing Address</span>. Once saved, the user is directed back to the previous screen.</p>
+      </div>
+    </div>
+    <div class=""><img src="/img/billpay/save-payment3.svg" width="300px" alt="image of save payment screen"></div>
+  </div>
+
+  {# <div class="flex wrap align-items space-between">
     <div class="img-300">
       <div><img src="/img/billpay/save-payment1.svg" width="300px" alt="image of save payment screen"></div>
       <h6 class="margin-left-20"><span class="circle-outline">1</span><span class="black">Add card</span> is selected from the <span class="black">My Account </span>(home) screen to save a debit or credit card to use later.</h6>
@@ -211,7 +244,8 @@
       <div><img src="/img/billpay/save-payment3.svg" width="300px" alt="image of save payment screen"></div>
       <h6 class="margin-left-20"><span class="circle-outline">3</span>Edits can be made to <span class="black">Name on Account</span> and <span class="black">Billing Address</span>. Once saved, the user is directed back to the previous screen.</h6>
     </div>
-  </div>
+  </div> #}
+
 </section>
 <section id="section6">
 {% include "sectionheaders/section6.njk" %}
@@ -235,29 +269,46 @@
   <div class="flex wrap align-items space-around">
     <div class="number-block">
       <div class="number">1.</div>
-      <h2>Setup AutoPay</h2>
-      <h5>Easily accessible from the home screen</h5>
-      <p>The user selects the Setup AutoPay option from the My Account (home) screen.</p>
+      <div>
+        <h2>Setup AutoPay</h2>
+        <h5>Easily accessible from the home screen</h5>
+        <p>The user selects the <span class="black">Setup AutoPay</span> option from the <span class="black">My Account</span> (home) screen.</p>
+      </div>
     </div>
-    <div class=""><img src="/img/billpay/autopay1.svg" width="300px" alt="phone image"></div>
+    <div class=""><img src="/img/billpay/autopay1.svg" width="300px" alt="initial auto pay prototype"></div>
   </div>
   <div class="flex wrap align-items space-around">
     <div class="number-block">
       <div class="number">2.</div>
-      <h2>Payment Method</h2>
-      <h5>Select from saved payment methods</h5>
-      <p>The user chooses a saved payment method, and selects Activate AutoPay.</p>
+      <div>
+        <h2>Payment Method</h2>
+        <h5>Select from saved payment methods</h5>
+        <p>The user chooses a saved payment method, and selects <span class="black">Activate AutoPay</span>.</p>
+      </div>
     </div>
-    <div class=""><img src="/img/billpay/autopay2.svg" width="300px" alt="phone image"></div>
+    <div class=""><img src="/img/billpay/autopay2.svg" width="300px" alt="initial auto pay prototype"></div>
   </div>
   <div class="flex wrap align-items space-around">
     <div class="number-block">
       <div class="number">3.</div>
-      <h2>Setup Complete</h2>
-      <h5>AutoPay setup was successful!</h5>
-      <p>The user receives a notification that AutoPay Setup was successful.</p>
+      <div>
+        <h2>Setup Complete</h2>
+        <h5>AutoPay setup was successful!</h5>
+        <p>The user receives a notification that AutoPay Setup was successful.</p>
+      </div>
     </div>
-    <div class=""><img src="/img/billpay/autopay3.svg" width="300px" alt="phone image"></div>
+    <div class=""><img src="/img/billpay/autopay3.svg" width="300px" alt="initial auto pay prototype"></div>
+  </div>
+  <div class="underline-sm"></div>
+  <div class="section-intro">
+    <h2>Virtual <span class="black">usability testing</span> with 3 policyholders revealed the need for 2 additions to the UI.</h2>
+    <h5>These changes were included in the final <span class="black">high-fidelity prototypes</span>.</h5>
+    <p><span class="circle-outline">1</span> Users needed another route to setup &amp; manage AutoPay, so the option was added to the menu.</p>
+    <p><span class="circle-outline">2</span> Users needed the option to add a new bank account or card while setting up or managing AutoPay.</p>
+  </div>
+  <div class="flex wrap space-around">
+    <div><img src="/img/billpay/autopay-final1.svg" width="300px" alt="final auto pay prototype"></div>
+    <div><img src="/img/billpay/autopay-final2.svg" width="300px" alt="final auto pay prototype"></div>
   </div>
 </section>
 <section id="section7">
@@ -275,6 +326,7 @@
     </div>
     <div class="underline-sm"></div>
   </div>
+  
 </section>
 <section id="section8">
 {% include "sectionheaders/section8.njk" %}
