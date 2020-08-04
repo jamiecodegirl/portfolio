@@ -6,7 +6,7 @@
   --tealblue: #00BCD4;
   --green: #29D9C2;
   --underline: #DDD;
-  --intro: rgba(230, 230, 230, 0.4);
+  --red: #E50A45;
 }
 
 * {
@@ -124,6 +124,24 @@ img {
   max-width: 100%;
 }
 
+.img-800 img {
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .img-800 img {
+    max-width: 100%;
+  }
+}
+
+.img-300 {
+  width: 300px;
+}
+
+.img-28 img {
+  max-width: 28px;
+}
+
 .underline {
   height: 2px;
   width: 100%;
@@ -132,9 +150,28 @@ img {
 
 .underline-sm {
   height: 2px;
-  width: 80%;
+  width: 75%;
   margin: 50px auto;
   border-bottom: 1px solid var(--underline);
+}
+
+@media only screen and (max-width: 720px) {
+  .underline-sm {
+    width: 65%;
+  }
+}
+
+.circle-outline {
+  color: var(--white);
+  height: 22px;
+  width: 22px;
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 5px;
 }
 /* End Base CSS */
 
@@ -202,6 +239,14 @@ img {
 
 .margin-right-20 {
   margin-right: 20px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
 }
 /* End Custom Classes */
 
