@@ -144,10 +144,6 @@ section {
 
 
 /* Start Project Overview Section */
-#section1 {
-  max-width: 700px;
-}
-
 #section1 p {
   margin-top: 0;
   margin-left: 23px;
@@ -197,5 +193,110 @@ section {
 
 
 /* Start Design Sprint 2 Section*/
+.number-block {
+  position: relative;
+  width: 60%;
+}
 
+.number-block h2,
+.number-block h5,
+.number-block p {
+  position: relative;
+  z-index: 1;
+  margin-left: 200px;
+}
+
+.number-block h2 {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.number-block h5 {
+  color: var(--blue);
+  font-size: 21px;
+  line-height: 1.6;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.number-block p {
+  font-size: 21px;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+.number {
+  color: var(--green);
+  font-weight: 900;
+  font-size: 300px;
+  position: absolute;
+  top: -105px;
+}
+
+@media only screen and (max-width: 1260px) {
+  .number {
+    top: -80px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .number {
+    font-size: 200px;
+    top: -25px;
+  }
+
+  .number-block h2,
+  .number-block h5,
+  .number-block p {
+    margin-left: 135px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .number {
+    top: 0;
+  }
+
+  .number-block {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+ .number-block {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+ .number {
+    top: 25px;
+  }
+
+  .number-block h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .number-block {
+    position: static;
+  }
+
+  .number {
+    position: static;
+    font-size: 150px;
+  }
+
+  .number-block h2,
+  .number-block h5,
+  .number-block p {
+    margin-left: 0;
+  }
+
+  .number-block h2 {
+    margin-top: 0;
+  }
+}
 /* End Design Sprint 2 Section*/
