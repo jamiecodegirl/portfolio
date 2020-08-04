@@ -130,14 +130,6 @@ img {
   max-width: 100%;
 }
 
-.img-300 {
-  width: 300px;
-}
-
-.img-28 img {
-  max-width: 28px;
-}
-
 .underline {
   height: 2px;
   width: 100%;
