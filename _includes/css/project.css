@@ -198,13 +198,20 @@ section {
 #section1 p {
   margin-top: 0;
   margin-left: 23px;
+  max-width: 70%;
 }
 
-  @media only screen and (max-width: 415px) {
-    #section1 p {
-      margin-left: 10px;
-    }
+@media only screen and (max-width: 1024px) {
+  #section1 p {
+    max-width: 100%;
   }
+}
+
+@media only screen and (max-width: 415px) {
+  #section1 p {
+    margin-left: 10px;
+  }
+}
 
 #section1 li {
   list-style-type: unset;
