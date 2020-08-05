@@ -1,0 +1,373 @@
+/* Start Base CSS */
+:root {
+  --white: #FFF;
+  --black: #080808;
+  --blue: #3498DB;
+  --tealblue: #00BCD4;
+  --green: #29D9C2;
+  --underline: #DDD;
+  --red: #E50A45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: var(--black);
+  background-color: var(--white);
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 0 0 4em 4em;
+}
+
+@media only screen and (max-width: 1440px) {
+  main {
+    padding: 0 0 3em 3em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    padding: 0 2em;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  main {
+    padding: 0 1.5em;
+  }
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 415px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 415px) {
+  h3 {
+    font-size: 28px;
+  }
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0 10px;
+  width: max-content;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul {
+  margin: 0.5em 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+ol.numbered-list li {
+  list-style-type: unset;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 0 5px;
+  color: var(--black);
+  box-shadow: inset 0 -3px 0 var(--blue);
+  transition: all ease-out 0.2s;
+}
+
+a:hover,
+a:focus {
+  box-shadow: inset 0 -15px 0 var(--green);
+}
+
+img {
+  max-width: 100%;
+}
+
+.underline {
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid var(--underline);
+}
+
+.underline-sm {
+  height: 2px;
+  width: 75%;
+  margin: 75px auto;
+  border-bottom: 1px solid var(--underline);
+}
+
+@media only screen and (max-width: 720px) {
+  .underline-sm {
+    width: 65%;
+  }
+}
+
+.circle-outline {
+  color: var(--white);
+  height: 25px;
+  width: 25px;
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 5px;
+}
+/* End Base CSS */
+
+
+/* Start Custom Classes */
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.caption {
+  position: absolute;
+  bottom: -10px;
+  margin-left: 35px;
+  font-size: 12px;
+}
+
+.caption-other {
+  position: absolute;
+  bottom: -30px;
+  font-size: 12px;
+  width: 230px;
+}
+/* End Custom Classes */
+
+
+/* Start Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  background-color: var(--white);
+  z-index: 333;
+}
+
+.home {
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.home :link:not(:hover) {
+  box-shadow: none;
+}
+
+.nav {
+  display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
+.nav-item-active {
+  box-shadow: inset 0 -15px 0 var(--green);
+}
+/* End Header */
+
+
+/* Start Left SideNav Menu */
+.mobile-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-menu {
+    display: block;
+  }
+}
+
+#openbtn {
+  position: fixed;
+  display: block;
+  top: 0.4em;
+  right: 1em;
+}
+
+#openbtn a {
+  box-shadow: none;
+  font-size: 30px;
+  color: var(--black);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0.3em;
+  font-size: 35px;
+  box-shadow: none;
+}
+
+#openbtn a:hover,
+#openbtn a:focus,
+.sidenav .closebtn:hover,
+.sidenav .closebtn:focus {
+  color: var(--green);
+  box-shadow: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -300px;
+  background-color: var(--white);
+  border-right: 2px solid var(--black);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: left 0.5s;
+} 
+
+.sidenav a {
+  display: block;
+  font-size: 24px;
+  margin: 20px 0;
+  box-shadow: inset 0 -3px 0 var(--blue);
+  transition: all ease-out 0.2s;
+  width: max-content;
+}
+
+.mobile-nav-item-active a,
+.sidenav a:hover,
+.sidenav a:focus {
+  box-shadow: inset 0 -20px 0 var(--green);
+}
+/* End Left SideNav Menu */

@@ -1,0 +1,439 @@
+---js
+{
+"title": "Bill Pay App",
+"layout": "layouts/project.njk",
+"description": "Allows customers to easily manage payments and billing for their Insurance Policy",
+"date": "2020-07-04",
+"section1": {
+  "title": "Project Overview",
+},
+"section2": {
+  "title": "User Persona",
+  "order": "1"
+},
+"section3": {
+  "title": "Research",
+  "order": "2"
+},
+"section4": {
+  "title": "Sprint Planning",
+  "order": "3"
+},
+"section5": {
+  "title": "Design Sprint 1",
+  "order": "4"
+},
+"section6": {
+  "title": "Design Sprint 2",
+  "order": "5"
+},
+"section7": {
+  "title": "Design Sprint 3",
+  "order": "6"
+},
+"section8": {
+  "title": "Design Sprint 4",
+  "order": "7"
+},
+"section9": {
+  "title": "What's Next?",
+  "order": "8"
+},
+"section10": {
+  "title": "",
+  "order": ""
+}
+}
+---
+
+<section id="section1">
+  <div>
+    <h4>Project Timeline</h4>
+    <div class="flex">
+      <p class="semi-bold italic margin-0">September 2019</p>
+      <div class="arrow"><img src="/img/arrow.svg" width="60px" alt="arrow image"></div>
+      <p class="semi-bold italic margin-0" style="margin-left:0;">April 2020 (MVP Release)</p>
+    </div>
+  </div>
+  <div>
+    <h4>About the Company</h4>
+    <p>EMPLOYERS Insurance Group (NYSE:EIG) is a leading Worker's Compensation Insurance Carrier for small businesses in the the United States.</p>
+  </div>
+  <div>
+    <h4>Interesting Facts</h4>
+    <p>The project team used Agile Scrum Methodology through the project lifecyle. I was the <span class="black">sole User Experience Designer</span>, and participated in all scrum ceremonies and workshops.</p>
+    <p>The project team included 10 team members across 3 U.S. timezones. I worked both remotely and from the company's office in Kansas City, MO.</p>
+  </div>
+  <div>
+    <h4>My Role</h4>
+    <ul>
+      <li>User Research &amp; Usability Testing</li>
+      <li>User Experience &amp; User Interface Design</li>
+      <li>Contributed to HTML &amp; CSS within Angular v8.0+</li>
+      <li>Created &amp; maintained a Design System</li>
+      <li>Contributed to a UI Component Library</li>
+    </ul>
+    <div style="padding-top:2em;">
+      <div><img src="/img/billpay/my-role.svg" alt="my role within scrum team"></div>
+      <h6>My <span class="black">UX Designer role</span> as a full-time member of the Agile Scrum Team</h6>
+    </div>
+  </div>
+</section>
+<section id="section2">
+{% include "sectionheaders/section2.njk" %}
+  <div class="side-by-side">
+    <div class="side">
+      <div class="intro">
+        <h2>Megan</h2>
+        <h5 class="margin-top-0" style="font-size:24px;">The Boutique Owner</h5>
+        <div style="padding-top:2em;"><img src="/img/billpay/megan-small.svg" height="300px" alt="girl image"></div>
+      </div>
+      <p>Megan <span class="black">owns a trendy clothing boutique</span> with 1 full-time employee and 2 part-time employees.</p>
+      <p>The boutique is in a prime location, so Megan and her team are always busy with customers in the store. Whenever possible, they grab a few minutes to manage the store's online orders.</p>
+    </div>
+    <div>
+      <h4>Goals</h4>
+      <p>Megan wants to run a successful business, but she also wants to have time for a life outside of work.</p>
+      <h4>Expectations</h4>
+      <p>Megan expects to easily manage her insurance policy from her mobile device, since she rarely has time to work from her desk.</p>
+      <h4>Challenges</h4>
+      <p>Her insurance policy is affordable, but the company doesn't provide easy-to-use tools to help her manage her payments.</p>
+      <h4>Frustrations</h4>
+      <p>Megan gets frustrated when tasks take longer than necessary, or are too difficult to figure out.</p>
+      <p class="italic bold">"The system doesn't allow me to schedule my payment for later. Can you help me get this done?"</p>
+      <h4>Needs</h4>
+      <p>Megan needs a payment app for easily managing payments and billing for her insurance policy.</p>
+    </div>
+  </div>
+</section>
+<section id="section3">
+{% include "sectionheaders/section3.njk" %}
+  <div class="section-intro">
+    <h2>Initial user research highlighted features needed to provide value to the customer.</h2>
+    <h5>I analyzed <span class="black">138 user comments</span> collected from intercept survey results, conducted <span class="black">4 in-person interviews</span> with Customer Service Stakeholders, and performed a <span class="black">heuristic evaluation</span> of the legacy application.</h5>
+  </div>
+  <div class="side-by-side">
+    <div class="side">
+      <div class=""><img src="/img/billpay/affinity-mapping.svg" width="" alt=""></div>
+      <h6><span class="black">Affinity Mapping</span> was used to organize the survey and interview data.</h6>
+    </div>
+    <div class="side">
+      <div class=""><img src="/img/billpay/old-ebilling.svg" width="" alt=""></div>
+      <h6>The <span class="black">legacy application</span> didn't provide many options for the customer.</h6>
+    </div>
+  </div>
+</section>
+<section id="section4">
+{% include "sectionheaders/section4.njk" %}
+  <div class="side-by-side">
+    <div class="section-intro side">
+      <h2>The team focused on 4 areas that would help Megan <span class="black">easily manage her payments</span> on-the-go.</h2>
+      <ol class="numbered-list">
+        <li>Save a payment method to use later</li>
+        <li>Setup AutoPay with a card or bank account</li>
+        <li>Make a flexible one-time payment</li>
+        <li>View upcoming due dates and payment history</li>
+      </ol>
+    </div>
+    <div class="megan-large center"><img src="/img/billpay/megan-large.svg" alt="full girl image"></div>
+  </div>
+</section>
+<section id="section5">
+{% include "sectionheaders/section5.njk" %}
+  <div class="design-sprint-intro">
+    <div class="side-by-side">
+      <div class="side">
+        <h2>Save a payment method to use later</h2>
+        <p>Megan gets frustrated with unnecessary "busy work", so saving a payment method to use later will prevent her from having to enter the same information more than once.</p>
+      </div>
+      <div class="side-by-side align-items">
+        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <p class="italic">"I hate it when companies ask me for the same information over and over. Can't they store it for later?"</p>
+      </div>
+    </div>
+    <div class="underline-sm"></div>
+  </div>
+  <div class="section-intro">
+    <h2>I conducted a <span class="black">workshop with 3 stakeholders</span> to document the data involved in processing a payment.</h2>
+    <p>We placed each data point into 1 of 3 categories:</p>
+    <ol class="numbered-list">
+      <li><span class="black">Must Have</span><br>Data that is required to process the payment.</li>
+      <li><span class="black">Should Have</span><br>Data that is required to process the payment.</li>
+      <li><span class="black">Nice to Have</span><br>Bonus data that we'd like to collect.</li>
+    </ol>
+  </div>
+  <div class="flex wrap space-around">
+    <div>
+      <h4>Must Have</h4>
+      <div><img src="/img/billpay/must-have.svg" width="275px" alt="must-have-items"></div>
+    </div>
+    <div>
+      <h4>Should Have</h4>
+      <div><img src="/img/billpay/should-have.svg" width="275px" alt="should-have-items"></div>
+    </div>
+    <div>
+      <h4>Nice to Have</h4>
+      <div><img src="/img/billpay/nice-to-have.svg" width="275px" alt="nice-to-have-items"></div>
+    </div>
+  </div>
+  <div class="underline-sm"></div>
+  <div class="section-intro">
+    <h2>We wanted to make the process easy by <span class="black">reducing the amount of data</span> the customer enters manually.</h2>
+    <div>
+      <h4 style="margin-top:60px;">The Problem</h4>
+      <h5 class="margin-top-10">Eliminating data from the <span class="black">Must Have</span> and <span class="black">Should Have</span> categories would increase payment processing fees.</h5>
+    </div>
+    <div>
+      <h4 style="margin-top:60px;">The Solution</h4>
+      <h5 class="margin-top-10"><span class="black">Auto-fill the application</span> with billing information from another system to reduce manual work for the user.</h5>
+    </div>
+  </div>
+  <div><img src="/img/billpay/autofill-flow.svg" alt="user flow"></div>
+  <h6><span class="black">User flow</span> for saving a payment method to use later. <span class="black">Auto-filled</span> billing section is displayed in red.</h6>
+  <div class="underline-sm"></div>
+  <div class="section-intro">
+    <h2>I created <span class="black">low-fidelity prototypes</span> to conduct <span class="black">usability testing</span> with users and get design feedback from business stakeholders.</h2>
+    <h5><span class="black">Usability testing with 3 policyholders</span> and <span class="black">design reviews from business stakeholders</span> confirmed the new process was simple &amp; intuitive.</h5>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">1.</div>
+      <div>
+        <h2>Add a New Payment Method</h2>
+        <h5>Easily accessible from the home screen</h5>
+        <p>The user selects the <span class="black">Add Card</span> option from the <span class="black">My Account</span> (home) screen to save a debit or credit card to use later.</p>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/save-payment1.svg" width="300px" alt="image of save payment screen">
+      <h6 class="caption">Low-fidelity prototype of home screen</h6>
+    </div>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">2.</div>
+      <div>
+        <h2>Enter Card Information</h2>
+        <h5>Only the Must Have information is required</h5>
+        <p>While entering card information, the user can edit the auto-filled billing information.</p>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/save-payment2.svg" width="300px" alt="image of save payment screen">
+       <h6 class="caption">Low-fidelity prototype of card info screen</h6>
+    </div>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">3.</div>
+      <div>
+        <h2>Edit Billing Information</h2>
+        <h5>Auto-filled info makes the process quick</h5>
+        <p>Edits can be made to <span class="black">Name on Account</span> and <span class="black">Billing Address</span>. Once saved, the user is directed back to the previous screen.</p>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/save-payment3.svg" width="300px" alt="image of save payment screen">
+      <h6 class="caption">Low-fidelity prototype of billing info screen</h6>
+    </div>
+  </div>
+</section>
+<section id="section6">
+{% include "sectionheaders/section6.njk" %}
+  <div class="design-sprint-intro">
+    <div class="side-by-side">
+      <div class="side">
+        <h2>Setup AutoPay with a card or bank account</h2>
+        <p>Megan is busy running her business, so she needs the ability to setup AutoPay for her regular monthly payments.</p>
+      </div>
+      <div class="side-by-side align-items">
+        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <p class="italic">"I want to set it and forget it so I don't have to worry about missing a payment due date again."</p>
+      </div>
+    </div>
+    <div class="underline-sm"></div>
+  </div>
+  <div class="section-intro">
+    <h2>How might we <span class="black">encourage policyholders</span> to use AutoPay?</h2>
+    <h5>In a <span class="black">How might we...</span> brainstorming session, the team focused on making the AutoPay process easy peasy. Later, I turned the ideas from the session into <span class="black">low-fidelity prototypes</span> to conduct <span class="black">usability testing</span> with real users. </h5>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">1.</div>
+      <div>
+        <h2>Setup AutoPay</h2>
+        <h5>Easily accessible from the home screen</h5>
+        <p>The user selects the <span class="black">Setup AutoPay</span> option from the <span class="black">My Account</span> (home) screen.</p>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/autopay1.svg" width="300px" alt="initial auto pay prototype">
+      <h6 class="caption">Low-fidelity prototype of home screen</h6>
+    </div>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">2.</div>
+      <div>
+        <h2>Payment Method</h2>
+        <h5>Select from saved payment methods</h5>
+        <p>The user chooses a saved payment method, and selects <span class="black">Activate AutoPay</span>.</p>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/autopay2.svg" width="300px" alt="initial auto pay prototype">
+      <h6 class="caption">Low-fidelity prototype of Setup AutoPay</h6>
+    </div>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="number-block">
+      <div class="number">3.</div>
+      <div>
+        <h2>Setup Complete</h2>
+        <h5>AutoPay setup was successful!</h5>
+        <p>The user receives a notification that AutoPay Setup was successful.</p>
+      </div>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/autopay3.svg" width="300px" alt="initial auto pay prototype">
+      <h6 class="caption">Low-fidelity prototype of AutoPay success</h6>
+    </div>
+  </div>
+  <div class="underline-sm"></div>
+  <div class="section-intro">
+    <h2>Virtual <span class="black">usability testing</span> with 3 policyholders revealed the need for 2 additions to the UI.</h2>
+    <h5>These changes were included in the final <span class="black">high-fidelity prototypes</span>.</h5>
+    <p><span class="circle-outline">1</span> Users needed another route to setup &amp; manage AutoPay, so the option was added to the menu.</p>
+    <p><span class="circle-outline">2</span> Users needed the option to add a new bank account or card while setting up or managing AutoPay.</p>
+  </div>
+  <div class="flex wrap space-around">
+    <div class="relative">
+      <img src="/img/billpay/autopay-final1.svg" width="300px" alt="final auto pay prototype">
+       <h6 class="caption">High-fidelity prototype of Setup AutoPay</h6>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/autopay-final2.svg" width="300px" alt="final auto pay prototype">
+       <h6 class="caption">High-fidelity prototype of Manage AutoPay</h6>
+    </div>
+  </div>
+</section>
+<section id="section7">
+{% include "sectionheaders/section7.njk" %}
+  <div class="design-sprint-intro">
+    <div class="side-by-side">
+      <div class="side">
+        <h2>Make a flexible one-time payment</h2>
+        <p>Megan needs a flexible process for making payments that can't be set up on AutoPay, such as Final Premium Audit or Medical Deductible Payments.</p>
+      </div>
+      <div class="side-by-side align-items">
+        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <p class="italic">"AutoPay is great for regular monthly payments, but sometimes I still need to quickly make a one-time payment."</p>
+      </div>
+    </div>
+    <div class="underline-sm"></div>
+  </div>
+  <div class="section-intro">
+    <h2><span class="black">Data collected</span> by the Customer Service Center helped us understand the top reasons for phone calls from customers like Megan.</h5>
+  </div>
+  <div class="side-by-side align-items">
+    <div class="side center"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+    <div>
+      <h5>As a small business owner with variable expenses, Megan needs the flexibility to <span class="black">pay more or less than the amount due</span> on her policy balance.</h5>
+      <h5>She also needs the ability to <span class="black">schedule a one-time payment in advance</span> so she doesn't have to worry about making a payment on a specific date.</h5>
+    </div>
+  </div>
+  <div class="underline-sm"></div>
+  <div class="section-intro">
+    <h2>I created <span class="black">wireframes</span> for a new one-time payment <span class="black">process flow</span> to review with the project team and business stakeholders.</h2>
+    <h5>We already had a process for adding a new card or bank account (Design Sprint 1), but <span class="black">brainstorming with wireframes</span> revealed the need to automatically save payment information added during the one-time payment process.</h5>
+  </div>
+  <div class="flex wrap align-items space-around" style="margin-bottom:50px;">
+    <div style="width:225px;">
+      <img src="/img/billpay/wireframe1.svg" alt="wireframe for payment flow">
+      <h6 style="font-size:12px;"><span class="black">Pay Other</span> and pay amount due options located on the home screen.</h6>
+    </div>
+    <img src="/img/billpay/red-arrow.svg" width="25px" alt="red arrow">
+    <div style="width:225px;">
+      <img src="/img/billpay/wireframe2.svg" alt="wireframe for payment flow">
+        <h6 style="font-size:12px;"><span class="black">Any payment amount</span> can be entered, not only the amount due.</h6>
+    </div>
+    <img src="/img/billpay/red-arrow.svg" width="25px" alt="red arrow">
+    <div style="width:225px;">
+      <img src="/img/billpay/wireframe3.svg" alt="wireframe for payment flow">
+      <h6 style="font-size:12px;"><span class="black">Schedule Payment</span> option is available to set an advanced payment date.</h6>
+    </div>
+    <img src="/img/billpay/red-arrow.svg" width="25px" alt="red arrow">
+    <div style="width:225px;">
+      <img src="/img/billpay/wireframe4.svg" alt="wireframe for payment flow">
+      <h6 style="font-size:12px;">Once the user selects a <span class="black">payment date</span>, they are returned to the previous screen.</h6>
+    </div>
+    <div style="width:25px:"></div>
+  </div>
+  <div class="underline-sm"></div>
+  <div class="section-intro">
+    <h2>Feedback collected from the wireframes was used to create <span class="black">high-fidelity prototypes</span> for development.</h2>
+  </div>
+  <div class="flex wrap align-items space-around">
+    <div class="relative">
+      <img src="/img/billpay/payment-final1.svg" width="300px" alt="final payment flow prototype">
+       <h6 class="caption">High-fidelity prototype of payment amount</h6>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/payment-final2.svg" width="300px" alt="final payment flow prototype">
+      <h6 class="caption">High-fidelity prototype of home screen</h6>
+    </div>
+    <div class="relative">
+      <img src="/img/billpay/payment-final3.svg" width="300px" alt="final payment flow prototype">
+      <h6 class="caption">High-fidelity prototype of pick a date screen</h6>
+    </div>
+  </div>
+</section>
+<section id="section8">
+{% include "sectionheaders/section8.njk" %}
+  <div class="design-sprint-intro">
+    <div class="side-by-side">
+      <div class="side">
+        <h2>View upcoming due dates &amp; payment history</h2>
+        <p>Megan needs to easily access the information that helps her manage the payments on her insurance policy.</p>
+      </div>
+      <div class="side-by-side align-items">
+        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <p class="italic">"I just need the ability to view my past and future payments, and don't ever look at all that other policy stuff."</p>
+      </div>
+    </div>
+    <div class="underline-sm"></div>
+  </div>
+  <div class="side-by-side align-items">
+    <div class="section-intro">
+      <h2><span class="black">Initial business requirements</span> asked for all available payment data to be included in the design.</h2>
+      <h5>This <span class="black">cluttered the User Interface</span> and wasn't required for users to complete their primary goal of making a payment.</h5>
+    </div>
+    <div class="side" style="max-width:225px; margin:auto;">
+      <img src="/img/billpay/billing-info1.svg" width="225px" alt="wireframe for billing info">
+      <h6 style="font-size:12px;"><span class="black">First wireframe</span> showing cluttered UI when displaying all payment data.</h6>
+    </div>  
+  </div>
+  <div class="underline-sm"></div>
+  <div class="side-by-side align-items">
+    <div class="section-intro side">
+      <h2>Virtual <span class="black">interviews with 4 policyholders</span> helped eliminate data that didn't provide value to the user.</h2>
+      <h5>Using a <span class="black">mobile-first design</span> approach, and <span class="black">data collected from user interviews</span>, helped get business stakeholders on board with decluttering the User Interface.</h5>
+    </div>
+    <div class="relative flex justify-center">
+      <img src="/img/billpay/billing-info2.svg" width="300px" alt="prototype for billing info">
+      <h6 class="caption-other"><span class="black">Final prototype</span> showing unnecessary data removed to declutter the UI.</h6>
+    </div>  
+  </div>
+</section>
+<section id="section9">
+{% include "sectionheaders/section9.njk" %}
+  <div class="section-intro">
+    <h2>Future plans for <span class="black">post-MVP</span> include:</h2>
+    <ol class="numbered-list">
+      <li>Monitor customer service requests, Google Analytics, user surveys, etc. for UX issues in production.</li>
+      <li>Ability to pay with Apple Pay, Samsung Pay, PayPal, etc.</li>
+      <li>Integrate with popular bank applications to further reduce manual data entry.</li>
+      <li>Receive email and text alerts for upcoming payments.</li>
+    </ol>
+  </div>
+</section>

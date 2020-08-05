@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="395" height="696" viewBox="0 0 395 696">
+  <g id="Group_1981" data-name="Group 1981" transform="translate(-532 -2467)">
+    <g id="Body" transform="translate(532 2467)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="395" height="696" stroke="none"/>
+      <rect x="0.5" y="0.5" width="394" height="695" fill="none"/>
+    </g>
+    <text id="_0.00" data-name="$0.00" transform="translate(645 2588)" fill="rgba(0,0,0,0.87)" font-size="60" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">$0.00</tspan></text>
+    <g id="Group_794" data-name="Group 794" transform="translate(535 2409)">
+      <rect id="bg" width="327" height="52" rx="26" transform="translate(31 657)" fill="#707070"/>
+      <text id="NEXT" transform="translate(195 688)" fill="#fff" font-size="14" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.004em"><tspan x="-19.243" y="0">NEXT</tspan></text>
+    </g>
+    <g id="Group_798" data-name="Group 798" transform="translate(542 2409)">
+      <circle id="BG-2" data-name="BG" cx="35" cy="35" r="35" transform="translate(42 263)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-3" data-name="BG" cx="35" cy="35" r="35" transform="translate(42 353)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-4" data-name="BG" cx="35" cy="35" r="35" transform="translate(153 263)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-5" data-name="BG" cx="35" cy="35" r="35" transform="translate(153 353)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-6" data-name="BG" cx="35" cy="35" r="35" transform="translate(263 263)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-7" data-name="BG" cx="35" cy="35" r="35" transform="translate(263 353)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-8" data-name="BG" cx="35" cy="35" r="35" transform="translate(42 443)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-9" data-name="BG" cx="35" cy="35" r="35" transform="translate(153 443)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-10" data-name="BG" cx="35" cy="35" r="35" transform="translate(153 533)" fill="#9599b3" opacity="0.201"/>
+      <circle id="BG-11" data-name="BG" cx="35" cy="35" r="35" transform="translate(263 443)" fill="#9599b3" opacity="0.201"/>
+      <path id="BG-12" data-name="BG" d="M35,0A35,35,0,1,1,0,35,35,35,0,0,1,35,0Z" transform="translate(263 533)" fill="#9599b3" opacity="0.201"/>
+      <path id="BG-13" data-name="BG" d="M35,0A35,35,0,1,1,0,35,35,35,0,0,1,35,0Z" transform="translate(42 533)" fill="#9599b3" opacity="0.201"/>
+      <text id="_1" data-name="1" transform="translate(76.5 313)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">1</tspan></text>
+      <text id="_4" data-name="4" transform="translate(76.5 403)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">4</tspan></text>
+      <text id="_2" data-name="2" transform="translate(187.5 313)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">2</tspan></text>
+      <text id="_5" data-name="5" transform="translate(187.5 403)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">5</tspan></text>
+      <text id="_3" data-name="3" transform="translate(297.5 313)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">3</tspan></text>
+      <text id="_6" data-name="6" transform="translate(297.5 403)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">6</tspan></text>
+      <text id="_7" data-name="7" transform="translate(76.5 493)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">7</tspan></text>
+      <text id="_8" data-name="8" transform="translate(187.5 493)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">8</tspan></text>
+      <text id="_0" data-name="0" transform="translate(187.5 583)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">0</tspan></text>
+      <text id="_9" data-name="9" transform="translate(297.5 493)" fill="rgba(0,0,0,0.87)" font-size="40" font-family="Roboto-Regular, Roboto" letter-spacing="-0.025em"><tspan x="-11.23" y="0">9</tspan></text>
+      <g id="delete" transform="translate(285.5 556.5)">
+        <path id="Path_83" data-name="Path 83" d="M21,4H8L1,12l7,8H21a2,2,0,0,0,2-2V6A2,2,0,0,0,21,4Z" fill="none" stroke="rgba(0,0,0,0.87)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_92" data-name="Line 92" x1="6" y2="6" transform="translate(12 9)" fill="none" stroke="rgba(0,0,0,0.87)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_93" data-name="Line 93" x2="6" y2="6" transform="translate(12 9)" fill="none" stroke="rgba(0,0,0,0.87)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <circle id="Ellipse_39" data-name="Ellipse 39" cx="3" cy="3" r="3" transform="translate(74 578)" fill="rgba(0,0,0,0.87)"/>
+    </g>
+    <g id="Rectangle_1626" data-name="Rectangle 1626" transform="translate(552 2653)" fill="none" stroke="#e50a45" stroke-width="5">
+      <rect width="352" height="383" stroke="none"/>
+      <rect x="2.5" y="2.5" width="347" height="378" fill="none"/>
+    </g>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="16" cy="16" r="16" transform="translate(541 2637)" fill="#e50a45"/>
+    <text id="_2-2" data-name="2" transform="translate(551 2660)" fill="#fff" font-size="20" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>

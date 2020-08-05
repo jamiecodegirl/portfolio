@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+
+    {# Start my additions - cleanup head section later #}
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    {%- set css -%}
+      {% include "css/global.css" %}
+      {% include "css/project.css" %}
+      {% include "css/post.css" %}
+    {%- endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+    {# End my additions - clean up head section later #}
   </head>
+
   <body>
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
@@ -20,25 +34,37 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+
+      <div class="mobile-menu">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+            <i class="fas fa-times"></i>
+          </a>
+          <ul class="nav-mobile">
+          {%- for entry in collections.all | eleventyNavigation %}
+            <li class="mobile-nav-item{% if entry.url == page.url %} mobile-nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+          {%- endfor %}
+          </ul>
+        </div>
+      
+        <div id="openbtn">
+          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+      </div>
     </header>
 
+    <div style="height:100px;"></div>
+
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
-      <!-- Delete this message -->
-      <div class="warning">
-        <ol>
-          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
-        </ol>
-        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
-      <!-- Stop deleting -->
-
       {{ content | safe }}
     </main>
 
     <footer></footer>
+
+    <script src="{{ '/script/index.js' | url }}"></script>
+    <script src="https://kit.fontawesome.com/73b07144a7.js" crossorigin="anonymous"></script>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

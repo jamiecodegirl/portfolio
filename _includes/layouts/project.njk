@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-project
+---
+
+<h1>{{ title }}</h1>
+<div class="main-description">{{ description }}</div>
+<div class="underline"></div>
+
+<nav class="content-table">
+  <ol>
+    <li><a href="#section1">{{ section1.title }}</a></li>
+    <li><a href="#section2">{{ section2.title }}</a></li>
+    <li><a href="#section3">{{ section3.title }}</a></li>
+    <li><a href="#section4">{{ section4.title }}</a></li>
+    <li><a href="#section5">{{ section5.title }}</a></li>
+    <li><a href="#section6">{{ section6.title }}</a></li>
+    <li><a href="#section7">{{ section7.title }}</a></li>
+    <li><a href="#section8">{{ section8.title }}</a></li>
+    <li><a href="#section9">{{ section9.title }}</a></li>
+    <li><a href="#section10">{{ section10.title }}</a></li>
+  </ol>
+</nav>
+
+{{ content | safe }}
+
+<hr>
+<ul>
+  {%- set nextProject = collections.projects | getNextCollectionItem(page) %}
+  {%- if nextProject %}<li>Next: <a href="{{ nextProject.url | url }}">{{ nextProject.data.title }}</a></li>{% endif %}
+  {%- set previousProject = collections.projects | getPreviousCollectionItem(page) %}
+  {%- if previousProject %}<li>Previous: <a href="{{ previousProject.url | url }}">{{ previousProject.data.title }}</a></li>{% endif %}
+</ul>
