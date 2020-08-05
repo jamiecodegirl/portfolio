@@ -251,6 +251,13 @@ img {
   margin-left: 35px;
   font-size: 12px;
 }
+
+.caption-other {
+  position: absolute;
+  bottom: -30px;
+  font-size: 12px;
+  width: 230px;
+}
 /* End Custom Classes */
 
 
