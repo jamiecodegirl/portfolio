@@ -54,22 +54,19 @@
           <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
             <i class="fas fa-times"></i>
           </a>
-          <ul class="nav-mobile">
-          {%- for entry in collections.all | eleventyNavigation %}
-            <li class="mobile-nav-item{% if entry.url == page.url %} mobile-nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-          {%- endfor %}
-          </ul>
+          {% set projectslist = collections.projects %}
+          {% include "projectslist.njk" %}
         </div>
       
         <div id="openbtn">
-          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
+          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">Projects
             <i class="fas fa-bars"></i>
           </a>
         </div>
       </div>
     </header>
 
-    <div class="relative" style="height:100px;"></div>
+    <div style="height:100px;"></div>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}

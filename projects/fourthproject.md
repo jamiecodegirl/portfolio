@@ -1,6 +1,6 @@
 ---
 title: Fourth Project
-description: This is a post on My Blog about agile frameworks.
+description: This is my fourth project.
 date: 2020-07-01
 layout: layouts/project.njk
 ---
