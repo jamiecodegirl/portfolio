@@ -7,6 +7,10 @@ templateClass: tmpl-home
 
 <div class="home-intro">
   <h2><span class="emphasize">Hello, I'm Jamie</span> a UX designer + developer with 5 years of experience in user research, experience design, and user interface development. I'm seeking a remote UX designer position where I can <span class="black">design &amp; code</span>.</h2>
+  
+  {% set projectslist = collections.projects %}
+  {% include "projectslist.njk" %}
+
   <div class="chevron bounce">
     <a href="#featured">
       <i class="fas fa-chevron-down"></i>

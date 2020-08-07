@@ -17,7 +17,6 @@
       {% include "css/global.css" %}
       {% include "css/home.css" %}
       {% include "css/project.css" %}
-      {% include "css/post.css" %}
     {%- endset %}
     <style>
       {{ css | cssmin | safe }}
@@ -30,11 +29,25 @@
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
+      {# <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
-      </ul>
+      </ul> #}
+
+      <div class="flex align-items{% if page.url == '/' %} display-none{% endif %}">
+        <div class="flex align-items">
+          <li class="fas fa-arrow-left"></li>
+          <a class="project-nav-item" href="{{ '/' | url }}">Take Me Home</a>
+        </div>
+        <div>
+          <p> | </p>
+        </div>
+        <div class="flex align-items">
+          <a class="project-url project-nav-item" href="{{ page.url | url }}">{{ title }}</a>
+          <li class="fas fa-arrow-down"></li>
+        </div>
+      </div>
 
       <div class="mobile-menu">
         <div id="mySidenav" class="sidenav">

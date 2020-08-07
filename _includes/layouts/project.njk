@@ -23,9 +23,9 @@ templateClass: tmpl-project
 {{ content | safe }}
 
 <hr>
-<ul>
+<ul class="bottom-project-nav">
   {%- set nextProject = collections.projects | getNextCollectionItem(page) %}
-  {%- if nextProject %}<li>Next: <a href="{{ nextProject.url | url }}">{{ nextProject.data.title }}</a></li>{% endif %}
+  {%- if nextProject %}<li>Previous: <a href="{{ nextProject.url | url }}">{{ nextProject.data.title }}</a></li>{% endif %}
   {%- set previousProject = collections.projects | getPreviousCollectionItem(page) %}
-  {%- if previousProject %}<li>Previous: <a href="{{ previousProject.url | url }}">{{ previousProject.data.title }}</a></li>{% endif %}
+  {%- if previousProject %}<li>Next: <a href="{{ previousProject.url | url }}">{{ previousProject.data.title }}</a></li>{% endif %}
 </ul>
