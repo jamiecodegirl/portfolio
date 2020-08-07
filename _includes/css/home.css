@@ -1,0 +1,102 @@
+.tmpl-home {
+  padding: 0 4em 4em;
+}
+
+@media only screen and (max-width: 1440px) {
+  .tmpl-home {
+    padding: 0 3em 3em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .tmpl-home {
+    padding: 0 2em 2em;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .tmpl-home {
+    padding: 0 1.5em 1.5em;
+  }
+}
+
+.home-intro {
+  height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.home-intro h2 {
+  max-width: 70%;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-intro h2 {
+    max-width: 100%;
+    font-size: 30px;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .home-intro h2 {
+    font-size: 24px;
+  }
+}
+
+.emphasize {
+  font-weight: 700;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0 10px;
+  width: max-content;
+}
+
+.chevron {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.chevron a {
+  box-shadow: none;
+  font-size: 30px;
+  color: var(--blue);
+}
+
+.chevron a:hover,
+.chevron a:focus {
+  color: var(--green);
+  box-shadow: none;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+#home {
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-container {
+  max-width: 1000px;
+  margin: 4em auto;
+  padding: 1em 1em 1em 2em;
+  background-color: rgba(0, 0, 0, 0.02);
+}

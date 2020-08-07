@@ -4,20 +4,6 @@
   }
 }
 
-.tmpl-project h1 {
-  background-color: var(--black);
-  color: var(--white);
-  font-weight: bold;
-  padding: 0 10px;
-  width: max-content;
-}
-
-@media only screen and (max-width: 415px) {
-  .tmpl-project h1 {
-    font-size: 55px;
-  }
-}
-
 .main-description {
   font-weight: 900;
   font-size: 28px;

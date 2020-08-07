@@ -35,19 +35,29 @@ main {
 
 @media only screen and (max-width: 1024px) {
   main {
-    padding: 0 2em;
+    padding: 0 2em 2em;
   }
 }
 
 @media only screen and (max-width: 415px) {
   main {
-    padding: 0 1.5em;
+    padding: 0 1.5em 1.5em;
   }
 }
 
 h1 {
+  background-color: var(--black);
+  color: var(--white);
   font-size: 65px;
-  font-weight: 400;
+  font-weight: bold;
+  padding: 0 10px;
+  width: max-content;
+}
+
+@media only screen and (max-width: 415px) {
+  h1 {
+    font-size: 55px;
+  }
 }
 
 h2 {
@@ -272,12 +282,14 @@ header {
   z-index: 333;
 }
 
-.home {
+h1.home {
   font-size: 1em;
   font-weight: 900;
+  background-color: var(--white);
+  color: var(--black);
 }
 
-.home :link:not(:hover) {
+h1.home :link:not(:hover) {
   box-shadow: none;
 }
 
@@ -296,7 +308,7 @@ header {
   margin-right: 1.5em;
 }
 
-.nav-item-active {
+.nav-item-active a {
   box-shadow: inset 0 -15px 0 var(--green);
 }
 /* End Header */

@@ -2,4 +2,52 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
+
+<div id="home"></div>
+
+<div class="home-intro">
+  <h2><span class="emphasize">Hello, I'm Jamie</span> a UX designer + developer with 5 years of experience in user research, experience design, and user interface development. I'm seeking a remote UX designer position where I can <span class="black">design &amp; code</span>.</h2>
+  <div class="chevron bounce">
+    <a href="#featured">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </div>
+</div>
+
+<div id="featured" style="height:100px;"></div>
+
+<h2 class="margin-bottom-0">Featured Projects</h2>
+<div class="underline"></div>
+
+<div class="home-container side-by-side align-items">
+  <div class="side">
+    <h2 class="emphasize">Bill Pay App</h2>
+    <h5>Allows customers to easily manage payments and billing for their Insurance Policy</h5>
+    <a href="/projects/billpay/">Go to Project</a>
+  </div>
+  <div><img src="/img/billpay/payment-final2.svg" width="300px" alt="featured project image"></div>
+</div>
+
+<div class="home-container side-by-side align-items">
+  <div class="side">
+    <h2 class="emphasize">Premium Audit</h2>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+    <a href="/projects/premiumaudit/">Go to Project</a>
+  </div>
+  <div><img src="/img/billpay/payment-final1.svg" width="300px" alt="featured project image"></div>
+</div>
+
+<div class="home-container side-by-side align-items">
+  <div class="side">
+    <h2 class="emphasize">Third Project</h2>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+    <a href="/projects/thirdproject/">Go to Project</a>
+  </div>
+  <div><img src="/img/billpay/payment-final3.svg" width="300px" alt="featured project image"></div>
+</div>
+
 {{ content | safe }}
+
+<div style="text-align:right;">
+  <a href="#home">Back to Top</a>
+</div>
