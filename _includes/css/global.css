@@ -434,3 +434,21 @@ h1.home :link:not(:hover) {
   }
 }
 /* End Side-by-Side */
+
+
+/* Start Footer */
+footer {
+  padding: 5em 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-weight: 900;
+}
+/* End Footer */
