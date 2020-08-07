@@ -1,6 +1,28 @@
+.tmpl-project {
+  padding: 0 0 4em 4em;
+}
+
+@media only screen and (max-width: 1440px) {
+  .tmpl-project {
+    padding: 0 0 3em 3em;
+  }
+}
+
 @media only screen and (min-width: 1025px) {
   .tmpl-project {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .tmpl-project {
+    padding: 0 2em 2em;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .tmpl-project {
+    padding: 0 1.5em 1.5em;
   }
 }
 
@@ -14,6 +36,23 @@
 section {
   margin-bottom: 150px;
 }
+
+
+/* Start Project Page "Take Me Home" */
+.project-nav-item {
+  margin: 0 10px;
+}
+
+.project-url {
+  box-shadow: inset 0 -15px 0 var(--green);
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-navigation {
+    display: none;
+  }
+}
+/* End Project Page "Take Me Home" */
 
 
 /* Start Table of Contents */
@@ -102,7 +141,7 @@ section {
 /* End Section Headers */
 
 
-/* Start Number Block Section*/
+/* Start Big Green Number Section*/
 .number-block {
   width: 60%;
   display: flex;
@@ -150,7 +189,7 @@ section {
     font-size: 100px;
   }
 }
-/* End Number Block Section*/
+/* End Big Green Number Section*/
 
 
 /* Start Project Overview Section */
@@ -203,7 +242,7 @@ section {
 
 @media only screen and (max-width: 1024px) {
   .megan-large img {
-  height: 300px;
+    height: 300px;
   }
 }
 /* End Sprint Planning Section */

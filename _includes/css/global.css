@@ -23,28 +23,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-main {
-  padding: 0 0 4em 4em;
-}
-
-@media only screen and (max-width: 1440px) {
-  main {
-    padding: 0 0 3em 3em;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  main {
-    padding: 0 2em 2em;
-  }
-}
-
-@media only screen and (max-width: 415px) {
-  main {
-    padding: 0 1.5em 1.5em;
-  }
-}
-
 h1 {
   background-color: var(--black);
   color: var(--white);
@@ -123,6 +101,7 @@ ol.numbered-list li {
 
 ul.bottom-project-nav {
   margin-top: 20px;
+  padding-left: 0;
 }
 
 ul.bottom-project-nav li {
@@ -142,6 +121,14 @@ a {
 a:hover,
 a:focus {
   box-shadow: inset 0 -15px 0 var(--green);
+}
+
+.emphasize {
+  font-weight: 700;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0 10px;
+  width: max-content;
 }
 
 img {
@@ -178,6 +165,13 @@ img {
   font-weight: bold;
   display: inline-block;
   margin-right: 5px;
+}
+
+.tmpl-home .circle-outline {
+  background-color: var(--tealblue);
+  border: 1px solid var(--tealblue);
+  position: absolute;
+  left: -30px;
 }
 /* End Base CSS */
 
@@ -316,34 +310,10 @@ h1.home a {
 h1.home :link:not(:hover) {
   box-shadow: none;
 }
-
-.nav {
-  display: block;
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav {
-    display: none;
-  }
-}
-
-.nav-item {
-  display: inline-block;
-  margin-right: 1.5em;
-}
-
-.project-nav-item {
-  margin: 0 10px;
-}
-
-.project-url,
-.nav-item-active a {
-  box-shadow: inset 0 -15px 0 var(--green);
-}
 /* End Header */
 
 
-/* Start Left SideNav Menu */
+/* Start Mobile Menu */
 .mobile-menu {
   display: none;
 }
@@ -354,16 +324,22 @@ h1.home :link:not(:hover) {
   }
 }
 
+ul.nav {
+  padding: 0;
+  margin-left: 20px;
+}
+
 #openbtn {
   position: fixed;
   display: block;
-  top: 1.1em;
+  top: 0.6em;
   right: 1em;
 }
 
 #openbtn a {
   box-shadow: none;
   color: var(--black);
+  font-size: 30px;
 }
 
 .sidenav .closebtn {
@@ -398,46 +374,44 @@ h1.home :link:not(:hover) {
 
 .sidenav a {
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   margin: 20px 0;
   box-shadow: inset 0 -3px 0 var(--blue);
   transition: all ease-out 0.2s;
   width: max-content;
 }
 
-.mobile-nav-item-active a,
+.nav-item-active a,
 .sidenav a:hover,
 .sidenav a:focus {
   box-shadow: inset 0 -20px 0 var(--green);
 }
-/* End Left SideNav Menu */
+/* End Mobile Menu */
 
 
-/* Start Side-by-Side */
-.side-by-side {
-  display: flex;
-}
-
-.side {
-  margin-right: 2em;
-  width: 80%;
-}
-
-.side p {
-  padding-bottom: 1.5em;
+/* Start Project List - Used on Home page and mobile nav*/
+.project-list {
+  margin-top: 5em;
 }
 
 @media only screen and (max-width: 1024px) {
-  .side-by-side {
-    display: block;
-  }
-
-  .side {
-    margin-right: 0;
-    width: 100%;
+  .project-list {
+    margin-top: 0;
   }
 }
-/* End Side-by-Side */
+
+ol.projectlist {
+  padding: 0;
+}
+
+ol.projectlist li {
+  margin-bottom: 20px;
+}
+
+ol.projectlist li a {
+  font-size: 20px;
+}
+/* End Project List - Used on Home page and mobile nav*/
 
 
 /* Start Footer */
@@ -480,3 +454,30 @@ footer p {
   }
 }
 /* End Footer */
+
+
+/* Start Side-by-Side */
+.side-by-side {
+  display: flex;
+}
+
+.side {
+  margin-right: 2em;
+  width: 80%;
+}
+
+.side p {
+  padding-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .side-by-side {
+    display: block;
+  }
+
+  .side {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+/* End Side-by-Side */

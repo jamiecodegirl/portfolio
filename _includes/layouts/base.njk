@@ -28,14 +28,7 @@
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      {# <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul> #}
-
-      <div class="flex align-items{% if page.url == '/' %} display-none{% endif %}">
+      <div class="project-navigation flex align-items{% if page.url == '/' %} display-none{% endif %}">
         <div class="flex align-items">
           <li class="fas fa-arrow-left"></li>
           <a class="project-nav-item" href="{{ '/' | url }}">Take Me Home</a>
@@ -54,12 +47,20 @@
           <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
             <i class="fas fa-times"></i>
           </a>
-          {% set projectslist = collections.projects %}
-          {% include "projectslist.njk" %}
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <ul class="nav">
+            {%- for entry in collections.all | eleventyNavigation %}
+              <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+            {%- endfor %}
+          </ul>
+          <div class="margin-left-20">
+            {% set projectslist = collections.projects %}
+            {% include "projectslist.njk" %}
+          </div>
         </div>
       
         <div id="openbtn">
-          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">Projects
+          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
             <i class="fas fa-bars"></i>
           </a>
         </div>
