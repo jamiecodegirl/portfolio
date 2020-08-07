@@ -22,7 +22,6 @@ templateClass: tmpl-project
 
 {{ content | safe }}
 
-<hr>
 <ul class="bottom-project-nav">
   {%- set nextProject = collections.projects | getNextCollectionItem(page) %}
   {%- if nextProject %}<li>Previous: <a href="{{ nextProject.url | url }}">{{ nextProject.data.title }}</a></li>{% endif %}

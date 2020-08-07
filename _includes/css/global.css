@@ -309,6 +309,10 @@ h1.home {
   color: var(--black);
 }
 
+h1.home a {
+  font-size: 20px;
+}
+
 h1.home :link:not(:hover) {
   box-shadow: none;
 }
@@ -438,7 +442,7 @@ h1.home :link:not(:hover) {
 
 /* Start Footer */
 footer {
-  padding: 5em 2em;
+  padding: 3em 2em;
   max-width: 800px;
   margin: 0 auto;
   display: flex;
@@ -450,5 +454,29 @@ footer {
 footer p {
   margin: 0 0 10px;
   font-weight: 900;
+}
+
+.footer-left {
+  padding: 2em 2em 2em 0;
+  border-right: 1px solid var(--underline);
+}
+
+.footer-right {
+  padding: 2em 0 2em 2em;
+}
+
+@media only screen and (max-width: 700px)  {
+  footer {
+    display: block;
+  }
+
+  .footer-left {
+    padding: 1em 0;
+    border-right: none;
+  }
+
+  .footer-right {
+    padding: 1em 0;
+  }
 }
 /* End Footer */
