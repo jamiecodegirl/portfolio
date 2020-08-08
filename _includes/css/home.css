@@ -24,6 +24,7 @@
 
 .about-me {
   max-width: 70%;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -34,5 +35,5 @@
 
 .about-me h3 {
   font-size: 28px;
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
