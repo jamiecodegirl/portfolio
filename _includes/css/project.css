@@ -1,20 +1,28 @@
+.tmpl-project {
+  padding: 0 0 4em 4em;
+}
+
+@media only screen and (max-width: 1440px) {
+  .tmpl-project {
+    padding: 0 0 3em 3em;
+  }
+}
+
 @media only screen and (min-width: 1025px) {
   .tmpl-project {
     width: 80%;
   }
 }
 
-.tmpl-project h1 {
-  background-color: var(--black);
-  color: var(--white);
-  font-weight: bold;
-  padding: 0 10px;
-  width: max-content;
+@media only screen and (max-width: 1024px) {
+  .tmpl-project {
+    padding: 0 2em 2em;
+  }
 }
 
 @media only screen and (max-width: 415px) {
-  .tmpl-project h1 {
-    font-size: 55px;
+  .tmpl-project {
+    padding: 0 1em 1em;
   }
 }
 
@@ -26,8 +34,26 @@
 }
 
 section {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+  padding-top: 100px;
 }
+
+
+/* Start Project Page "Take Me Home" */
+.project-nav-item {
+  margin: 0 10px;
+}
+
+.project-url {
+  box-shadow: inset 0 -15px 0 var(--green);
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-navigation {
+    display: none;
+  }
+}
+/* End Project Page "Take Me Home" */
 
 
 /* Start Table of Contents */
@@ -116,34 +142,7 @@ section {
 /* End Section Headers */
 
 
-/* Start Side-by-Side */
-.side-by-side {
-  display: flex;
-}
-
-.side {
-  margin-right: 2em;
-  width: 80%;
-}
-
-.side p {
-  padding-bottom: 1.5em;
-}
-
-@media only screen and (max-width: 1024px) {
-  .side-by-side {
-    display: block;
-  }
-
-  .side {
-    margin-right: 0;
-    width: 100%;
-  }
-}
-/* End Side-by-Side */
-
-
-/* Start Number Block Section*/
+/* Start Big Green Number Section*/
 .number-block {
   width: 60%;
   display: flex;
@@ -191,10 +190,14 @@ section {
     font-size: 100px;
   }
 }
-/* End Number Block Section*/
+/* End Big Green Number Section*/
 
 
 /* Start Project Overview Section */
+#section1 h1 {
+  margin-top: 0;
+}
+
 #section1 p {
   margin-top: 0;
   margin-left: 23px;
@@ -244,12 +247,7 @@ section {
 
 @media only screen and (max-width: 1024px) {
   .megan-large img {
-  height: 300px;
+    height: 300px;
   }
 }
 /* End Sprint Planning Section */
-
-
-/* Start Design Sprint 3 Section*/
-
-/* End Design Sprint 3 Section*/

@@ -15,8 +15,8 @@
 
     {%- set css -%}
       {% include "css/global.css" %}
+      {% include "css/home.css" %}
       {% include "css/project.css" %}
-      {% include "css/post.css" %}
     {%- endset %}
     <style>
       {{ css | cssmin | safe }}
@@ -26,25 +26,37 @@
 
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <div><img src="/img/logo.svg" height="65px" alt="logo"></div>
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
+      <div class="project-navigation flex align-items{% if page.url == '/' %} display-none{% endif %}">
+        <div class="flex align-items">
+          <li class="fas fa-arrow-left"></li>
+          <a class="project-nav-item" href="{{ '/' | url }}">Take Me Home</a>
+        </div>
+        <div>
+          <p> | </p>
+        </div>
+        <div class="flex align-items">
+          <a class="project-url project-nav-item" href="{{ page.url | url }}">{{ title }}</a>
+          <li class="fas fa-arrow-down"></li>
+        </div>
+      </div>
 
       <div class="mobile-menu">
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
             <i class="fas fa-times"></i>
           </a>
-          <ul class="nav-mobile">
-          {%- for entry in collections.all | eleventyNavigation %}
-            <li class="mobile-nav-item{% if entry.url == page.url %} mobile-nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-          {%- endfor %}
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <ul class="nav">
+            {%- for entry in collections.all | eleventyNavigation %}
+              <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+            {%- endfor %}
           </ul>
+          <div class="margin-left-20">
+            {% set projectslist = collections.projects %}
+            {% include "projectslist.njk" %}
+          </div>
         </div>
       
         <div id="openbtn">
@@ -55,13 +67,28 @@
       </div>
     </header>
 
-    <div style="height:100px;"></div>
-
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <div class="underline"></div>
+
+    <footer>
+      <div class="footer-left">
+        <p>Jamie Thompson</p>
+        <p>UX Designer + Developer</p>
+        <p>&#169; 2020</p>
+      </div>
+      <div class="footer-right">
+        <p><a href="mailto:hello@jamiethompson.design?subject=Message%20from%20jamiethompson.design">hello@jamiethompson.design</a></p>
+        <p><a href="tel:1-913-850-0203">913-850-0203</a></p>
+      </div>
+      <div class="footer-right">
+        <p><a href="https://www.linkedin.com/in/jamierthompson/" target="_blank">LinkedIn</a></p>
+        <p><a href="https://codepen.io/jamiecodegirl/" target="_blank">CodePen</a></p>
+        <p><a href="https://github.com/jamiecodegirl/" target="_blank">Github</a></p>
+      </div>
+    </footer>
 
     <script src="{{ '/script/index.js' | url }}"></script>
     <script src="https://kit.fontawesome.com/73b07144a7.js" crossorigin="anonymous"></script>

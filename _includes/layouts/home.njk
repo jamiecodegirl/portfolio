@@ -2,4 +2,32 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
+
+<div class="flex space-between wrap">
+  <div class="about-me">
+    <div class="relative">
+      <div class="circle-outline">1</div>
+      <h3><span class="emphasize">Hello, I'm Jamie</span> a UX designer + developer with <span class="emphasize">5 years</span> of experience in user research, experience design, and user interface development. I'm seeking a remote UX designer position where I can <span class="emphasize">design &amp; code</span>.</h3>
+    </div>
+    <div class="relative">
+      <div class="circle-outline">2</div>
+      <h3>My expertise is the <span class="emphasize">front of the front-end</span> also known as user experience design, user interface design, HTML and CSS. I have some JavaScript experience too, but I'm not looking for a JS-heavy role. My <span class="emphasize">unique skillset</span> allows me to work well with the entire team.</h3>
+    </div>
+    <div class="relative">
+      <div class="circle-outline">3</div>
+      <h3>I like helping to <span class="emphasize">build what I design</span> and have experience working on agile scrum teams. I enjoy the iterative process of <span class="emphasize">designing software</span> and seeing the product come to life. Head to the next section to see some of <span class="emphasize">my work</span>.</h3>
+    </div>
+  </div>
+
+  <div class="project-list">
+    <div class="relative">
+      <div class="circle-outline">4</div>
+      <p class="margin-bottom-0">Selected Work</p>
+    </div>
+    <div class="underline"></div>
+    {% set projectslist = collections.projects %}
+    {% include "projectslist.njk" %}
+  </div>
+</div>
+
 {{ content | safe }}

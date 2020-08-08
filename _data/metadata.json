@@ -1,20 +1,20 @@
 {
-  "title": "Jamie Thompson - UX Designer + Developer",
-  "url": "https://example.com/",
+  "title": "Jamie Thompson UX DESIGNER",
+  "url": "https://jamiethompson.design/",
   "description": "My Portfolio",
   "feed": {
     "subtitle": "",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://jamiethompson.design/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://jamiethompson.design/feed/feed.json"
   },
   "author": {
     "name": "Jamie Thompson",
     "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://jamiethompson.design/"
   }
 }

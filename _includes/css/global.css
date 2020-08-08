@@ -23,31 +23,19 @@ html, body {
   scroll-behavior: smooth;
 }
 
-main {
-  padding: 0 0 4em 4em;
-}
-
-@media only screen and (max-width: 1440px) {
-  main {
-    padding: 0 0 3em 3em;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  main {
-    padding: 0 2em;
-  }
+h1 {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 65px;
+  font-weight: bold;
+  padding: 0 10px;
+  width: max-content;
 }
 
 @media only screen and (max-width: 415px) {
-  main {
-    padding: 0 1.5em;
+  h1 {
+    font-size: 55px;
   }
-}
-
-h1 {
-  font-size: 65px;
-  font-weight: 400;
 }
 
 h2 {
@@ -111,6 +99,15 @@ ol.numbered-list li {
   padding-bottom: 5px;
 }
 
+ul.bottom-project-nav {
+  padding-left: 0;
+  padding-top: 40px;
+}
+
+ul.bottom-project-nav li {
+  margin-bottom: 10px;
+}
+
 a {
   text-decoration: none;
   font-size: 16px;
@@ -124,6 +121,14 @@ a {
 a:hover,
 a:focus {
   box-shadow: inset 0 -15px 0 var(--green);
+}
+
+.emphasize {
+  font-weight: 700;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0 10px;
+  width: max-content;
 }
 
 img {
@@ -160,6 +165,13 @@ img {
   font-weight: bold;
   display: inline-block;
   margin-right: 5px;
+}
+
+.tmpl-home .circle-outline {
+  background-color: var(--tealblue);
+  border: 1px solid var(--tealblue);
+  position: absolute;
+  left: -30px;
 }
 /* End Base CSS */
 
@@ -211,6 +223,10 @@ img {
 
 .relative {
   position: relative;
+}
+
+.display-none {
+  display: none;
 }
 
 .margin-0 {
@@ -265,44 +281,23 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
-  width: 100%;
+  flex-wrap: wrap;
+  padding: 0 1em 0 2em;
+  width: 90%;
   position: fixed;
   background-color: var(--white);
   z-index: 333;
 }
 
-.home {
-  font-size: 1em;
-  font-weight: 900;
-}
-
-.home :link:not(:hover) {
-  box-shadow: none;
-}
-
-.nav {
-  display: block;
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav {
-    display: none;
+@media only screen and (max-width: 1024px)  {
+  header {
+    width: 100%;
   }
-}
-
-.nav-item {
-  display: inline-block;
-  margin-right: 1.5em;
-}
-
-.nav-item-active {
-  box-shadow: inset 0 -15px 0 var(--green);
 }
 /* End Header */
 
 
-/* Start Left SideNav Menu */
+/* Start Mobile Menu */
 .mobile-menu {
   display: none;
 }
@@ -313,17 +308,22 @@ header {
   }
 }
 
+ul.nav {
+  padding: 0;
+  margin-left: 20px;
+}
+
 #openbtn {
   position: fixed;
   display: block;
-  top: 0.4em;
+  top: 0.6em;
   right: 1em;
 }
 
 #openbtn a {
   box-shadow: none;
-  font-size: 30px;
   color: var(--black);
+  font-size: 30px;
 }
 
 .sidenav .closebtn {
@@ -358,16 +358,109 @@ header {
 
 .sidenav a {
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   margin: 20px 0;
   box-shadow: inset 0 -3px 0 var(--blue);
   transition: all ease-out 0.2s;
   width: max-content;
 }
 
-.mobile-nav-item-active a,
+.nav-item-active a,
 .sidenav a:hover,
 .sidenav a:focus {
   box-shadow: inset 0 -20px 0 var(--green);
 }
-/* End Left SideNav Menu */
+/* End Mobile Menu */
+
+
+/* Start Project List - Used on Home page and mobile nav*/
+.project-list {
+  margin-top: 5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-list {
+    margin-top: 0;
+  }
+}
+
+ol.projectlist {
+  padding: 0;
+}
+
+ol.projectlist li {
+  margin-bottom: 20px;
+}
+
+ol.projectlist li a {
+  font-size: 20px;
+}
+/* End Project List - Used on Home page and mobile nav*/
+
+
+/* Start Footer */
+footer {
+  padding: 3em 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-weight: 900;
+}
+
+.footer-left {
+  padding: 2em 2em 2em 0;
+  border-right: 1px solid var(--underline);
+}
+
+.footer-right {
+  padding: 2em 0 2em 2em;
+}
+
+@media only screen and (max-width: 700px)  {
+  footer {
+    display: block;
+  }
+
+  .footer-left {
+    padding: 1em 0;
+    border-right: none;
+  }
+
+  .footer-right {
+    padding: 1em 0;
+  }
+}
+/* End Footer */
+
+
+/* Start Side-by-Side */
+.side-by-side {
+  display: flex;
+}
+
+.side {
+  margin-right: 2em;
+  width: 80%;
+}
+
+.side p {
+  padding-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .side-by-side {
+    display: block;
+  }
+
+  .side {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+/* End Side-by-Side */
