@@ -280,10 +280,9 @@ img {
 /* Start Header */
 header {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0.5em 1em;
+  padding: 0 1em 0 2em;
   width: 90%;
   position: fixed;
   background-color: var(--white);
@@ -294,21 +293,6 @@ header {
   header {
     width: 100%;
   }
-}
-
-h1.home {
-  font-size: 1em;
-  font-weight: 900;
-  background-color: var(--white);
-  color: var(--black);
-}
-
-h1.home a {
-  font-size: 20px;
-}
-
-h1.home :link:not(:hover) {
-  box-shadow: none;
 }
 /* End Header */
 
