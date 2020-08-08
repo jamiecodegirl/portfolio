@@ -100,8 +100,8 @@ ol.numbered-list li {
 }
 
 ul.bottom-project-nav {
-  margin-top: 20px;
   padding-left: 0;
+  padding-top: 40px;
 }
 
 ul.bottom-project-nav li {
@@ -405,7 +405,6 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
 }
 
