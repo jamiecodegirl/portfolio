@@ -2,53 +2,51 @@
 {
 "title": "Bill Pay App",
 "layout": "layouts/project.njk",
-"description": "Allows customers to easily manage payments and billing for their Insurance Policy",
 "date": "2020-07-04",
-"section1": {
-  "title": "Project Overview",
-},
-"section2": {
-  "title": "User Persona",
-  "order": "1"
-},
-"section3": {
-  "title": "Research",
-  "order": "2"
-},
-"section4": {
-  "title": "Sprint Planning",
-  "order": "3"
-},
-"section5": {
-  "title": "Design Sprint 1",
-  "order": "4"
-},
-"section6": {
-  "title": "Design Sprint 2",
-  "order": "5"
-},
-"section7": {
-  "title": "Design Sprint 3",
-  "order": "6"
-},
-"section8": {
-  "title": "Design Sprint 4",
-  "order": "7"
-},
-"section9": {
-  "title": "What's Next?",
-  "order": "8"
-},
-"section10": {
-  "title": "",
-  "order": ""
-}
+"sections": [
+  {
+    "id": "section1",
+    "title": "Project Overview"
+  },
+  {
+    "id": "section2",
+    "title": "User Persona"
+  },
+  {
+    "id": "section3",
+    "title": "Research"
+  },
+  {
+    "id": "section4",
+    "title": "Sprint Planning"
+  },
+  {
+    "id": "section5",
+    "title": "Design Sprint 1"
+  },
+  {
+    "id": "section6",
+    "title": "Design Sprint 2"
+  },
+  {
+    "id": "section7",
+    "title": "Design Sprint 3"
+  },
+  {
+    "id": "section8",
+    "title": "Design Sprint 4"
+  },
+  {
+    "id": "section9",
+    "title": "What's Next?"
+  }
+]
 }
 ---
 
 <section id="section1">
-  <h1>{{ title }}</h1>
-  <div class="main-description">{{ description }}</div>
+  <h1>Bill Pay App</h1>
+  <div class="main-description">Allows customers to easily manage payments and billing for their Insurance Policy</div>
   <div class="underline"></div>
   <div>
     <h4>Project Timeline</h4>
@@ -73,7 +71,7 @@
       <li>User Research &amp; Usability Testing</li>
       <li>User Experience &amp; User Interface Design</li>
       <li>Contributed to HTML &amp; CSS within Angular v8.0+</li>
-      <li>Created &amp; maintained a Design System</li>
+      <li>Created &amp; Maintained a Design System</li>
       <li>Contributed to a UI Component Library</li>
     </ul>
     <div style="padding-top:2em;">
@@ -83,7 +81,7 @@
   </div>
 </section>
 <section id="section2">
-{% include "sectionheaders/section2.njk" %}
+{% include "sectionheaders/numberflag1.njk" %}
   <div class="side-by-side">
     <div class="side">
       <div class="intro">
@@ -110,7 +108,7 @@
   </div>
 </section>
 <section id="section3">
-{% include "sectionheaders/section3.njk" %}
+{% include "sectionheaders/numberflag2.njk" %}
   <div class="section-intro">
     <h2>Initial user research highlighted features needed to provide value to the customer.</h2>
     <h5>I analyzed <span class="black">138 user comments</span> collected from intercept survey results, conducted <span class="black">4 in-person interviews</span> with Customer Service Stakeholders, and performed a <span class="black">heuristic evaluation</span> of the legacy application.</h5>
@@ -127,7 +125,7 @@
   </div>
 </section>
 <section id="section4">
-{% include "sectionheaders/section4.njk" %}
+{% include "sectionheaders/numberflag3.njk" %}
   <div class="side-by-side">
     <div class="section-intro side">
       <h2>The team focused on 4 areas that would help Megan <span class="black">easily manage her payments</span> on-the-go.</h2>
@@ -142,7 +140,7 @@
   </div>
 </section>
 <section id="section5">
-{% include "sectionheaders/section5.njk" %}
+{% include "sectionheaders/numberflag4.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -242,7 +240,7 @@
   </div>
 </section>
 <section id="section6">
-{% include "sectionheaders/section6.njk" %}
+{% include "sectionheaders/numberflag5.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -321,7 +319,7 @@
   </div>
 </section>
 <section id="section7">
-{% include "sectionheaders/section7.njk" %}
+{% include "sectionheaders/numberflag6.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -392,7 +390,7 @@
   </div>
 </section>
 <section id="section8">
-{% include "sectionheaders/section8.njk" %}
+{% include "sectionheaders/numberflag7.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -429,7 +427,7 @@
   </div>
 </section>
 <section id="section9">
-{% include "sectionheaders/section9.njk" %}
+{% include "sectionheaders/numberflag8.njk" %}
   <div class="section-intro">
     <h2>Future plans for <span class="black">post-MVP</span> include:</h2>
     <ol class="numbered-list">
