@@ -32,6 +32,12 @@ h1 {
   width: max-content;
 }
 
+@media only screen and (max-width: 550px) {
+  h1 {
+    width: auto;
+  }
+}
+
 @media only screen and (max-width: 415px) {
   h1 {
     font-size: 55px;

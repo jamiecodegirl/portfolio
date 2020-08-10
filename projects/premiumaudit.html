@@ -3,24 +3,7 @@
 "title": "Premium Audit",
 "layout": "layouts/project.njk",
 "date": "2020-07-03",
-"sections": ["Project Overview", "User Persona", "Research", "Sprint Planning", "Design Sprint 1", "Design Sprint 2", "Design Sprint 3", "Design Sprint 4", "What's Next?"],
-"persona": {
-  "name": "Lola",
-  "title": "The Yoga Studio Owner",
-  "img": {
-    "src": "/img/premiumaudit/yoga-stretching.svg",
-    "alt": "woman yoga stretching"
-  },
-  "jobDescription": "owns a yoga and meditation studio",
-  "employeeDescription": "with 7 full-time employees and 5 part-time employees",
-  "subDescription": "Lorem Ipsum.",
-  "goals": "Lorem Ipsum.",
-  "expectations": "Lorem Ipsum.",
-  "challenges": "Lorem Ipsum.",
-  "frustrations": "Lorem Ipsum.",
-  "quote": "Lorem Ipsum.",
-  "needs": "Lorem Ipsum."
-}
+"sections": ["Project Overview", "User Persona", "Research", "Sprint Planning", "Design Sprint 1", "Design Sprint 2", "Design Sprint 3", "Design Sprint 4", "What's Next?"]
 }
 ---
 
@@ -63,7 +46,29 @@
 </section>
 <section id="section2">
 {% include "sectionheaders/numberflag1.njk" %}
-{% include "userpersona.njk" %}
+  <div class="side-by-side">
+    <div class="side" style="width:100%;">
+      <div class="intro">
+        <h2>Lola</h2>
+        <h5 class="margin-top-0" style="font-size:24px;">The Yoga Studio Owner</h5>
+        <div style="padding-top:2em;"><img src="/img/premiumaudit/yoga-stretching.svg" height="300px" alt="woman yoga stretching"></div>
+      </div>
+      <p>Lola <span class="black">owns a yoga and meditation studio</span> with 2 full-time employees and 7 part-time employees.</p>
+      <p>Lola runs the yoga and meditation studio and teaches several of the classes throughout the day.</p>
+    </div>
+    <div>
+      <h4>Goals</h4>
+        <p>Lola wishes she could teach more classes, instead of spending so much time managing her business.</p>
+      <h4>Expectations</h4>
+        <p>Lola is tech-savvy, but she expects her insurance company to provide her easy-to-use software to complete required tasks.</p>
+      <h4>Challenges</h4>
+        <p>Lola tries to extend the benefits of her yoga &amp; meditation practice into her all aspects of her life, but it can be challenging to stay centered when technical problems arise.</p>
+      <h4>Frustrations</h4>
+        <p>Lola's time is valuable, so she gets frustrated when software programs don't work as promised, or when she has to wait on hold to get help from customer service.</p>
+      <h4>Needs</h4>
+        <p>Lola needs an application that makes it easy to complete the dreaded end-of-year audit on her insurance policy premiums.</p>
+    </div>
+  </div>
 </section>
 <section id="section3">
 {% include "sectionheaders/numberflag2.njk" %}
@@ -197,7 +202,7 @@
         <p>Megan is busy running her business, so she needs the ability to setup AutoPay for her regular monthly payments.</p>
       </div>
       <div class="side-by-side align-items">
-        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <div class="center margin-right-20"><img src="/img/premiumaudit/yoga-sitting.svg" height="250px" alt="woman sitting yoga pose"></div>
         <p class="italic">"I want to set it and forget it so I don't have to worry about missing a payment due date again."</p>
       </div>
     </div>
@@ -276,7 +281,7 @@
         <p>Megan needs a flexible process for making payments that can't be set up on AutoPay, such as Final Premium Audit or Medical Deductible Payments.</p>
       </div>
       <div class="side-by-side align-items">
-        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <div class="center margin-right-20"><img src="/img/premiumaudit/yoga-sitting.svg" height="250px" alt="woman sitting yoga pose"></div>
         <p class="italic">"AutoPay is great for regular monthly payments, but sometimes I still need to quickly make a one-time payment."</p>
       </div>
     </div>
@@ -347,7 +352,7 @@
         <p>Megan needs to easily access the information that helps her manage the payments on her insurance policy.</p>
       </div>
       <div class="side-by-side align-items">
-        <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+        <div class="center margin-right-20"><img src="/img/premiumaudit/yoga-sitting.svg" height="250px" alt="woman sitting yoga pose"></div>
         <p class="italic">"I just need the ability to view my past and future payments, and don't ever look at all that other policy stuff."</p>
       </div>
     </div>
