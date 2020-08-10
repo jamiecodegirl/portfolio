@@ -241,12 +241,12 @@ section {
 
 
 /* Start Sprint Planning Section */
-.megan-large img {
+.sprint-planning-large img {
   height: 500px;
 }
 
 @media only screen and (max-width: 1024px) {
-  .megan-large img {
+  .sprint-planning-large img {
     height: 300px;
   }
 }

@@ -3,7 +3,7 @@
 "title": "Premium Audit",
 "layout": "layouts/project.njk",
 "date": "2020-07-03",
-"sections": ["Project Overview", "User Persona", "Research", "Sprint Planning", "Design Sprint 1", "Design Sprint 2", "Design Sprint 3", "Design Sprint 4", "What's Next?"]
+"sections": ["Project Overview", "User Persona", "Research", "Sprint Planning", "Design Sprint 1", "Design Sprint 2", "Design Sprint 3", "What's Next?"]
 }
 ---
 
@@ -25,7 +25,7 @@
   </div>
   <div>
     <h4>Interesting Facts</h4>
-    <p>I joined the team after product launch, and spent a majority of my time <span class="black">solving UX issues</span> experienced by real users in production.
+    <p>I joined the team to work on <span class="black">solving UX issues</span> experienced by users in production. Many of the issues drove calls to customer service, and forced policyholders to complete the audit process manually by mail.
     <p>The project team used Agile Scrum Methodology through the project lifecyle. I was the <span class="black">sole User Experience Designer</span>, and participated in all scrum ceremonies and workshops.</p>
     <p>The project team included 8 team members across 3 U.S. timezones. I worked both remotely and from the company's office in Kansas City, MO.</p>
   </div>
@@ -62,35 +62,41 @@
       <h4>Expectations</h4>
         <p>Lola is tech-savvy, but she expects her insurance company to provide her easy-to-use software to complete required tasks.</p>
       <h4>Challenges</h4>
-        <p>Lola tries to extend the benefits of her yoga &amp; meditation practice into her all aspects of her life, but it can be challenging to stay centered when technical problems arise.</p>
+        <p>Lola tries to extend the benefits of her yoga &amp; meditation practice into all aspects of her life, but it can be challenging to stay centered when technical problems arise.</p>
       <h4>Frustrations</h4>
         <p>Lola's time is valuable, so she gets frustrated when software programs don't work as promised, or when she has to wait on hold to get help from customer service.</p>
       <h4>Needs</h4>
-        <p>Lola needs an application that makes it easy to complete the dreaded end-of-year audit on her insurance policy premiums.</p>
+        <p>Lola needs an application that makes it easy to <span class="black">complete the dreaded end-of-year audit</span> on her insurance policy premiums.</p>
     </div>
   </div>
 </section>
 <section id="section3">
 {% include "sectionheaders/numberflag2.njk" %}
   <div class="section-intro">
-    <h2>Initial user research highlighted features needed to provide value to the customer.</h2>
-    <h5>I analyzed <span class="black">138 user comments</span> collected from intercept survey results, conducted <span class="black">4 in-person interviews</span> with Customer Service Stakeholders, and performed a <span class="black">heuristic evaluation</span> of the legacy application.</h5>
+    <h2>Initial user research highlighted areas causing frustration for customers.</h2>
+    <h5>I analyzed <span class="black">89 user comments</span> collected from intercept survey results, and conducted virtual <span class="black">usability testing</span> of the audit application with 4 policyholders.</h5>
+    <h5>All data collected from initial user research was consolidated into a <span class="bold">Feedback Capture Matrix</span> and <span class="black">User Journey Map</span> to present to stakeholders.</h5>
   </div>
-  <div class=""><img src="/img/premiumaudit/feedback.svg" width="" alt=""></div>
+  <h4 style="margin:60px 0 0 0;">Feedback Capture Matrix</h4>
+  <div><img src="/img/premiumaudit/feedback.svg" alt="feedback capture matrix"></div>
+  <h6><span class="black">Feedback Capture Matrix</span> displaying consolidated data collected from initial user research</h6>
+  <h4 style="margin:60px 0 0 0;">User Journey Map</h4>
+  <div><img src="/img/premiumaudit/journey-map.svg" alt="user journey map"></div>
+  <h6><span class="black">User Journey Map</span> displaying findings collected during initial user research</h6>
 </section>
 <section id="section4">
 {% include "sectionheaders/numberflag3.njk" %}
   <div class="side-by-side">
     <div class="section-intro side">
-      <h2>The team focused on 4 areas that would help Megan <span class="black">easily manage her payments</span> on-the-go.</h2>
+      <h2>The initial user research was used to guide the sprint planning process.
+      <h5>Design Sprints focused on 3 additions to the application that would help <span class="black">keep Lola zen while completing the yearly audit</span> for her insurance premiums.</h5>
       <ol class="numbered-list">
-        <li>Save a payment method to use later</li>
-        <li>Setup AutoPay with a card or bank account</li>
-        <li>Make a flexible one-time payment</li>
-        <li>View upcoming due dates and payment history</li>
+        <li>Add an Audit Dashboard</li>
+        <li>Enhance the Audit Stepper</li>
+        <li>Add an Audit Summary</li>
       </ol>
     </div>
-    <div class="megan-large center"><img src="/img/premiumaudit/yoga-standing.svg" alt="woman standing yoga pose"></div>
+    <div class="sprint-planning-large center"><img src="/img/premiumaudit/yoga-standing.svg" alt="woman standing yoga pose"></div>
   </div>
 </section>
 <section id="section5">
@@ -98,7 +104,7 @@
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
-        <h2>Save a payment method to use later</h2>
+        <h2>Add an Audit Dashboard</h2>
         <p>Megan gets frustrated with unnecessary "busy work", so saving a payment method to use later will prevent her from having to enter the same information more than once.</p>
       </div>
       <div class="side-by-side align-items">
@@ -198,7 +204,7 @@
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
-        <h2>Setup AutoPay with a card or bank account</h2>
+        <h2>Enhance the Audit Stepper</h2>
         <p>Megan is busy running her business, so she needs the ability to setup AutoPay for her regular monthly payments.</p>
       </div>
       <div class="side-by-side align-items">
@@ -277,7 +283,7 @@
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
-        <h2>Make a flexible one-time payment</h2>
+        <h2>Add an Audit Summary</h2>
         <p>Megan needs a flexible process for making payments that can't be set up on AutoPay, such as Final Premium Audit or Medical Deductible Payments.</p>
       </div>
       <div class="side-by-side align-items">
@@ -345,50 +351,11 @@
 </section>
 <section id="section8">
 {% include "sectionheaders/numberflag7.njk" %}
-  <div class="design-sprint-intro">
-    <div class="side-by-side">
-      <div class="side">
-        <h2>View upcoming due dates &amp; payment history</h2>
-        <p>Megan needs to easily access the information that helps her manage the payments on her insurance policy.</p>
-      </div>
-      <div class="side-by-side align-items">
-        <div class="center margin-right-20"><img src="/img/premiumaudit/yoga-sitting.svg" height="250px" alt="woman sitting yoga pose"></div>
-        <p class="italic">"I just need the ability to view my past and future payments, and don't ever look at all that other policy stuff."</p>
-      </div>
-    </div>
-    <div class="underline-sm"></div>
-  </div>
-  <div class="side-by-side align-items">
-    <div class="section-intro">
-      <h2><span class="black">Initial business requirements</span> asked for all available payment data to be included in the design.</h2>
-      <h5>This <span class="black">cluttered the User Interface</span> and wasn't required for users to complete their primary goal of making a payment.</h5>
-    </div>
-    <div class="side" style="max-width:225px; margin:auto;">
-      <img src="/img/billpay/billing-info1.svg" width="225px" alt="wireframe for billing info">
-      <h6 style="font-size:12px;"><span class="black">First wireframe</span> showing cluttered UI when displaying all payment data.</h6>
-    </div>  
-  </div>
-  <div class="underline-sm"></div>
-  <div class="side-by-side align-items">
-    <div class="section-intro side">
-      <h2>Virtual <span class="black">interviews with 4 policyholders</span> helped eliminate data that didn't provide value to the user.</h2>
-      <h5>Using a <span class="black">mobile-first design</span> approach, and <span class="black">data collected from user interviews</span>, helped get business stakeholders on board with decluttering the User Interface.</h5>
-    </div>
-    <div class="relative flex justify-center">
-      <img src="/img/billpay/billing-info2.svg" width="300px" alt="prototype for billing info">
-      <h6 class="caption-other"><span class="black">Final prototype</span> showing unnecessary data removed to declutter the UI.</h6>
-    </div>  
-  </div>
-</section>
-<section id="section9">
-{% include "sectionheaders/numberflag8.njk" %}
   <div class="section-intro">
-    <h2>Future plans for <span class="black">post-MVP</span> include:</h2>
+    <h2>Future plans include:</h2>
     <ol class="numbered-list">
-      <li>Monitor customer service requests, Google Analytics, user surveys, etc. for UX issues in production.</li>
-      <li>Ability to pay with Apple Pay, Samsung Pay, PayPal, etc.</li>
-      <li>Integrate with popular bank applications to further reduce manual data entry.</li>
-      <li>Receive email and text alerts for upcoming payments.</li>
+      <li>Continue to monitor customer service requests, Google Analytics, user surveys, etc. for UX issues in production.</li>
+      <li>Integrate with popular accounting software to further reduce manual data entry.</li>
     </ol>
   </div>
 </section>
