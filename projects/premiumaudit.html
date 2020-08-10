@@ -3,35 +3,24 @@
 "title": "Premium Audit",
 "layout": "layouts/project.njk",
 "date": "2020-07-03",
-"sections": [
-  {
-    "title": "Project Overview"
+"sections": ["Project Overview", "User Persona", "Research", "Sprint Planning", "Design Sprint 1", "Design Sprint 2", "Design Sprint 3", "Design Sprint 4", "What's Next?"],
+"persona": {
+  "name": "Lola",
+  "title": "The Yoga Studio Owner",
+  "img": {
+    "src": "/img/premiumaudit/yoga-stretching.svg",
+    "alt": "woman yoga stretching"
   },
-  {
-    "title": "User Persona"
-  },
-  {
-    "title": "Research"
-  },
-  {
-    "title": "Sprint Planning"
-  },
-  {
-    "title": "Design Sprint 1"
-  },
-  {
-    "title": "Design Sprint 2"
-  },
-  {
-    "title": "Design Sprint 3"
-  },
-  {
-    "title": "Design Sprint 4"
-  },
-  {
-    "title": "What's Next?"
-  }
-]
+  "jobDescription": "owns a yoga and meditation studio",
+  "employeeDescription": "with 7 full-time employees and 5 part-time employees",
+  "subDescription": "Lorem Ipsum.",
+  "goals": "Lorem Ipsum.",
+  "expectations": "Lorem Ipsum.",
+  "challenges": "Lorem Ipsum.",
+  "frustrations": "Lorem Ipsum.",
+  "quote": "Lorem Ipsum.",
+  "needs": "Lorem Ipsum."
+}
 }
 ---
 
@@ -74,30 +63,7 @@
 </section>
 <section id="section2">
 {% include "sectionheaders/numberflag1.njk" %}
-  <div class="side-by-side">
-    <div class="side">
-      <div class="intro">
-        <h2>Lola</h2>
-        <h5 class="margin-top-0" style="font-size:24px;">The Yoga Studio Owner</h5>
-        <div style="padding-top:2em;"><img src="/img/premiumaudit/yoga-stretching.svg" height="400px" alt="woman yoga stretching"></div>
-      </div>
-      <p>Megan <span class="black">owns a trendy clothing boutique</span> with 1 full-time employee and 2 part-time employees.</p>
-      <p>The boutique is in a prime location, so Megan and her team are always busy with customers in the store. Whenever possible, they grab a few minutes to manage the store's online orders.</p>
-    </div>
-    <div>
-      <h4>Goals</h4>
-      <p>Megan wants to run a successful business, but she also wants to have time for a life outside of work.</p>
-      <h4>Expectations</h4>
-      <p>Megan expects to easily manage her insurance policy from her mobile device, since she rarely has time to work from her desk.</p>
-      <h4>Challenges</h4>
-      <p>Her insurance policy is affordable, but the company doesn't provide easy-to-use tools to help her manage her payments.</p>
-      <h4>Frustrations</h4>
-      <p>Megan gets frustrated when tasks take longer than necessary, or are too difficult to figure out.</p>
-      <p class="italic bold">"The system doesn't allow me to schedule my payment for later. Can you help me get this done?"</p>
-      <h4>Needs</h4>
-      <p>Megan needs a payment app for easily managing payments and billing for her insurance policy.</p>
-    </div>
-  </div>
+{% include "userpersona.njk" %}
 </section>
 <section id="section3">
 {% include "sectionheaders/numberflag2.njk" %}

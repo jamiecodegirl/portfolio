@@ -1,0 +1,24 @@
+ <div class="side-by-side">
+    <div class="side">
+      <div class="intro">
+        <h2>{{ persona.name }}</h2>
+        <h5 class="margin-top-0" style="font-size:24px;">{{ persona.title }}</h5>
+        <div style="padding-top:2em;"><img src="{{ persona.img.src }}" height="300px" alt="{{ persona.img.alt }}"></div>
+      </div>
+      <p>{{ persona.name }} <span class="black">{{ persona.jobDescription }}</span> {{ persona.employeeDescription }}.</p>
+      <p>{{ persona.subDescription }}</p>
+    </div>
+    <div>
+      <h4>Goals</h4>
+      <p>{{ persona.goals }}</p>
+      <h4>Expectations</h4>
+      <p>{{ persona.expectations }}</p>
+      <h4>Challenges</h4>
+      <p>{{ persona.challenges }}</p>
+      <h4>Frustrations</h4>
+      <p> {{ persona.frustrations }}</p>
+      <p class="italic bold">"{{ persona.quote }}"</p>
+      <h4>Needs</h4>
+      <p>{{ persona.needs }}</p>
+    </div>
+  </div>
