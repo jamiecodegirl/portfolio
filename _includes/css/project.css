@@ -251,3 +251,137 @@ section {
   }
 }
 /* End Sprint Planning Section */
+
+
+/* Start Audit Intro Section */
+.audit-intro {
+  text-align: center;
+  border: 1px solid var(--underline);
+  padding: 1em 2em;
+}
+/* End Audit Intro Section */
+
+
+/* Start Copy Machine Section */
+.copier {
+  position: relative;
+  max-width: 500px;
+  margin: 2em auto;
+}
+
+#light {
+  position: absolute;
+  height: 0.1px;
+  background-color: transparent;
+  top: 20%;
+  left: 30%;
+  z-index: 2;
+  box-shadow: 8px 5px 10px 11px white;
+  animation: 3s linear infinite running slidein;
+}
+
+@keyframes slidein {
+  from { transform: translate(0); }
+  to   { transform: translate(160px); }
+}
+
+@media only screen and (max-width: 500px) {
+  @keyframes slidein {
+    from { transform: translate(0); }
+    to   { transform: translate(130px); }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  @keyframes slidein {
+    from { transform: translate(0); }
+    to   { transform: translate(110px); }
+  }
+}
+
+#circle,
+#circle-2,
+#circle-3,
+#circle-4 {
+  opacity: 1;
+  animation: pulse 3s infinite;
+}
+
+.pulse {
+  opacity: 1;
+  animation: pulse 2s infinite;
+}
+
+.pulse2 {
+  opacity: 1;
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50%   { opacity: 0; }
+  100%   { opacity: 1; }
+}
+/* End Copy Machine Section */
+
+
+/* Start Player Section */
+.player {
+  text-align: center;
+  border: 1px solid var(--underline);
+}
+
+.overlay {
+  background-color: var(--underline);
+  height: 50px;
+}
+
+.remove {
+  background-color: transparent;
+}
+
+.text-intro {
+  position: relative;
+  overflow: hidden;
+}
+
+.text-intro .text {
+  position: absolute;
+  font-size: 100px;
+  opacity: 1;
+}
+
+.text-first {
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+.text-second {
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  animation-play-state: paused;
+}
+
+.text-third {
+  animation-name: fade;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 4.6s;
+  animation-play-state: paused;
+}
+
+.playing {
+  animation-play-state: running;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  40% { opacity: 0; transform: scale(1.3); }
+  100% { opacity: 0; }
+}
+/* End Player Section */

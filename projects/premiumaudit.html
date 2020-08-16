@@ -44,8 +44,9 @@
     </div>
   </div>
 </section>
+
 <section id="section2">
-{% include "sectionheaders/numberflag1.njk" %}
+  {% include "sectionheaders/numberflag1.njk" %}
   <div class="side-by-side">
     <div class="side" style="width:100%;">
       <div class="intro">
@@ -70,8 +71,9 @@
     </div>
   </div>
 </section>
+
 <section id="section3">
-{% include "sectionheaders/numberflag2.njk" %}
+  {% include "sectionheaders/numberflag2.njk" %}
   <div class="section-intro">
     <h2>Initial user research highlighted areas causing frustration for customers.</h2>
     <h5>I analyzed <span class="black">89 user comments</span> collected from intercept survey results, and conducted virtual <span class="black">usability testing</span> of the audit application with 4 policyholders.</h5>
@@ -84,8 +86,9 @@
   <div><img src="/img/premiumaudit/journey-map.svg" alt="user journey map"></div>
   <h6><span class="black">User Journey Map</span> displaying findings collected during initial user research</h6>
 </section>
+
 <section id="section4">
-{% include "sectionheaders/numberflag3.njk" %}
+  {% include "sectionheaders/numberflag3.njk" %}
   <div class="side-by-side">
     <div class="section-intro side">
       <h2>The initial user research was used to guide the sprint planning process.
@@ -99,8 +102,9 @@
     <div class="sprint-planning-large center"><img src="/img/premiumaudit/yoga-standing.svg" alt="woman standing yoga pose"></div>
   </div>
 </section>
+
 <section id="section5">
-{% include "sectionheaders/numberflag4.njk" %}
+  {% include "sectionheaders/numberflag4.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -115,8 +119,6 @@
     <div class="underline-sm"></div>
   </div>
 
-
-
   <div class="section-intro">
     <h2>The application didn't inform users upfront about the audit process.</h2>
     <h5>An audit dashboard was added at the beginning of the audit to help answer frequently asked questions.</h5>
@@ -124,93 +126,74 @@
   <div><img src="/img/premiumaudit/userflow1.svg" alt="user flow adding new dashboard"></div>
   <h6>User flow for audit process. Location for new dashboard is displayed in red.</h6>
   <div class="underline-sm"></div>
-
-  <div class="section-intro">
-    <h2>Helpful information was added to the dashboard to <span class="black">assist the customer</span> with the audit process.</h2>
-  </div>
-  <div class="side-by-side">
-    <div class="side">
-      <p><span class="circle-outline">1</span>Information about why the customer is required to complete the premium audit.</p>
-      <p><span class="circle-outline">2</span>Lists documents needed to help speed up the process.</p>
-      <p><span class="circle-outline">3</span>Informs user that their work will be saved &amp; they can come back later to finish.</p>
-      <p><span class="circle-outline">4</span>Gives information on the estimated amount of time it will take to complete the audit.</p>
-      <p><span class="circle-outline">5</span>Informs the customer on how they can get help if needed.</p>
-    </div>
-    <div style="max-width:700px; margin:auto;">
-      <div><img src="/img/premiumaudit/dashboard.svg" alt="new audit dashboard"></div>
-      <h6>New dashboard with information to help the user get started with the audit process.</h6>
-    </div>
-  </div>
-  <div class="underline-sm"></div>
   
 
 
 
 
+  <div class="section-intro">
+    <h2></h2>
+  </div>
 
-  <div class="section-intro">
-    <h2>We wanted to make the process easy by <span class="black">reducing the amount of data</span> the customer enters manually.</h2>
-    <div>
-      <h4 style="margin-top:60px;">The Problem</h4>
-      <h5 class="margin-top-10">Eliminating data from the <span class="black">Must Have</span> and <span class="black">Should Have</span> categories would increase payment processing fees.</h5>
+  <div>
+    <div class="">1.</div>
+    <div class="audit-intro">
+      <h2>Hi there! We're copying your policy info to save you some time.</h2>
+      <h5>This will only take a few seconds unless our copy machine starts acting up.</h5>
+      {% include "copier.svg" %}
     </div>
-    <div>
-      <h4 style="margin-top:60px;">The Solution</h4>
-      <h5 class="margin-top-10"><span class="black">Auto-fill the application</span> with billing information from another system to reduce manual work for the user.</h5>
+    <h6>caption goes here</h6>
+  </div>
+
+  <div>
+    <div class="">2.</div>
+    <div class="audit-intro">
+      <h2>Looks like you completed an audit last year for this policy.</h2>
+      <h5>We'll copy that too to give you a head start.</h5>
+      {% include "copier.svg" %}
     </div>
+    <h6>caption goes here</h6>
   </div>
-  <div><img src="/img/billpay/autofill-flow.svg" alt="user flow"></div>
-  <h6><span class="black">User flow</span> for saving a payment method to use later. <span class="black">Auto-filled</span> billing section is displayed in red.</h6>
-  <div class="underline-sm"></div>
-  <div class="section-intro">
-    <h2>I created <span class="black">low-fidelity prototypes</span> to conduct <span class="black">usability testing</span> with users and get design feedback from business stakeholders.</h2>
-    <h5><span class="black">Usability testing with 3 policyholders</span> and <span class="black">design reviews from business stakeholders</span> confirmed the new process was simple &amp; intuitive.</h5>
+
+  <div>
+    <div class="">3.</div>
+    <div class="audit-intro">
+      <h2>Whew! Looks like we got it all.</h2>
+      <h5>The info you enter will automatically save, so you can come back later to finish if you need to. We also made you a <span style="color:#0000ff;text-decoration:underline;">list of the documents</span> you'll need.</h5>
+      <h5>Don't forget your audit is due on 5/20/19.</h5>
+      {% include "copier.svg" %}
+    </div>
+    <h6>caption goes here</h6>
   </div>
-  <div class="flex wrap align-items space-around">
-    <div class="number-block">
-      <div class="number">1.</div>
-      <div>
-        <h2>Add a New Payment Method</h2>
-        <h5>Easily accessible from the home screen</h5>
-        <p>The user selects the <span class="black">Add Card</span> option from the <span class="black">My Account</span> (home) screen to save a debit or credit card to use later.</p>
+
+
+
+
+  <div class="player">
+    <button class="play-button">Play</button>
+    <div class="overlay"></div>
+    <div class="text-intro">
+      <div class="text text-third">
+        <h2>Whew! Looks like we got it all.</h2>
+        <h5>The info you enter will automatically save, so you can come back later to finish if you need to. We also made you a <span style="color:#0000ff;text-decoration:underline;">list of the documents</span> you'll need.</h5>
+        <h5>Don't forget your audit is due on 5/20/19.</h5>
+      </div>
+      <div class="text text-second">
+        <h2>Looks like you completed an audit last year for this policy.</h2>
+        <h5>We'll copy that too to give you a head start.</h5>
+      </div>
+      <div class="text text-first">
+        <h2>Hi there! We're copying your policy info to save you some time.</h2>
+        <h5>This will only take a few seconds unless our copy machine starts acting up.</h5>
       </div>
     </div>
-    <div class="relative">
-      <img src="/img/billpay/save-payment1.svg" width="300px" alt="image of save payment screen">
-      <h6 class="caption">Low-fidelity prototype of home screen</h6>
-    </div>
+    {% include "copier.svg" %}
   </div>
-  <div class="flex wrap align-items space-around">
-    <div class="number-block">
-      <div class="number">2.</div>
-      <div>
-        <h2>Enter Card Information</h2>
-        <h5>Only the Must Have information is required</h5>
-        <p>While entering card information, the user can edit the auto-filled billing information.</p>
-      </div>
-    </div>
-    <div class="relative">
-      <img src="/img/billpay/save-payment2.svg" width="300px" alt="image of save payment screen">
-       <h6 class="caption">Low-fidelity prototype of card info screen</h6>
-    </div>
-  </div>
-  <div class="flex wrap align-items space-around">
-    <div class="number-block">
-      <div class="number">3.</div>
-      <div>
-        <h2>Edit Billing Information</h2>
-        <h5>Auto-filled info makes the process quick</h5>
-        <p>Edits can be made to <span class="black">Name on Account</span> and <span class="black">Billing Address</span>. Once saved, the user is directed back to the previous screen.</p>
-      </div>
-    </div>
-    <div class="relative">
-      <img src="/img/billpay/save-payment3.svg" width="300px" alt="image of save payment screen">
-      <h6 class="caption">Low-fidelity prototype of billing info screen</h6>
-    </div>
-  </div>
+
 </section>
+
 <section id="section6">
-{% include "sectionheaders/numberflag5.njk" %}
+  {% include "sectionheaders/numberflag5.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -288,8 +271,9 @@
     </div>
   </div>
 </section>
+
 <section id="section7">
-{% include "sectionheaders/numberflag6.njk" %}
+  {% include "sectionheaders/numberflag6.njk" %}
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -359,8 +343,9 @@
     </div>
   </div>
 </section>
+
 <section id="section8">
-{% include "sectionheaders/numberflag7.njk" %}
+  {% include "sectionheaders/numberflag7.njk" %}
   <div class="section-intro">
     <h2>Future plans include:</h2>
     <ol class="numbered-list">
