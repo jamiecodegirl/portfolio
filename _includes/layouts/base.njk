@@ -30,7 +30,7 @@
 
       <div class="project-navigation flex align-items{% if page.url == '/' %} display-none{% endif %}">
         <div class="flex align-items">
-          <li class="fas fa-arrow-left"></li>
+          <i class="fad fa-chevron-left" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
           <a class="project-nav-item" href="{{ '/' | url }}">Take Me Home</a>
         </div>
         <div>
@@ -38,14 +38,14 @@
         </div>
         <div class="flex align-items">
           <a class="project-url project-nav-item" href="{{ page.url | url }}">{{ title }}</a>
-          <li class="fas fa-arrow-down"></li>
+          <i class="fad fa-chevron-down" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
         </div>
       </div>
 
       <div class="mobile-menu">
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
-            <i class="fas fa-times"></i>
+            <i class="fad fa-times" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
           </a>
           {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
           <ul class="nav">
@@ -61,7 +61,7 @@
       
         <div id="openbtn">
           <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
-            <i class="fas fa-bars"></i>
+            <i class="fad fa-bars" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
           </a>
         </div>
       </div>
@@ -74,20 +74,14 @@
     <div class="underline"></div>
 
     <footer>
-      <div class="footer-left">
-        <p>Jamie Thompson</p>
-        <p>UX Designer + Developer</p>
-        <p>&#169; 2020</p>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/jamierthompson/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://codepen.io/jamiecodegirl/" target="_blank"><i class="fab fa-codepen"></i></a>
+        <a href="https://github.com/jamiecodegirl/" target="_blank"><i class="fab fa-github"></i></a>
       </div>
-      <div class="footer-right">
-        <p><a href="mailto:hello@jamiethompson.design?subject=Message%20from%20jamiethompson.design">hello@jamiethompson.design</a></p>
-        <p><a href="tel:1-913-850-0203">913-850-0203</a></p>
-      </div>
-      <div class="footer-right">
-        <p><a href="https://www.linkedin.com/in/jamierthompson/" target="_blank">LinkedIn</a></p>
-        <p><a href="https://codepen.io/jamiecodegirl/" target="_blank">CodePen</a></p>
-        <p><a href="https://github.com/jamiecodegirl/" target="_blank">Github</a></p>
-      </div>
+      <p><i class="fad fa-copyright" style="--fa-secondary-color: var(--green);"></i> 2020</p>
+      <p><a href="mailto:hello@jamiethompson.design?subject=Message%20from%20jamiethompson.design">hello@jamiethompson.design</a></p>
+      <p>This site was built with <a href="https://11ty.dev" target="_blank">11ty</a>. See my code on <a href="https://github.com/jamiecodegirl/portfolio" target="_blank">GitHub</a>.</p>
     </footer>
 
     <script src="{{ '/js/index.js' | url }}"></script>
