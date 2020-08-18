@@ -34,6 +34,6 @@
   },
   "dependencies": {
     "clean-css": "^4.2.3",
-    "terser": "^5.0.0"
+    "terser": "^5.1.0"
   }
 }
