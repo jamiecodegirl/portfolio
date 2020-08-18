@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1047" height="366" viewBox="0 0 1047 366">
+  <defs>
+    <clipPath id="clip-message1">
+      <rect width="1047" height="366"/>
+    </clipPath>
+  </defs>
+  <g id="message1" clip-path="url(#clip-message1)">
+    <rect width="1047" height="366" fill="#fff"/>
+    <text id="Hi_there_We_re_copying_your_policy_info_to_save_you_some_time." data-name="Hi there! We’re copying your policy info to save you some time." transform="translate(71 84)" fill="#080808" font-size="50" font-family="FrederickatheGreat-Regular, Fredericka the Great"><tspan x="50.547" y="49">Hi there! We’re copying your policy </tspan><tspan x="139.902" y="109">info to save you some time.</tspan></text>
+    <text id="This_should_only_take_a_few_seconds_with_our_magic_copy_machine." data-name="This should only take a few seconds with our magic copy machine." transform="translate(219 246)" fill="#080808" font-size="20" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="29.89" y="20">This should only take a few seconds with our magic copy machine.</tspan></text>
+  </g>
+</svg>

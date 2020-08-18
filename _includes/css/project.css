@@ -255,9 +255,12 @@ section {
 
 /* Start Audit Intro Section */
 .audit-intro {
-  text-align: center;
   border: 1px solid var(--underline);
-  padding: 1em 2em;
+}
+
+.intro-message {
+  max-width: 850px;
+  margin: auto;
 }
 /* End Audit Intro Section */
 
@@ -265,8 +268,8 @@ section {
 /* Start Copy Machine Section */
 .copier {
   position: relative;
-  max-width: 500px;
-  margin: 2em auto;
+  max-width: 400px;
+  margin: 0 auto 2em;
 }
 
 #light {
@@ -282,20 +285,20 @@ section {
 
 @keyframes slidein {
   from { transform: translate(0); }
-  to   { transform: translate(160px); }
+  to   { transform: translate(135px); }
 }
 
 @media only screen and (max-width: 500px) {
   @keyframes slidein {
     from { transform: translate(0); }
-    to   { transform: translate(130px); }
+    to   { transform: translate(105px); }
   }
 }
 
 @media only screen and (max-width: 400px) {
   @keyframes slidein {
     from { transform: translate(0); }
-    to   { transform: translate(110px); }
+    to   { transform: translate(90px); }
   }
 }
 
