@@ -260,7 +260,7 @@ section {
 
 .intro-message {
   max-width: 850px;
-  margin: auto;
+  margin: 0 auto;
 }
 /* End Audit Intro Section */
 
@@ -269,7 +269,7 @@ section {
 .copier {
   position: relative;
   max-width: 400px;
-  margin: 0 auto 2em;
+  margin: 0 auto 50px;
 }
 
 #light {
