@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1047" height="366" viewBox="0 0 1047 366">
   <defs>
-    <clipPath id="clip-message">
+    <clipPath id="clip-message2">
       <rect width="1047" height="366"/>
     </clipPath>
   </defs>
-  <g id="message" clip-path="url(#clip-message)">
+  <g id="message2" clip-path="url(#clip-message2)">
     <rect width="1047" height="366" fill="#fff"/>
     <text id="Looks_like_you_completed_an_audit_last_year_for_this_policy." data-name="Looks like you completed an audit last
 year for this policy." transform="translate(71 84)" fill="#080808" font-size="50" font-family="FrederickatheGreat-Regular, Fredericka the Great"><tspan x="0.303" y="49">Looks like you completed an audit last</tspan><tspan x="231.187" y="109">year for this policy.</tspan></text>
-    <text id="We_ll_copy_that_too_to_give_you_a_head_start." data-name="We’ll copy that too to give you a head start." transform="translate(296 250)" fill="#080808" font-size="20" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="49.82" y="20">We’ll copy that too to give you a head start.</tspan></text>
+    <text id="We_ll_copy_that_information_too_to_give_you_a_head_start." data-name="We’ll copy that information too to give you a head start." transform="translate(287 251)" fill="#080808" font-size="20" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="6.76" y="20">We’ll copy that information too to give you a head start.</tspan></text>
   </g>
 </svg>
