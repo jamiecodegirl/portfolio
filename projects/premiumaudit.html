@@ -138,7 +138,7 @@
     <div class="">1.</div>
     <div class="audit-intro">
     <div class="intro-message"><img src="/img/premiumaudit/message1.svg" alt="intro message"></div>
-    <div><img src="/img/premiumaudit/copier.svg" alt="copy machine"></div>
+      {% include "audit-intro/copier.svg" %}
     </div>
     <h6>caption goes here</h6>
   </div>
@@ -147,7 +147,7 @@
     <div class="">2.</div>
     <div class="audit-intro">
       <div class="intro-message"><img src="/img/premiumaudit/message2.svg" alt="intro message"></div>
-      <div><img src="/img/premiumaudit/copier.svg" alt="copy machine"></div>
+      {% include "audit-intro/copier.svg" %}
     </div>
     <h6>caption goes here</h6>
   </div>
@@ -155,34 +155,13 @@
   <div>
     <div class="">3.</div>
     <div class="audit-intro">
+      <div class="intro-message"><img src="/img/premiumaudit/message3.svg" alt="intro message"></div>
       <div><img src="/img/premiumaudit/papers.svg" alt="images of papers"></div>
     </div>
     <h6>caption goes here</h6>
   </div>
 
-
-
-
-  <div class="player">
-    <button class="play-button">Play</button>
-    <div class="overlay"></div>
-    <div class="text-intro">
-      <div class="text text-third">
-        <h2>Whew! Looks like we got it all.</h2>
-        <h5>The info you enter will automatically save, so you can come back later to finish if you need to. We also made you a <span style="color:#0000ff;text-decoration:underline;">list of the documents</span> you'll need.</h5>
-        <h5>Don't forget your audit is due on 5/20/19.</h5>
-      </div>
-      <div class="text text-second">
-        <h2>Looks like you completed an audit last year for this policy.</h2>
-        <h5>We'll copy that too to give you a head start.</h5>
-      </div>
-      <div class="text text-first">
-        <h2>Hi there! We're copying your policy info to save you some time.</h2>
-        <h5>This will only take a few seconds unless our copy machine starts acting up.</h5>
-      </div>
-    </div>
-    <div><img src="/img/premiumaudit/copier.svg" alt="copy machine"></div>
-  </div>
+  {% include "audit-intro/intro-player.html" %}
 
 </section>
 
