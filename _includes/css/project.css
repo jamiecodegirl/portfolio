@@ -254,6 +254,28 @@ section {
 
 
 /* Start Audit Intro Section */
+.negative-spacing {
+  position: relative;
+  top: -75px;
+}
+
+.number-icon {
+  position: relative;
+  top: 70px;
+  left: -20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .number-icon {
+    top: 45px;
+    left: -10px;
+  }
+
+  .number-icon img {
+    height: 50px;
+  }
+}
+
 .audit-intro {
   border: 1px solid var(--underline);
 }
