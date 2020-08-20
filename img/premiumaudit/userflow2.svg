@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="899" height="475" viewBox="0 0 899 475">
+  <g id="Group_2454" data-name="Group 2454" transform="translate(-4268 12714)">
+    <g id="Rectangle_2391" data-name="Rectangle 2391" transform="translate(4268 -12714)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="899" height="475" stroke="none"/>
+      <rect x="0.5" y="0.5" width="898" height="474" fill="none"/>
+    </g>
+    <g id="Group_2323" data-name="Group 2323" transform="translate(4324 -12953)">
+      <line id="Line_26" data-name="Line 26" x2="30" transform="translate(138.092 432.646)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+      <path id="Path_35" data-name="Path 35" d="M10.689,13.191A1.635,1.635,0,0,1,9.5,10.43l3.657-3.846L9.508,2.764A1.635,1.635,0,0,1,11.871.5L16.6,5.45a1.636,1.636,0,0,1,0,2.256l-4.731,4.976A1.633,1.633,0,0,1,10.689,13.191Z" transform="translate(154.592 426.182)" fill="#aab0bb"/>
+    </g>
+    <g id="Rectangle_2392" data-name="Rectangle 2392" transform="translate(4995 -12541)" fill="rgba(41,51,155,0.1)" stroke="#29339b" stroke-width="2" stroke-dasharray="5">
+      <rect width="107" height="63" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="105" height="61" rx="9" fill="none"/>
+    </g>
+    <g id="Rectangle_2424" data-name="Rectangle 2424" transform="translate(4995 -12396)" fill="rgba(41,51,155,0.1)" stroke="#29339b" stroke-width="2" stroke-dasharray="5">
+      <rect width="107" height="63" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="105" height="61" rx="9" fill="none"/>
+    </g>
+    <g id="Rectangle_2423" data-name="Rectangle 2423" transform="translate(4334 -12552)" fill="rgba(41,51,155,0.1)" stroke="#29339b" stroke-width="2" stroke-dasharray="5">
+      <rect width="107" height="63" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="105" height="61" rx="9" fill="none"/>
+    </g>
+    <text id="Return_to_Section_1" data-name="Return to Section 1" transform="translate(5006 -12520)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="17.86" y="9">Return to </tspan><tspan x="18.622" y="23">Section 1</tspan></text>
+    <text id="Proceed_to_Section_2" data-name="Proceed to Section 2" transform="translate(5006 -12375)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="13.498" y="9">Proceed to </tspan><tspan x="17.488" y="23">Section 2</tspan></text>
+    <text id="Section_1" data-name="Section 1" transform="translate(4345 -12525)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="18.622" y="9">Section 1</tspan></text>
+    <g id="Rectangle_2420" data-name="Rectangle 2420" transform="translate(4751 -12620)" fill="rgba(41,51,155,0.1)" stroke="#29339b" stroke-width="2" stroke-dasharray="5">
+      <rect width="107" height="63" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="105" height="61" rx="9" fill="none"/>
+    </g>
+    <text id="Proceed_to_Section_2-2" data-name="Proceed to Section 2" transform="translate(4762 -12600)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="13.498" y="9">Proceed to </tspan><tspan x="17.488" y="23">Section 2</tspan></text>
+    <g id="Rectangle_2421" data-name="Rectangle 2421" transform="translate(4516 -12553)" fill="#fff" stroke="#707070" stroke-width="2" stroke-dasharray="5">
+      <rect width="107" height="95" stroke="none"/>
+      <rect x="1" y="1" width="105" height="93" fill="none"/>
+    </g>
+    <rect id="Rectangle_2422" data-name="Rectangle 2422" width="107" height="61" rx="3" transform="translate(4751 -12478)" fill="#e50a45"/>
+    <text id="Do_all_questions_in_Section_1_validate_" data-name="Do all questions in Section 1 validate?" transform="translate(4530 -12534)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="23.918" y="9">Do all </tspan><tspan x="6.482" y="23">questions in </tspan><tspan x="15.122" y="37">Section 1 </tspan><tspan x="15.53" y="51">validate?</tspan></text>
+    <text id="Does_the_user_want_to_go_back_to_fix_errors_" data-name="Does the user want to go back to fix errors?" transform="translate(4757 -12467)" fill="#fff" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="10.356" y="9">Does the user </tspan><tspan x="4.614" y="23">want to go back </tspan><tspan x="14.304" y="37">to fix errors?</tspan></text>
+    <line id="Line_983" data-name="Line 983" y2="50" transform="translate(4680.25 -12523.25) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <line id="Line_985" data-name="Line 985" y2="50" transform="translate(4924.25 -12440.25) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <path id="Path_3411" data-name="Path 3411" d="M88.975,0H0" transform="translate(4680 -12570.414) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <path id="Path_3413" data-name="Path 3413" d="M88.975,0H0" transform="translate(4924 -12487.414) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <line id="Line_984" data-name="Line 984" y2="50" transform="translate(4680.25 -12523.25) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <line id="Line_986" data-name="Line 986" y2="50" transform="translate(4924.25 -12440.25) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <path id="Path_3412" data-name="Path 3412" d="M145.006,0H0" transform="translate(4680 -12592.346) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <path id="Path_3414" data-name="Path 3414" d="M145.006,0H0" transform="translate(4924 -12509.346) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <g id="Group_2427" data-name="Group 2427" transform="translate(3469 -13997)">
+      <text id="No" transform="translate(1218 1557)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="4.182" y="9">No</tspan></text>
+      <g id="Group_1952" data-name="Group 1952" transform="translate(690.407 1230)">
+        <g id="Group_1081" data-name="Group 1081" transform="translate(571.74 311.182) rotate(90)">
+          <line id="Line_33" data-name="Line 33" y2="47.621" transform="translate(6.465 51.147) rotate(180)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+          <path id="Path_45" data-name="Path 45" d="M1.634,13.191A1.635,1.635,0,0,1,.45,10.43L4.107,6.584.453,2.765A1.635,1.635,0,0,1,2.816.5L7.547,5.45a1.636,1.636,0,0,1,0,2.256L2.82,12.683A1.633,1.633,0,0,1,1.634,13.191Z" transform="translate(0 8) rotate(-90)" fill="#aab0bb"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2429" data-name="Group 2429" transform="translate(3713 -13914)">
+      <text id="No-2" data-name="No" transform="translate(1218 1557)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="4.182" y="9">No</tspan></text>
+      <g id="Group_1952-2" data-name="Group 1952" transform="translate(690.407 1230)">
+        <g id="Group_1081-2" data-name="Group 1081" transform="translate(571.74 311.182) rotate(90)">
+          <line id="Line_33-2" data-name="Line 33" y2="47.621" transform="translate(6.465 51.147) rotate(180)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+          <path id="Path_45-2" data-name="Path 45" d="M1.634,13.191A1.635,1.635,0,0,1,.45,10.43L4.107,6.584.453,2.765A1.635,1.635,0,0,1,2.816.5L7.547,5.45a1.636,1.636,0,0,1,0,2.256L2.82,12.683A1.633,1.633,0,0,1,1.634,13.191Z" transform="translate(0 8) rotate(-90)" fill="#aab0bb"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2428" data-name="Group 2428" transform="translate(3469 -14053)">
+      <text id="Yes" transform="translate(1218 1442)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="2.694" y="9">Yes</tspan></text>
+      <g id="Group_1953" data-name="Group 1953" transform="translate(690.407 1145)">
+        <g id="Group_1081-3" data-name="Group 1081" transform="translate(571.74 311.182) rotate(90)">
+          <line id="Line_33-3" data-name="Line 33" y2="47.621" transform="translate(6.465 51.147) rotate(180)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+          <path id="Path_45-3" data-name="Path 45" d="M1.634,13.191A1.635,1.635,0,0,1,.45,10.43L4.107,6.584.453,2.765A1.635,1.635,0,0,1,2.816.5L7.547,5.45a1.636,1.636,0,0,1,0,2.256L2.82,12.683A1.633,1.633,0,0,1,1.634,13.191Z" transform="translate(0 8) rotate(-90)" fill="#aab0bb"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2430" data-name="Group 2430" transform="translate(3713 -13970)">
+      <text id="Yes-2" data-name="Yes" transform="translate(1218 1442)" fill="rgba(0,0,0,0.87)" font-size="12" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="2.694" y="9">Yes</tspan></text>
+      <g id="Group_1953-2" data-name="Group 1953" transform="translate(690.407 1145)">
+        <g id="Group_1081-4" data-name="Group 1081" transform="translate(571.74 311.182) rotate(90)">
+          <line id="Line_33-4" data-name="Line 33" y2="47.621" transform="translate(6.465 51.147) rotate(180)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+          <path id="Path_45-4" data-name="Path 45" d="M1.634,13.191A1.635,1.635,0,0,1,.45,10.43L4.107,6.584.453,2.765A1.635,1.635,0,0,1,2.816.5L7.547,5.45a1.636,1.636,0,0,1,0,2.256L2.82,12.683A1.633,1.633,0,0,1,1.634,13.191Z" transform="translate(0 8) rotate(-90)" fill="#aab0bb"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
