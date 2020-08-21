@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1047" height="280" viewBox="0 0 1047 280">
+  <defs>
+    <clipPath id="clip-message2">
+      <rect width="1047" height="280"/>
+    </clipPath>
+  </defs>
+  <g id="message2" clip-path="url(#clip-message2)">
+    <rect width="1047" height="280" fill="#fff"/>
+    <text id="We_see_you_completed_an_audit_last_year_for_this_policy." data-name="We see you completed an audit last
+year for this policy." transform="translate(71 40)" fill="#080808" font-size="50" font-family="FrederickatheGreat-Regular, Fredericka the Great"><tspan x="43.418" y="49">We see you completed an audit last</tspan><tspan x="231.187" y="109">year for this policy.</tspan></text>
+    <text id="We_ll_copy_that_information_too_to_give_you_a_head_start." data-name="We’ll copy that information too to give you a head start." transform="translate(287 207)" fill="#080808" font-size="20" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="6.76" y="20">We’ll copy that information too to give you a head start.</tspan></text>
+  </g>
+</svg>

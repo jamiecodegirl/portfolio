@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1047" height="280" viewBox="0 0 1047 280">
+  <defs>
+    <clipPath id="clip-message3">
+      <rect width="1047" height="280"/>
+    </clipPath>
+  </defs>
+  <g id="message3" clip-path="url(#clip-message3)">
+    <rect width="1047" height="280" fill="#fff"/>
+    <text id="Whew_Looks_like_we_got_it_all." data-name="Whew! Looks like we got it all." transform="translate(71 49)" fill="#080808" font-size="50" font-family="FrederickatheGreat-Regular, Fredericka the Great"><tspan x="96.445" y="49">Whew! Looks like we got it all.</tspan></text>
+    <text id="The_info_you_enter_will_automatically_save_so_you_can_come_back_later_to_finish._We_also_made_you_a_list_of_documents_you_ll_need_and_don_t_forget_your_audit_is_due_on_5_20_19." data-name="The info you enter will automatically save, so you can come back later to finish. We also made you a list of documents you’ll need, and don’t forget your audit is due on 5/20/19." transform="translate(201 139)" fill="#080808" font-size="20" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="22.68" y="20">The info you enter will automatically save, so you can come back later to </tspan><tspan x="19.37" y="50">finish. We also made you a </tspan><tspan y="50" fill="blue" text-decoration="underline">list of documents</tspan><tspan y="50" xml:space="preserve"> you’ll need, and don’t forget </tspan><tspan x="202.51" y="80">your audit is due on </tspan><tspan y="80" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">5/20/19</tspan><tspan y="80">.</tspan></text>
+  </g>
+</svg>

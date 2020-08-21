@@ -32,9 +32,15 @@ h1 {
   width: max-content;
 }
 
+@media only screen and (max-width: 550px) {
+  h1 {
+    width: auto;
+  }
+}
+
 @media only screen and (max-width: 415px) {
   h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 
@@ -121,6 +127,7 @@ a {
 a:hover,
 a:focus {
   box-shadow: inset 0 -15px 0 var(--green);
+  outline: none;
 }
 
 .emphasize {
@@ -241,6 +248,10 @@ img {
   margin-top: 10px;
 }
 
+.margin-top-20 {
+  margin-top: 20px;
+}
+
 .margin-bottom-0 {
   margin-bottom: 0;
 }
@@ -259,6 +270,10 @@ img {
 
 .margin-left-20 {
   margin-left: 20px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
 }
 
 .caption {
@@ -400,40 +415,35 @@ ol.projectlist li a {
 
 /* Start Footer */
 footer {
-  padding: 3em 2em;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 1em 2em;
+}
+
+.footer-icons {
+  float: right;
+}
+
+.footer-icons a {
+  box-shadow: none;
+  color: var(--black);
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.footer-icons a:hover,
+.footer-icons a:focus {
+  color: var(--green);
+  box-shadow: none;
 }
 
 footer p {
-  margin: 0 0 10px;
   font-weight: 900;
+  margin: 0 0 16px;
 }
 
-.footer-left {
-  padding: 2em 2em 2em 0;
-  border-right: 1px solid var(--underline);
-}
-
-.footer-right {
-  padding: 2em 0 2em 2em;
-}
-
-@media only screen and (max-width: 700px)  {
-  footer {
-    display: block;
-  }
-
-  .footer-left {
-    padding: 1em 0;
-    border-right: none;
-  }
-
-  .footer-right {
-    padding: 1em 0;
+@media only screen and (max-width: 500px)  {
+  .footer-icons {
+    float: none;
+    margin-bottom: 16px;
   }
 }
 /* End Footer */
@@ -449,6 +459,11 @@ footer p {
   width: 80%;
 }
 
+.side-50 {
+  width: 50%;
+  margin-left: 2em;
+}
+
 .side p {
   padding-bottom: 1.5em;
 }
@@ -461,6 +476,11 @@ footer p {
   .side {
     margin-right: 0;
     width: 100%;
+  }
+
+  .side-50 {
+    width: 100%;
+    margin: auto;
   }
 }
 /* End Side-by-Side */
