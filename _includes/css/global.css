@@ -248,6 +248,10 @@ img {
   margin-top: 10px;
 }
 
+.margin-top-20 {
+  margin-top: 20px;
+}
+
 .margin-bottom-0 {
   margin-bottom: 0;
 }
@@ -266,6 +270,10 @@ img {
 
 .margin-left-20 {
   margin-left: 20px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
 }
 
 .caption {
@@ -451,6 +459,11 @@ footer p {
   width: 80%;
 }
 
+.side-50 {
+  width: 50%;
+  margin-left: 2em;
+}
+
 .side p {
   padding-bottom: 1.5em;
 }
@@ -463,6 +476,11 @@ footer p {
   .side {
     margin-right: 0;
     width: 100%;
+  }
+
+  .side-50 {
+    width: 100%;
+    margin: auto;
   }
 }
 /* End Side-by-Side */
