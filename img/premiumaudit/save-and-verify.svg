@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <g id="Group_2523" data-name="Group 2523" transform="translate(-5272 18998)">
+    <g id="Rectangle_2465" data-name="Rectangle 2465" transform="translate(5272 -18998)" fill="#f9fafc" stroke="#707070" stroke-width="1">
+      <rect width="800" height="500" stroke="none"/>
+      <rect x="0.5" y="0.5" width="799" height="499" fill="none"/>
+    </g>
+    <rect id="Rectangle_2468" data-name="Rectangle 2468" width="250" height="28" rx="14" transform="translate(5357 -18943)" fill="#aab0bb"/>
+    <rect id="Rectangle_2469" data-name="Rectangle 2469" width="250" height="28" rx="14" transform="translate(5357 -18833)" fill="#aab0bb"/>
+    <rect id="Rectangle_2470" data-name="Rectangle 2470" width="250" height="28" rx="14" transform="translate(5357 -18723)" fill="#aab0bb"/>
+    <rect id="Rectangle_2471" data-name="Rectangle 2471" width="500" height="26" rx="13" transform="translate(5357 -18907)" fill="#e2e6eb"/>
+    <rect id="Rectangle_2472" data-name="Rectangle 2472" width="500" height="26" rx="13" transform="translate(5357 -18797)" fill="#e2e6eb"/>
+    <rect id="Rectangle_2473" data-name="Rectangle 2473" width="500" height="26" rx="13" transform="translate(5357 -18687)" fill="#e2e6eb"/>
+    <rect id="bg" width="178" height="52" rx="26" transform="translate(5862 -18585)" fill="#29339b"/>
+    <text id="Save_Verify" data-name="Save &amp; Verify" transform="translate(5951 -18552)" fill="#fff" font-size="16" font-family="Graphik-Semibold, Graphik" font-weight="600" letter-spacing="0.004em"><tspan x="-51.28" y="0">Save &amp; Verify</tspan></text>
+    <g id="Group_2512" data-name="Group 2512" transform="translate(-1265 -4118)">
+      <rect id="bg-2" data-name="bg" width="104" height="52" rx="26" transform="translate(6570 -14467)" fill="rgba(149,153,179,0.2)"/>
+      <text id="Back" transform="translate(6622 -14434)" fill="#29339b" font-size="16" font-family="Graphik-Semibold, Graphik" font-weight="600" letter-spacing="0.004em"><tspan x="-18.944" y="0">Back</tspan></text>
+    </g>
+    <g id="Group_2513" data-name="Group 2513" transform="translate(-978 -4118)">
+      <rect id="bg-3" data-name="bg" width="104" height="52" rx="26" transform="translate(6703 -14467)" fill="rgba(149,153,179,0.2)"/>
+      <text id="Next" transform="translate(6755 -14434)" fill="#29339b" font-size="16" font-family="Graphik-Semibold, Graphik" font-weight="600" letter-spacing="0.004em"><tspan x="-18.184" y="0">Next</tspan></text>
+    </g>
+    <path id="Path_3423" data-name="Path 3423" d="M267.411,108.613c-37.278-2.409-77.29,2.011-111.8,18.083-16.951,7.894-40.3,23.106-38.036,46.458,2.035,21,24.236,33.715,40.348,40.59,39.371,16.8,89.286,18.282,129.63,4.639,15.2-5.138,31.8-13.222,43.245-25.548,15.4-16.591,8.6-40.717-6.3-54.508-19.672-18.307-48.126-22.965-73.244-23.238-22.933-.248-44.6,5.315-65.124,16.183l-.363-.718a140.168,140.168,0,0,1,107.024-14.287c18.347,4.921,37.506,15.007,47.284,33.322a42.129,42.129,0,0,1-8.367,51.379c-32.076,30.053-77.01,36.809-117.976,33.425-21.8-1.8-43.68-6.73-63.561-16.789-16.05-8.12-35.131-21.676-37.767-42.309-4.863-38.064,43.336-55.386,69.532-61.766a250.6,250.6,0,0,1,49.639-6.684q11.069-.429,22.15.026C256.911,107,266.15,106.184,267.411,108.613Z" transform="translate(5722.675 -18737.633)" fill="#29d9c2"/>
+  </g>
+</svg>
