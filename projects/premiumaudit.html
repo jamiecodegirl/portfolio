@@ -80,8 +80,8 @@
   {% include "sectionheaders/numberflag2.njk" %}
   <div class="section-intro">
     <h2>Initial user research highlighted areas causing frustration for customers.</h2>
-    <h5>I analyzed <span class="black">89 user comments</span> collected from intercept survey results, and conducted virtual <span class="black">usability testing</span> of the audit application with 4 policyholders.</h5>
-    <h5>All data collected from initial user research was consolidated into a <span class="bold">Feedback Capture Matrix</span> and <span class="black">User Journey Map</span> to present to stakeholders.</h5>
+    <h5>I analyzed <span class="black">89 user comments</span> collected from intercept survey results, and conducted <span class="black">virtual usability testing</span> of the existing audit application with 4 policyholders.</h5>
+    <h5>All data collected from initial user research was consolidated into a <span class="bold">Feedback Capture Matrix</span> and <span class="black">User Journey Map</span> to help guide the project.</h5>
   </div>
   <h4 style="margin:60px 0 0 0;">Feedback Capture Matrix</h4>
   <div><img src="/img/premiumaudit/feedback.svg" alt="feedback capture matrix"></div>
@@ -191,9 +191,11 @@
     </div>
     <div class="side-50">
       <img src="/img/premiumaudit/save-and-verify.svg" alt="form with Save and Verify button">
-      <h6><span class="black">Before <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Save &amp; Verify button was used at the end of each step.</h6>
+      <h6><span class="black">Before <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Save &amp; Verify button was used at the end of each step for form validation.</h6>
     </div>  
   </div>
+
+  <div style="height:50px;"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
@@ -209,8 +211,8 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Problem</h2>
-      <h5>Lola sees form fields outlined in red and some messages in red at the bottom of the screen, but she doesn't know what to do to fix the problems.</h5>
+      <h2>Lola sees a <span class="black">group of error messages</span> at the bottom of her screen, but doesn't know how to fix the issues.</h2>
+      <h5>Further<span class="black"> usability testing</span> revealed that all 4 policyholders tested didn't find the error messages useful, because they weren't able to match the message with the form field.</h5>
     </div>
     <div class="side-50">
       <img src="/img/premiumaudit/errors-at-end.svg" alt="error messages at bottom of screen">
@@ -218,10 +220,12 @@
     </div>  
   </div>
 
+  <div style="height:50px;"></div>
+
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Solution</h2>
-      <h5>The error messages were removed from the bottom of the screen and displayed to the right of the corresponding form field.</h5>
+      <h2>We were able to <span class="black">easily solve this problem</span> with the switch to field-level validation.</h2>
+      <h5>The error message appears to the right of the form field if a validation error occurs, but not until the user clicks away from the field.</h5>
     </div>
     <div class="side-50">
       <img src="/img/premiumaudit/errors-at-side.svg" alt="error messages to right of form field">
@@ -232,19 +236,19 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Problem</h2>
-      <h5>Lola has a yoga class to teach soon, so she needs to know if she's almost finished with her audit.</h5>
+      <h2>Lola has a yoga class to teach soon, but she doesn't know when she'll be finished with her audit.</h2>
+      <h5>While observing policyholders using the audit application, 2 out of 4 asked <span class="black">"How long is this audit?"</span> about halfway through the audit stepper.</h5>
     </div>
-    <div class="side-50">
-      <img src="/img/premiumaudit/yoga-standing.svg" height="400px" alt="woman in yoga pose">
+    <div class="side-50 center">
+      <img src="/img/premiumaudit/yoga-standing.svg" height="300px" alt="woman in yoga pose">
       <h6></h6>
     </div>  
   </div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Solution</h2>
-      <h2>The side navigation doubles as a timeline.</h2>
+      <h2></h2>
+      <h2>I designed the side navigation to <span class="black">double as a timeline</span> to solve this problem.</h2>
       <h5>1. A progress indicator was added to the top-left corner.</h5>
       <h5>2. Each step in the side navigation menu shows a status.</h5>
       <h5>3. The active step is highlighted.</h5>
@@ -258,13 +262,13 @@
   <div class="underline-sm"></div>
 
   <div class="side-by-side align-items">
-    <div class="section-intro">
-      <h2>Other information that Lola will find helpful was added to the audit stepper.</h2>
+    <div class="section-intro" style="margin-bottom:0;">
+      <h2>I also added <span class="black">other helpful info</span> to the audit stepper based on additional data collected during usability testing.</h2>
     </div>
     <div class="side-50">
-      <h5>1. The audit due date was added to the header.</h5>
-      <h5>2. The list of documents needed was added to the footer.</h5>
-      <h5>3. A new FAQ section was also added to the footer.</h5>
+      <h5 style="margin:10px 0;">1. The audit due date was added to the header.</h5>
+      <h5 style="margin:10px 0;">2. The list of documents needed was added to the footer.</h5>
+      <h5 style="margin:10px 0;">3. A new FAQ section was also added to the footer.</h5>
     </div>
   </div>
 
@@ -276,7 +280,8 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2>Lola can return to the last completed step when logging back in.</h2>
+      <h2>Lola had to go teach that yoga class, so she came back a few days later to finish her audit.</h2>
+      <h5>Data collected from <span class="black">intercept survey results</span> showed policyholders want the application to pick up where they left off when logging back in, so a <span class="black">Welcome Back</span> screen was added.</h5>
     </div>
     <div class="side-50">
       <img src="/img/premiumaudit/welcome-back.svg" alt="Welcome Back message">
