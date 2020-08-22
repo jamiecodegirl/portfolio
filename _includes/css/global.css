@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: '';
+  src: url(''), format('');
+}
+
 html, body {
   margin: 0;
   padding: 0;
