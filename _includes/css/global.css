@@ -289,6 +289,12 @@ img {
   font-size: 12px;
   width: 230px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .spacing {
+    padding-top: 2em;
+  }
+}
 /* End Custom Classes */
 
 
@@ -481,6 +487,7 @@ footer p {
   .side-50 {
     width: 100%;
     margin: auto;
+    text-align: center;
   }
 }
 /* End Side-by-Side */
