@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <g id="Group_2516" data-name="Group 2516" transform="translate(-8102 15348)">
+    <g id="Rectangle_2465" data-name="Rectangle 2465" transform="translate(8102 -15348)" fill="#f9fafc" stroke="#707070" stroke-width="1">
+      <rect width="800" height="500" stroke="none"/>
+      <rect x="0.5" y="0.5" width="799" height="499" fill="none"/>
+    </g>
+    <rect id="Rectangle_2468" data-name="Rectangle 2468" width="250" height="28" rx="14" transform="translate(8187 -15293)" fill="#aab0bb"/>
+    <rect id="Rectangle_2469" data-name="Rectangle 2469" width="250" height="28" rx="14" transform="translate(8187 -15183)" fill="#aab0bb"/>
+    <rect id="Rectangle_2470" data-name="Rectangle 2470" width="250" height="28" rx="14" transform="translate(8187 -15073)" fill="#aab0bb"/>
+    <rect id="Rectangle_2471" data-name="Rectangle 2471" width="500" height="26" rx="13" transform="translate(8187 -15257)" fill="#e2e6eb"/>
+    <rect id="Rectangle_2472" data-name="Rectangle 2472" width="500" height="26" rx="13" transform="translate(8187 -15147)" fill="#e2e6eb"/>
+    <rect id="Rectangle_2473" data-name="Rectangle 2473" width="500" height="26" rx="13" transform="translate(8187 -15037)" fill="#e2e6eb"/>
+    <g id="Group_2512" data-name="Group 2512" transform="translate(1565 -468)">
+      <rect id="bg" width="104" height="52" rx="26" transform="translate(6570 -14467)" fill="rgba(149,153,179,0.2)"/>
+      <text id="Back" transform="translate(6622 -14434)" fill="#29339b" font-size="16" font-family="Graphik-Semibold, Graphik" font-weight="600" letter-spacing="0.004em"><tspan x="-18.944" y="0">Back</tspan></text>
+    </g>
+    <g id="Group_2515" data-name="Group 2515" transform="translate(1805 -449)">
+      <rect id="bg-2" data-name="bg" width="104" height="52" rx="26" transform="translate(6957 -14486)" fill="#29339b"/>
+      <text id="Next" transform="translate(7009 -14453)" fill="#fff" font-size="16" font-family="Graphik-Semibold, Graphik" font-weight="600" letter-spacing="0.004em"><tspan x="-18.184" y="0">Next</tspan></text>
+    </g>
+    <path id="check-circle-solid_1_" data-name="check-circle-solid (1)" d="M38,23A15,15,0,1,1,23,8,15,15,0,0,1,38,23ZM21.265,30.942,32.394,19.813a.968.968,0,0,0,0-1.369l-1.369-1.369a.968.968,0,0,0-1.369,0l-9.076,9.076-4.237-4.237a.968.968,0,0,0-1.369,0l-1.369,1.369a.968.968,0,0,0,0,1.369l6.29,6.29a.968.968,0,0,0,1.369,0Z" transform="translate(8754 -15288)" fill="lime"/>
+    <path id="check-circle-solid_1_2" data-name="check-circle-solid (1)" d="M38,23A15,15,0,1,1,23,8,15,15,0,0,1,38,23ZM21.265,30.942,32.394,19.813a.968.968,0,0,0,0-1.369l-1.369-1.369a.968.968,0,0,0-1.369,0l-9.076,9.076-4.237-4.237a.968.968,0,0,0-1.369,0l-1.369,1.369a.968.968,0,0,0,0,1.369l6.29,6.29a.968.968,0,0,0,1.369,0Z" transform="translate(8754 -15178)" fill="lime"/>
+    <path id="check-circle-solid_1_3" data-name="check-circle-solid (1)" d="M38,23A15,15,0,1,1,23,8,15,15,0,0,1,38,23ZM21.265,30.942,32.394,19.813a.968.968,0,0,0,0-1.369l-1.369-1.369a.968.968,0,0,0-1.369,0l-9.076,9.076-4.237-4.237a.968.968,0,0,0-1.369,0l-1.369,1.369a.968.968,0,0,0,0,1.369l6.29,6.29a.968.968,0,0,0,1.369,0Z" transform="translate(8754 -15068)" fill="lime"/>
+  </g>
+</svg>

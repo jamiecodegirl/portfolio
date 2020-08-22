@@ -80,8 +80,8 @@
   {% include "sectionheaders/numberflag2.njk" %}
   <div class="section-intro">
     <h2>Initial user research highlighted areas causing frustration for customers.</h2>
-    <h5>I analyzed <span class="black">89 user comments</span> collected from intercept survey results, and conducted virtual <span class="black">usability testing</span> of the audit application with 4 policyholders.</h5>
-    <h5>All data collected from initial user research was consolidated into a <span class="bold">Feedback Capture Matrix</span> and <span class="black">User Journey Map</span> to present to stakeholders.</h5>
+    <h5>I analyzed <span class="black">89 user comments</span> collected from intercept survey results, and conducted <span class="black">virtual usability testing</span> of the existing audit application with 4 policyholders.</h5>
+    <h5>All data collected from initial user research was consolidated into a <span class="bold">Feedback Capture Matrix</span> and <span class="black">User Journey Map</span> to help guide the project.</h5>
   </div>
   <h4 style="margin:60px 0 0 0;">Feedback Capture Matrix</h4>
   <div><img src="/img/premiumaudit/feedback.svg" alt="feedback capture matrix"></div>
@@ -113,7 +113,7 @@
     <div class="side-by-side">
       <div class="side">
         <h2>Provide helpful Audit Info upfront</h2>
-        <p>Lola needs to have a better understanding of the audit process upfront. She should be able to log into the audit application and be provided helpful information to get her started.</p>
+        <p>Lola needs to have a better understanding of the audit process upfront. She should log into the audit application and be provided helpful information to get her started.</p>
       </div>
 
       <div class="side-by-side align-items">
@@ -125,23 +125,30 @@
   </div>
 
   <div class="section-intro">
-    <h2>The application didn't inform users upfront about the audit process.</h2>
-    <h5>An audit intro animation was added after login to help answer frequently asked "Getting Started" questions.</h5>
+    <h2>Lola starts her yearly audit, but there's <span class="black">no information to help</span> her get started.</h2>
+    <h5>Interviews with stakeholders helped determine the <span class="black">most frequently asked questions</span> about the audit process, and an <span class="black">audit intro animation</span> was designed to help answer those questions.</h5>
   </div>
+
   <div><img src="/img/premiumaudit/userflow1.svg" alt="user flow adding new dashboard"></div>
-  <h6>User flow for audit process. Location for new Audit Intro is displayed in red.</h6>
+  <h6>User flow for audit process. Location for new audit intro animation is displayed in red.</h6>
   <div class="underline-sm"></div>
 
   <div class="section-intro">
-    <h2>The audit intro animation was used to <span class="black">engage the user</span> and provide <span class="black">helpful information</span>.</h2>
+    <h2>We let Lola know her audit would be pre-filled with policy information to save her time.</h2>
+    <h5>The audit intro animation was used to <span class="black">engage the user</span> and provide <span class="black">helpful information</span>.</h5>
   </div>
+
   <div class="negative-spacing">
     <div class="number-icon"><img src="/img/premiumaudit/1.svg" height="100px" alt="Number 1 icon"></div>
     <div class="audit-intro">
       <div class="intro-message"><img src="/img/premiumaudit/message1.svg" alt="intro message"></div>
       {% include "audit-intro/copier.svg" %}
     </div>
-    <h6>We let the user know their audit would be pre-filled with policy information to save them time.</h6>
+    <h6>Screen 1 of audit intro animation</h6>
+  </div>
+
+  <div class="section-intro">
+    <h2>We also let Lola know we were able to pre-fill her audit with info from the previous year.</h2>
   </div>
 
   <div class="negative-spacing">
@@ -150,7 +157,11 @@
       <div class="intro-message"><img src="/img/premiumaudit/message2.svg" alt="intro message"></div>
       {% include "audit-intro/copier.svg" %}
     </div>
-    <h6>We also let the user know if we were able to pre-fill their audit with information from the previous year.</h6>
+    <h6>Screen 2 of audit intro animation</h6>
+  </div>
+
+  <div class="section-intro">
+    <h2>Lastly, Lola is given some <span class="black">helpful information</span> to get her started.</h2>
   </div>
 
   <div class="negative-spacing">
@@ -159,11 +170,11 @@
       <div class="intro-message"><img src="/img/premiumaudit/message3.svg" alt="intro message"></div>
       <div><img src="/img/premiumaudit/papers.svg" alt="images of papers"></div>
     </div>
-    <h6>Lastly, we gave the user helpful information to get them started.</h6>
+    <h6>Screen 3 of audit intro animation</h6>
   </div>
 
   <div class="section-intro">
-    <h2>Select the <span class="black">play button</span> below to see the animation as the user.</h2>
+    <h2>Select the <span class="black">play button</span> below to see the animation as Lola did.</h2>
   </div>
   {% include "audit-intro/intro-player.html" %}
 </section>
@@ -186,96 +197,106 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Problem</h2>
-      <h5>Lola clicks the Save &amp; Verify button, but nothing happens, so she doesn't know if it's safe to go on to the next step.</h5>
+      <h2>Lola clicks the <span class="black">Save &amp; Verify</span> button, but nothing happens, so she doesn't know if it's safe to go on to the next step.</h2>
+      <h5><span class="black">Virtual usability testing</span> revealed that 3 of the 4 policyholders tested were confused about the purpose of the Save &amp; Verify button, and 2 of those policyholders thought it might be broken.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Image of Save &amp; Verify Button</h6>
+      <img src="/img/premiumaudit/save-and-verify.svg" alt="form with Save and Verify button">
+      <h6><span class="black">Before <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Save &amp; Verify button was used at the end of each step for form validation.</h6>
     </div>  
   </div>
 
-  <div class="side-by-side align-items">
-    <div class="section-intro">
-      <h2 class="emphasize">Solution</h2>
-      <h5>The Save &amp; Verify button was removed. If there is no validation error, a green check mark appears to the right of the question after it's answered.</h5>
-    </div>
-    <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Image of green check marks</h6>
-    </div>  
-  </div>
-  <div class="underline-sm"></div>
+  <div style="height:50px;"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Problem</h2>
-      <h5>Lola sees form fields outlined in red and some messages in red at the bottom, but she doesn't know what to do to fix the problems.</h5>
+      <h2>During a <span class="black">team brainstorming session</span>, we decided to remove the button and use field-level validation instead.</h2>
+      <h5>A green check mark appears to the right of the form field if it's answered correctly, but not until the user clicks away from the field.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Image of error messages at the bottom of the screen</h6>
-    </div>  
-  </div>
-
-  <div class="side-by-side align-items">
-    <div class="section-intro">
-      <h2 class="emphasize">Solution</h2>
-      <h5>The error messages are removed from the bottom of the screen and displayed to the right of each question.</h5>
-    </div>
-    <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Image of new error message placement</h6>
+      <img src="/img/premiumaudit/green-checks.svg" alt="green check marks">
+      <h6><span class="black">After <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Save &amp; Verify button was removed and replaced with field-level validation.</h6>
     </div>  
   </div>
   <div class="underline-sm"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Problem</h2>
-      <h5>Lola has a yoga class to teach soon, so she needs to know if she's almost finished with her audit.</h5>
+      <h2>Lola sees a <span class="black">group of error messages</span> at the bottom of her screen, but doesn't know how to fix the issues.</h2>
+      <h5>Further<span class="black"> usability testing</span> revealed that all 4 policyholders tested didn't find the error messages useful, because they weren't able to match the message with the form field.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Lola ready for yoga class</h6>
+      <img src="/img/premiumaudit/errors-at-end.svg" alt="error messages at bottom of screen">
+      <h6><span class="black">Before <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> All error messages were grouped at the bottom of the screen</h6>
+    </div>  
+  </div>
+
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro">
+      <h2>We were able to <span class="black">easily solve this problem</span> with the switch to field-level validation.</h2>
+      <h5>The error message appears to the right of the form field if a validation error occurs, but not until the user clicks away from the field.</h5>
+    </div>
+    <div class="side-50">
+      <img src="/img/premiumaudit/errors-at-side.svg" alt="error messages to right of form field">
+      <h6> <span class="black">After <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Error messages were moved to the right of the form field</h6>
+    </div>  
+  </div>
+  <div class="underline-sm"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro">
+      <h2>Lola has a yoga class to teach soon, but she doesn't know when she'll be finished with her audit.</h2>
+      <h5>While observing policyholders using the audit application, 2 out of 4 asked <span class="black">"How long is this audit?"</span> about halfway through the audit stepper.</h5>
+    </div>
+    <div class="side-50 center">
+      <img src="/img/premiumaudit/yoga-standing.svg" height="300px" alt="woman in yoga pose">
+      <h6></h6>
     </div>  
   </div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Solution</h2>
-      <h2>The side navigation doubles as a timeline.</h2>
+      <h2></h2>
+      <h2>I designed the side navigation to <span class="black">double as a timeline</span> to solve this problem.</h2>
       <h5>1. A progress indicator was added to the top-left corner.</h5>
       <h5>2. Each step in the side navigation menu shows a status.</h5>
       <h5>3. The active step is highlighted.</h5>
-      <h5>4. The icon darkens when the step is complete.</h5>
+      <h5>4. The icon has a white background when the step isn't complete.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-50.svg" alt="">
-      <h6>Image of side navigation</h6>
+      <img src="/img/premiumaudit/sidenav.svg" alt="side navigation">
+      <h6><span class="black">New <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Side navigation</h6>
     </div>  
   </div>
   <div class="underline-sm"></div>
 
-  <div class="section-intro">
-    <h2>Other information that Lola may find helpful was added to the audit stepper.</h2>
-    <h5>1. The audit due date was added to the header.</h5>
-    <h5>2. The list of documents needed was added to the footer.</h5>
-    <h5>3. A new FAQ section was added to the footer.</h5>
+  <div class="side-by-side align-items">
+    <div class="section-intro" style="margin-bottom:0;">
+      <h2>I also added <span class="black">other helpful info</span> to the audit stepper based on additional data collected during usability testing.</h2>
+    </div>
+    <div class="side-50">
+      <h5 style="margin:10px 0;">1. The audit due date was added to the header.</h5>
+      <h5 style="margin:10px 0;">2. The list of documents needed was added to the footer.</h5>
+      <h5 style="margin:10px 0;">3. A new FAQ section was also added to the footer.</h5>
+    </div>
   </div>
+
   <div>
-    <img src="/img/premiumaudit/placeholder-full.svg" alt="">
-    <h6>Mockup showing header, footer, and side navigation.</h6>
+    <img src="/img/premiumaudit/full-mockup.svg" alt="mockup for audit stepper">
+    <h6><span class="black">New <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Header, footer, and side navigation of audit stepper</h6>
   </div>  
   <div class="underline-sm"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2>Lola can return to the last completed step when logging back in.</h2>
+      <h2>Lola had to go teach that yoga class, so she came back a few days later to finish her audit.</h2>
+      <h5>Data collected from <span class="black">intercept survey results</span> showed policyholders want the application to pick up where they left off when logging back in, so a <span class="black">Welcome Back</span> screen was added.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Image of Welcome Back screen</h6>
+      <img src="/img/premiumaudit/welcome-back.svg" alt="Welcome Back message">
+      <h6><span class="black">New <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Welcome Back screen</h6>
     </div>  
   </div>
 </section>
@@ -298,56 +319,57 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2 class="emphasize">Problem</h2>
-      <h5>Lola completes the final step, and thinks she's finally done, but nothing happens when she clicks the submit button.</h5>
+      <h2>Lola completes the final step, but nothing happens when she clicks the submit button.</h2>
+      <h5>Inability to submit the audit was the <span class="black">top reason users called the Customer Service Center</span> during the audit process.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-25.svg" alt="">
-      <h6>Image of gray Submit button</h6>
+      <img src="/img/premiumaudit/gray-submit.svg" alt="gray submit button">
+      <h6><span class="black">Before <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Disabled submit button</h6>
     </div>  
   </div>
 
+  <div style="height:50px;"></div>
+
   <div class="section-intro">
-    <h2 class="emphasize">Solution</h2>
-    <h5>An Audit Summary page was added to the end of the Audit Stepper.</h5>
+    <h2>The submit button was disabled until all questions in the audit were answered without errors.</h2>
+    <h5><span class="black">Interviews</span> with 2 Customer Service Representatives revealed users found it difficult to find what needed to be fixed, so an <span class="black">Audit Summary</span> was added at the end of the Audit Stepper.</h5>
   </div>
 
   <div>
-    <img src="/img/premiumaudit/placeholder-full.svg" alt="">
-    <h6>User flow showing new Audit Summary in red</h6>
+    <img src="/img/premiumaudit/userflow2.svg" alt="user flow with new audit summary added">
+    <h6>User flow showing location for new Audit Summary in red.</h6>
   </div> 
   <div class="underline-sm"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2>Lola can see details for each step on the audit summary screen, so she knows if sections need to be revisited.</h2>
-      <h5>She can review one section at a time, or go through all unfinished sections at once.</h5>
+      <h2>Lola can see <span class="black">details for each step</span> on the Audit Summary screen, so she knows what needs to be fixed.</h2>
+      <h5>Data collected by Customer Service showed after the Audit Summary was added, there was a <span class="black">dramatic decrease in calls</span> from users not able to submit their audit.</h5>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-50.svg" alt="">
-      <h6>Image of audit summary screen</h6>
+      <img src="/img/premiumaudit/audit-summary1.svg" alt="audit summary page">
+      <h6><span class="black">New <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Audit Summary screen</h6>
     </div>  
   </div>
   <div class="underline-sm"></div>
 
   <div class="section-intro">
-    <h2>If Lola visits any section from here, she doesn't have to click through all the steps again to get back.</h2>
-    <h5>Instead, she's automatically routed back once she's finished with the step she reviewed.</h5>
+    <h2>If Lola reviews any step from the Audit Summary, she <span class="black">doesn't have to click through all the steps again</span> to get back.</h2>
   </div>
 
   <div>
-    <img src="/img/premiumaudit/placeholder-full.svg" alt="">
-    <h6>Wire flow demonstrating routing back to audit summary.</h6>
+    <img src="/img/premiumaudit/wireflow.svg" alt="wire flow of routing">
+    <h6>Wire flow showing routing back to audit summary.</h6>
   </div>  
   <div class="underline-sm"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro">
-      <h2>Lola can finally submit her audit once all steps on the audit summary are complete.</h2>
+      <h2><span class="black">Yippee!</span> Lola can finally submit her audit now that all steps on the Audit Summary are complete.</h2>
     </div>
     <div class="side-50">
-      <img src="/img/premiumaudit/placeholder-50.svg" alt="">
-      <h6>Image of completed audit summary screen</h6>
+      <img src="/img/premiumaudit/audit-summary2.svg" alt="audit summary page">
+      <h6><span class="black">New <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Active submit button on completed audit summary screen</h6>
     </div>  
   </div>
 </section>
