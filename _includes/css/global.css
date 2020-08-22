@@ -13,15 +13,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: '';
-  src: url(''), format('');
-}
-
-svg {
-  max-width: 100%;
-}
-
 html, body {
   margin: 0;
   padding: 0;
@@ -500,3 +491,38 @@ footer p {
   }
 }
 /* End Side-by-Side */
+
+
+/* Start SVG Scaling */
+.scaling-svg-container-100 {
+  position: relative; 
+  height: 0; 
+  width: 100%; 
+  padding: 0;
+  padding-bottom: 100%; /* override this inline for aspect ratio other than square - to calculate divide SVG height by width */
+}
+
+.scaling-svg-container-50 {
+  position: relative; 
+  height: 0; 
+  width: 50%; 
+  padding: 0;
+  padding-bottom: 100%; /* override this inline for aspect ratio other than square - to calculate divide SVG height by width */
+}
+
+.scaling-svg-container-33 {
+  position: relative; 
+  height: 0; 
+  width: 33%; 
+  padding: 0;
+  padding-bottom: 100%; /* override this inline for aspect ratio other than square - to calculate divide SVG height by width */
+}
+
+.scaling-svg {
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  left: 0; 
+  top: 0;
+}
+/* End SVG Scaling */
