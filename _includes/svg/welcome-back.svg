@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="531" height="" viewBox="0 0 531 446" style="max-width:100%;">
+  <g id="Group_2808" data-name="Group 2808" transform="translate(-5271 19213)">
+    <g id="Rectangle_2418" data-name="Rectangle 2418" transform="translate(5271 -19213)" fill="#f9fafc" stroke="#707070" stroke-width="1">
+      <rect width="531" height="446" stroke="none"/>
+      <rect x="0.5" y="0.5" width="530" height="445" fill="none"/>
+    </g>
+    <text id="Hi_Lola_Welcome_Back_" data-name="Hi Lola, Welcome Back!" transform="translate(5313 -19157)" fill="rgba(0,0,0,0.87)" font-size="30" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="30">Hi Lola, Welcome Back!</tspan></text>
+    <text id="We_saved_the_information_you_entered_last_time_and_we_re_ready_to_pick_up_where_we_left_off._Do_you_want_to_work_on_Owners_now_" data-name="We saved the information you entered last time, and we’re ready to pick up where we left off.
+
+
+Do you want to work on Owners now?" transform="translate(5313 -19054)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="16">We saved the information you entered last time, and we’re </tspan><tspan x="0" y="36">ready to pick up where we left off.</tspan><tspan x="0" y="56"></tspan><tspan x="0" y="76"></tspan><tspan x="0" y="96">Do you want to work on </tspan><tspan y="96" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">Owners</tspan><tspan y="96" xml:space="preserve"> now?</tspan></text>
+    <rect id="bg" width="178" height="52" rx="26" transform="translate(5573 -18865)" fill="#29339b"/>
+    <text id="Yes_please_" data-name="Yes, please!" transform="translate(5662 -18833)" fill="#fff" font-size="16" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600" letter-spacing="0.004em"><tspan x="-40.072" y="0">Yes, please!</tspan></text>
+    <rect id="bg-2" data-name="bg" width="178" height="52" rx="26" transform="translate(5323 -18865)" fill="rgba(149,153,179,0.2)"/>
+    <text id="Start_at_beginning" data-name="Start at beginning" transform="translate(5412 -18833)" fill="#29339b" font-size="16" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600" letter-spacing="0.004em"><tspan x="-61.936" y="0">Start at beginning</tspan></text>
+  </g>
+</svg>

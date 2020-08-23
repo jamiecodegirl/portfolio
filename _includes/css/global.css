@@ -289,12 +289,6 @@ img {
   font-size: 12px;
   width: 230px;
 }
-
-@media only screen and (max-width: 1024px) {
-  .spacing {
-    padding-top: 2em;
-  }
-}
 /* End Custom Classes */
 
 
@@ -510,10 +504,3 @@ footer p {
   top: 0;
 }
 /* End SVG Scaling */
-
-
-
-
-svg {
-  max-width: 100%;
-}
