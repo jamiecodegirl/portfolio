@@ -1,0 +1,84 @@
+<svg class="scaling-svg" xmlns="http://www.w3.org/2000/svg" width="1495" height="450" viewBox="0 0 1495 450">
+  <g id="Group_2680" data-name="Group 2680" transform="translate(20525 15560)">
+    <g id="Rectangle_1659" data-name="Rectangle 1659" transform="translate(-20525 -15560)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="1495" height="450" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1494" height="449" fill="none"/>
+    </g>
+    <g id="Rectangle_558" data-name="Rectangle 558" transform="translate(-20260 -15295)" fill="#ffe9cb" stroke="#f2900b" stroke-width="2" stroke-dasharray="5">
+      <rect width="151" height="88" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="149" height="86" rx="9" fill="none"/>
+    </g>
+    <g id="Rectangle_568" data-name="Rectangle 568" transform="translate(-19695 -15237)" fill="#ffe9cb" stroke="#f2900b" stroke-width="2" stroke-dasharray="5">
+      <rect width="151" height="90" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="149" height="88" rx="9" fill="none"/>
+    </g>
+    <g id="Rectangle_570" data-name="Rectangle 570" transform="translate(-19694 -15522)" fill="#ffe9cb" stroke="#f2900b" stroke-width="2" stroke-dasharray="5">
+      <rect width="152" height="90" rx="10" stroke="none"/>
+      <rect x="1" y="1" width="150" height="88" rx="9" fill="none"/>
+    </g>
+    <text id="Select_Add_Card_or_Add_Bank" data-name="Select
+Add Card or Add Bank" transform="translate(-20245 -15281)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="35.608" y="15">Select</tspan><tspan x="11.712" y="34">Add Card or </tspan><tspan x="20.336" y="53">Add Bank</tspan></text>
+    <text id="Enter_Account_Information" data-name="Enter Account Information" transform="translate(-19685 -15211)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="6.268" y="15">Enter Account </tspan><tspan x="16.476" y="34">Information</tspan></text>
+    <text id="Edit_Billing_Information" data-name="Edit Billing Information" transform="translate(-19672 -15498)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="9.364" y="15">Edit Billing </tspan><tspan x="5.476" y="34">Information</tspan></text>
+    <g id="Rectangle_559" data-name="Rectangle 559" transform="translate(-20493 -15295)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="151" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="150" height="87" fill="none"/>
+    </g>
+    <text id="My_Account" data-name="My Account" transform="translate(-20472 -15261)" fill="#fafafa" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="5.928" y="15">My Account</tspan></text>
+    <g id="Rectangle_560" data-name="Rectangle 560" transform="translate(-20028 -15295)" fill="rgba(112,112,112,0.2)" stroke="#707070" stroke-width="1">
+      <rect width="151" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="150" height="87" fill="none"/>
+    </g>
+    <g id="Rectangle_565" data-name="Rectangle 565" transform="translate(-19213 -15401)" fill="rgba(112,112,112,0.2)" stroke="#707070" stroke-width="1">
+      <rect width="152" height="90" stroke="none"/>
+      <rect x="0.5" y="0.5" width="151" height="89" fill="none"/>
+    </g>
+    <text id="Add_Payment_Profile" data-name="Add Payment Profile" transform="translate(-20015 -15272)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="5.948" y="15">Add Payment </tspan><tspan x="35.18" y="34">Profile</tspan></text>
+    <text id="Confirmation" transform="translate(-19198 -15362)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="5.856" y="15">Confirmation</tspan></text>
+    <g id="Rectangle_561" data-name="Rectangle 561" transform="translate(-19437 -15398)" fill="#fff" stroke="#707070" stroke-width="2" stroke-dasharray="5">
+      <rect width="151" height="88" stroke="none"/>
+      <rect x="1" y="1" width="149" height="86" fill="none"/>
+    </g>
+    <rect id="Rectangle_571" data-name="Rectangle 571" width="151" height="88" transform="translate(-19695 -15358)" fill="#e50a45"/>
+    <text id="Save_Profile" data-name="Save Profile" transform="translate(-19420 -15362)" fill="rgba(0,0,0,0.87)" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="6.684" y="15">Save Profile</tspan></text>
+    <text id="Billing_Information" data-name="Billing Information" transform="translate(-19677 -15335)" fill="#fff" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="32.592" y="15">Billing </tspan><tspan x="9.976" y="34">Information</tspan></text>
+    <g id="Group_817" data-name="Group 817" transform="translate(-20326.232 -15258.592)">
+      <line id="Line_26" data-name="Line 26" x2="42.365" transform="translate(0 9.13)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+      <path id="Path_35" data-name="Path 35" d="M11.363,18.628a2.308,2.308,0,0,1-1.673-3.9L14.854,9.3,9.7,3.9A2.308,2.308,0,1,1,13.032.713L19.712,7.7a2.31,2.31,0,0,1,.005,3.186l-6.68,7.027A2.307,2.307,0,0,1,11.363,18.628Z" transform="translate(27.033 0)" fill="#aab0bb"/>
+    </g>
+    <g id="Group_818" data-name="Group 818" transform="translate(-20094.637 -15260.004)">
+      <line id="Line_26-2" data-name="Line 26" x2="42.365" transform="translate(0 9.13)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+      <path id="Path_35-2" data-name="Path 35" d="M11.363,18.628a2.308,2.308,0,0,1-1.673-3.9L14.854,9.3,9.7,3.9A2.308,2.308,0,1,1,13.032.713L19.712,7.7a2.31,2.31,0,0,1,.005,3.186l-6.68,7.027A2.307,2.307,0,0,1,11.363,18.628Z" transform="translate(27.033 0)" fill="#aab0bb"/>
+    </g>
+    <g id="Group_1088" data-name="Group 1088" transform="translate(-19275.633 -15364.342)">
+      <line id="Line_26-3" data-name="Line 26" x2="42.365" transform="translate(0 9.13)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+      <path id="Path_35-3" data-name="Path 35" d="M11.363,18.628a2.308,2.308,0,0,1-1.673-3.9L14.854,9.3,9.7,3.9A2.308,2.308,0,1,1,13.032.713L19.712,7.7a2.31,2.31,0,0,1,.005,3.186l-6.68,7.027A2.307,2.307,0,0,1,11.363,18.628Z" transform="translate(27.033 0)" fill="#aab0bb"/>
+    </g>
+    <g id="Group_1087" data-name="Group 1087" transform="translate(-19627.771 -15372.605) rotate(-90)">
+      <line id="Line_26-4" data-name="Line 26" x2="42.365" transform="translate(0 9.13)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+      <path id="Path_35-4" data-name="Path 35" d="M2.308,18.628a2.308,2.308,0,0,1-1.673-3.9L5.8,9.3.64,3.9A2.308,2.308,0,0,1,3.977.713L10.657,7.7a2.31,2.31,0,0,1,.005,3.186L3.982,17.91A2.307,2.307,0,0,1,2.308,18.628Z" transform="translate(36.088 0)" fill="#aab0bb"/>
+    </g>
+    <line id="Line_31" data-name="Line 31" y2="70.609" transform="translate(-19789.381 -15250.729) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <path id="Path_47" data-name="Path 47" d="M125.648,0H0" transform="translate(-19789.734 -15317.332) rotate(90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <g id="Group_1085" data-name="Group 1085" transform="translate(-19789.734 -15203.516)">
+      <g id="Group_1081" data-name="Group 1081" transform="translate(72.229 0) rotate(90)">
+        <line id="Line_33" data-name="Line 33" y2="67.249" transform="translate(9.13 72.229) rotate(180)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+        <path id="Path_45" data-name="Path 45" d="M2.308,18.628a2.308,2.308,0,0,1-1.673-3.9L5.8,9.3.64,3.9A2.308,2.308,0,0,1,3.977.713L10.657,7.7a2.31,2.31,0,0,1,.005,3.186L3.982,17.91A2.307,2.307,0,0,1,2.308,18.628Z" transform="translate(0 11.297) rotate(-90)" fill="#aab0bb"/>
+      </g>
+    </g>
+    <g id="Group_1086" data-name="Group 1086" transform="translate(-19789.734 -15323.551)">
+      <g id="Group_1081-2" data-name="Group 1081" transform="translate(72.229 0) rotate(90)">
+        <line id="Line_33-2" data-name="Line 33" y2="67.249" transform="translate(9.13 72.229) rotate(180)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+        <path id="Path_45-2" data-name="Path 45" d="M2.308,18.628a2.308,2.308,0,0,1-1.673-3.9L5.8,9.3.64,3.9A2.308,2.308,0,0,1,3.977.713L10.657,7.7a2.31,2.31,0,0,1,.005,3.186L3.982,17.91A2.307,2.307,0,0,1,2.308,18.628Z" transform="translate(0 11.297) rotate(-90)" fill="#aab0bb"/>
+      </g>
+    </g>
+    <line id="Line_33-3" data-name="Line 33" y1="0.208" x2="160.282" transform="translate(-19525.129 -15475.453)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <line id="Line_94" data-name="Line 94" y2="53.663" transform="translate(-19363.436 -15478.277)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <path id="Path_45-3" data-name="Path 45" d="M2.308,18.628a2.308,2.308,0,0,1-1.673-3.9L5.8,9.3.64,3.9A2.308,2.308,0,0,1,3.977.713L10.657,7.7a2.31,2.31,0,0,1,.005,3.186L3.982,17.91A2.307,2.307,0,0,1,2.308,18.628Z" transform="translate(-19354.619 -15431.285) rotate(90)" fill="#aab0bb"/>
+    <path id="Path_49" data-name="Path 49" d="M0,0V155.309" transform="translate(-19517.965 -15177.486) rotate(-90)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <line id="Line_36" data-name="Line 36" x1="0.301" y2="108.309" transform="translate(-19364.5 -15283.809)" fill="none" stroke="#e2e6eb" stroke-width="4"/>
+    <g id="Group_1085-2" data-name="Group 1085" transform="translate(-19373.6 -15277.725) rotate(-90)">
+      <path id="Path_48" data-name="Path 48" d="M2.308,18.628a2.308,2.308,0,0,1-1.673-3.9L5.8,9.3.64,3.9A2.308,2.308,0,0,1,3.977.713L10.657,7.7a2.31,2.31,0,0,1,.005,3.186L3.982,17.91A2.307,2.307,0,0,1,2.308,18.628Z" transform="translate(0 0)" fill="#aab0bb"/>
+    </g>
+  </g>
+</svg>
