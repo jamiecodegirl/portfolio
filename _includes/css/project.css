@@ -284,6 +284,12 @@ section {
   max-width: 800px;
   margin: 15px auto 0;
 }
+
+@media only screen and (max-width: 800px) {
+  .intro-message {
+    padding: 0 0.5em;
+  }
+}
 /* End Audit Intro Section */
 
 
@@ -291,12 +297,12 @@ section {
 .copier {
   position: relative;
   max-width: 400px;
-  margin: 0 auto 20px;
+  margin: 2em auto;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .copier {
-    max-width: 250px;
+    max-width: 300px;
   }
 }
 
@@ -313,13 +319,13 @@ section {
 
 @keyframes slidein {
   from { transform: translate(0); }
-  to   { transform: translate(135px); }
+  to   { transform: translate(140px); }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   @keyframes slidein {
     from { transform: translate(0); }
-    to   { transform: translate(85px); }
+    to   { transform: translate(95px); }
   }
 }
 
@@ -413,18 +419,77 @@ section {
 
 .message3 {
   max-width: 800px;
-  margin: 20px auto 0;
+  margin: 0 auto;
   opacity: 0;
   transition: opacity 2s;
 }
 
-.copier2 {
-  padding-top: 220px;
+.message {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+  font-size: 3em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .message {
+    font-size: 2em;
+  }
+}
+
+.fake-p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
+  .fake-p {
+    font-size: 0.875em;
+  }
+}
+
+.fake-link {
+  font-size: 1em;
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.fake-button {
+  color: #ffffff;
+  background-color: #29339b;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin: 4em auto 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copier2 {
+  padding-top: 20%;
+}
+
+@media only screen and (max-width: 1366px) {
   .copier2 {
-    padding-top: 120px;
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .copier2 {
+    padding-top: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .copier2 {
+    padding-top: 70%;
   }
 }
 
