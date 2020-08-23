@@ -510,3 +510,10 @@ footer p {
   top: 0;
 }
 /* End SVG Scaling */
+
+
+
+
+svg {
+  max-width: 100%;
+}
