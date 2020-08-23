@@ -3,12 +3,17 @@
   <div class="overlay"></div>
   <div class="relative">
     <div class="phase1">
-      <div class="message1">
-        <img src="/img/premiumaudit/message1.svg" alt="intro message">
+
+      <div class="message1 intro-message">
+        <div class="message">Hi there! We're copying your policy info to save you some time.</div>
+        <div class="fake-p">We're using our magic copy machine, so this should only take a few seconds.</div>
       </div>
-      <div class="message2">
-        <img src="/img/premiumaudit/message2.svg" alt="intro message">
+
+      <div class="message2 intro-message">
+        <div class="message">We see you completed an audit last year for this policy.</div>
+        <div class="fake-p">We'll copy that information too to give you a head start.</div>
       </div>
+
       <div class="copier2">
         {% include "audit-intro/copier2.svg" %}
       </div>
@@ -16,9 +21,14 @@
   </div>
 
   <div class="phase2">
-    <div class="message3">
-      <img src="/img/premiumaudit/message3.svg" alt="intro message">
+
+    <div class="message3 intro-message">
+      <div class="message">Whew! Looks like we got it all.</div>
+      <div class="fake-p">The info you enter will automatically save, so you can come back later to finish. We also made you a <span class="fake-link">list of documents</span> you'll need, and don't forget your audit is due on <span class="bold">5/20/19</span>.</div>
     </div>
+
+    <div class="fake-button">Start My Audit</div>
+
     <img src="/img/premiumaudit/papers.svg" alt="images of papers">
   </div>
 </div>
