@@ -160,7 +160,7 @@
     </div>
   </div>
   <div class="scaling-svg-container" style="padding-bottom:30%;">
-    {% include "svg/autofill-flow.svg" %}
+    {% include "svg/billpay/autofill-flow.svg" %}
   </div>
   <h6><span class="black">User flow</span> for saving a payment method to use later. <span class="black">Auto-filled</span> billing section is displayed in red.</h6>
   <div class="underline-sm"></div>
@@ -281,23 +281,24 @@
     <p><span class="circle-outline">2</span> Users needed the option to add a new bank account or card while setting up or managing AutoPay.</p>
   </div>
   <div class="flex wrap space-around">
-    <div>
+    <div class="relative">
       <img src="/img/billpay/payment-final-home.png" width="300px" alt="final auto pay prototype">
-       <h6 class="margin-left-20">High-fidelity prototype of Home Screen</h6>
+       <h6 class="caption">High-fidelity prototype of Home Screen</h6>
     </div>
-    <div>
+    <div class="relative">
       <img src="/img/billpay/autopay-final1.png" width="300px" alt="final auto pay prototype">
-       <h6 class="margin-left-20">High-fidelity prototype of Setup AutoPay</h6>
+       <h6 class="caption">High-fidelity prototype of Setup AutoPay</h6>
     </div>
-    <div>
+    <div class="relative">
       <img src="/img/billpay/autopay-final2.png" width="300px" alt="final auto pay prototype">
-       <h6 class="margin-left-20">High-fidelity prototype of Manage AutoPay</h6>
+       <h6 class="caption">High-fidelity prototype of Manage AutoPay</h6>
     </div>
   </div>
 </section>
 
 <section id="section7">
   {% include "sectionheaders/numberflag6.njk" %}
+
   <div class="design-sprint-intro">
     <div class="side-by-side">
       <div class="side">
@@ -311,9 +312,11 @@
     </div>
     <div class="underline-sm"></div>
   </div>
+
   <div class="section-intro">
     <h2><span class="black">Data collected</span> by the Customer Service Center helped us understand the top reasons for phone calls from customers like Megan.</h5>
   </div>
+
   <div class="side-by-side align-items">
     <div class="side center"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
     <div>
@@ -322,10 +325,12 @@
     </div>
   </div>
   <div class="underline-sm"></div>
+
   <div class="section-intro">
     <h2>I created <span class="black">wireframes</span> for a new one-time payment <span class="black">process flow</span> to review with the project team and business stakeholders.</h2>
     <h5>We already had a process for adding a new card or bank account (Design Sprint 1), but <span class="black">brainstorming with wireframes</span> revealed the need to automatically save payment information added during the one-time payment process.</h5>
   </div>
+
   <div class="flex wrap align-items space-around" style="margin-bottom:50px;">
     <div style="width:225px;">
       <img src="/img/billpay/wireframe1.png" alt="wireframe for payment flow">
@@ -349,38 +354,23 @@
     <div style="width:25px:"></div>
   </div>
   <div class="underline-sm"></div>
+
   <div class="section-intro">
     <h2>Feedback collected from the wireframes was used to create <span class="black">high-fidelity prototypes</span> for development.</h2>
   </div>
+
   <div class="flex wrap align-items space-around">
-    <div>
+    <div class="relative">
       <img src="/img/billpay/payment-final1.png" width="300px" alt="final payment flow prototype">
-       <h6 class="margin-left-20">High-fidelity prototype of payment amount</h6>
+       <h6 class="caption">High-fidelity prototype of payment amount</h6>
     </div>
-    <div>
+    <div class="relative">
       <img src="/img/billpay/payment-final2.png" width="300px" alt="final payment flow prototype">
-      <h6 class="margin-left-20">High-fidelity prototype of payment screen</h6>
+      <h6 class="caption">High-fidelity prototype of payment screen</h6>
     </div>
-    <div>
+    <div class="relative">
       <img src="/img/billpay/payment-final3.png" width="300px" alt="final payment flow prototype">
-      <h6 class="margin-left-20">High-fidelity prototype of pick a date screen</h6>
-    </div>
-  </div>
-  <div class="section-intro">
-    <h2>With <span class="black">dark mode</span> too</h2>
-  </div>
-  <div class="flex wrap align-items space-around">
-    <div>
-      <img src="/img/billpay/dark-mode1.png" width="300px" alt="final payment flow prototype">
-       <h6 class="margin-left-20">Dark mode prototype of payment amount</h6>
-    </div>
-    <div>
-      <img src="/img/billpay/dark-mode2.png" width="300px" alt="final payment flow prototype">
-      <h6 class="margin-left-20">Dark mode prototype of payment screen</h6>
-    </div>
-    <div>
-      <img src="/img/billpay/dark-mode3.png" width="300px" alt="final payment flow prototype">
-      <h6 class="margin-left-20">Dark mode prototype of pick a date screen</h6>
+      <h6 class="caption">High-fidelity prototype of pick a date screen</h6>
     </div>
   </div>
 </section>
@@ -407,7 +397,7 @@
     </div>
     <div class="side" style="max-width:225px; margin:auto;">
       <img src="/img/billpay/billing-info1.png" width="225px" alt="wireframe for billing info">
-      <h6 style="font-size:12px;"><span class="black">First wireframe</span> shows cluttered UI when displaying all payment data.</h6>
+      <h6 style="font-size:12px;"><span class="black">First wireframe</span> displays cluttered UI when displaying all payment data.</h6>
     </div>  
   </div>
   <div class="underline-sm"></div>
@@ -416,9 +406,9 @@
       <h2>Virtual <span class="black">interviews with 3 policyholders</span> helped eliminate data that didn't provide value to the user.</h2>
       <h5>Using a <span class="black">mobile-first design</span> approach, and <span class="black">data collected from user interviews</span>, helped get business stakeholders on board with decluttering the User Interface.</h5>
     </div>
-    <div class="side" style="max-width:300px; margin:auto;">
+    <div class="side relative" style="max-width:300px; margin:auto;">
       <img src="/img/billpay/billing-info2.png" width="300px" alt="prototype for billing info">
-      <h6 class="margin-left-20"><span class="black">Final prototype</span> shows data removed to declutter the UI.</h6>
+      <h6 class="caption-other"><span class="black">Final prototype</span> displays unnecessary data removed to declutter the UI.</h6>
     </div>
   </div>
 </section>
