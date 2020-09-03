@@ -109,10 +109,6 @@
   </div>
 </section>
 
-
-
-
-
 <section id="section5">
   {% include "sectionheaders/numberflag4.njk" %}
 
@@ -120,7 +116,7 @@
     <div class="side-by-side">
       <div class="side">
         <h2>Save a payment account to use later</h2>
-        <p>Megan gets frustrated with unnecessary "busy work", so saving a payment account to use later will prevent her from having to enter the same information more than once.</p>
+        <p>Megan gets frustrated with unnecessary "busy work", so saving a payment account to use later prevents her from having to enter the same information more than once.</p>
       </div>
       <div class="side-by-side align-items">
         <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
@@ -130,13 +126,10 @@
     <div class="underline-sm"></div>
   </div>
 
-
-
-
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
       <h2>Megan doesn't recognize the payment accounts she previously saved.</h2>
-      <h5><span class="black">Virtual usability testing</span> revealed that 2 of the 3 policyholders tested were not able to easily recognize their saved payment accounts.</h5>
+      <h5><span class="black">Virtual usability testing</span> revealed 2 of the 3 policyholders tested were not able to easily recognize their saved payment accounts.</h5>
     </div>
     <div>
       {% include "svg/billpay/sprint1MyAccount1.svg" %}
@@ -170,9 +163,6 @@
     </div>
   </div>
   <div class="underline-sm"></div>
-
-
-
 
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
@@ -211,14 +201,9 @@
   </div>
   <div class="underline-sm"></div>
 
-
-
-
-
-
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
-      <h2>Megan gets annoyed entering a bunch of info the company already has stored.</h2>
+      <h2>Megan gets annoyed entering a bunch of information the company already has stored.</h2>
       <h5>During <span class="black">virtual usability testing</span>, 3 of the 4 policyholders tested commented on the amount of data they had to manually enter.</h5>
     </div>
     <div>
@@ -257,6 +242,8 @@
 
 
 
+
+
 <section id="section6">
   {% include "sectionheaders/numberflag5.njk" %}
 
@@ -264,7 +251,7 @@
     <div class="side-by-side">
       <div class="side">
         <h2>Make a flexible one-time payment</h2>
-        <p>Megan is a small business owner with variable expenses. She needs to make a partial payment now, and pay the rest in two weeks.</p>
+        <p>As a small business owner with variable expenses, Megan needs the flexibility to pay more or less than the amount due and schedule a one-time payment in advance.</p>
       </div>
       <div class="side-by-side align-items">
         <div class="center margin-right-20"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
@@ -274,19 +261,113 @@
     <div class="underline-sm"></div>
   </div>
 
-  <div class="section-intro">
-    <h2><span class="black">Data collected</span> by the Customer Service Center helped us understand the top reasons for phone calls from customers like Megan.</h5>
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>Megan needs to make a partial payment now, and pay the remaining balance in two weeks.</h2>
+      <h5>Data collected by the Customer Service Center helped us understand the <span class="black">top 2 reasons for phone calls</span> from customers like Megan.</h5>
+      <p>1. Pay more or less than the amount due</p>
+      <p>2. Schedule a one-time payment in advance</p>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint1MyAccount1.svg" %}
+      <h6><span class="black">Initial Wireframes <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> The design included the ability to specify a payment amount and date.</h6>
+    </div>  
   </div>
+  <div class="underline-sm"></div>
+
+
+
 
   <div class="side-by-side align-items">
-    <div class="side center"><img src="/img/billpay/megan-small.svg" height="200px" alt="girl image"></div>
+    <div class="section-intro side-margin">
+      <h2>Megan finds the two buttons for making a payment confusing.</h2>
+      <h5><span class="black">Virtual usability testing</span> revealed 1 of the 3 policyholders tested thought the Pay Other button was used to pay on a second policy.</h5>
+    </div>
     <div>
-      <h5>As a small business owner with variable expenses, Megan needs the flexibility to <span class="black">pay more or less than the amount due</span> on her policy balance.</h5>
-      <h5>She also needs the ability to <span class="black">schedule a one-time payment in advance</span> so she doesn't have to worry about making a payment on a specific date.</h5>
+      {% include "svg/billpay/sprint2PaymentButton1.svg" %}
+      <h6><span class="black">Phase 1 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span></h6>
+    </div>  
+  </div>
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>The two buttons were consolidated into a Make a Payment button.</h2>
+      <h5>This finding was likely <span class="black">unique to a small group of customers</span> holding multiple policies, but it was a good opportunity to improve the design.</h5>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint2PaymentButton2.svg" %}
+      <h6><span class="black">Phase 2 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span></h6>
+    </div>  
+  </div>
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>The <span class="black">interactive prototype</span> shows Megan making a payment for less than the amount due.</h2>
+      <h5></h5>
+    </div>
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/billpay/payLess.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> </h6>
     </div>
   </div>
   <div class="underline-sm"></div>
+
+
+
+
+
+
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>Megan is in the process of making a payment, but the payment account she wants to use isn't saved yet.</h2>
+      <h5>Usability testing found a flaw in the design where a payment account had to be saved before making a payment.</h5>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint2AddNew1.svg" %}
+      <h6><span class="black">Phase 1 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> </h6>
+    </div>  
+  </div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>I was able to <span class="black">easily solve this problem</span> by inserting a link to add a new account while making a payment.</h2>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint2AddNew2.svg" %}
+      <h6><span class="black">Phase 2 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> </h6>
+    </div>  
+  </div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>The <span class="black">final interactive prototype</span> shows Megan adding a new payment account while making a payment.</h2>
+      <h5></h5>
+    </div>
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/billpay/addAccountDuringPayment.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> </h6>
+    </div>
+  </div>
+  <div class="underline-sm"></div>
+
+
 </section>
+
+
+
+
+
+
+
 
 <section id="section7">
   {% include "sectionheaders/numberflag6.njk" %}
