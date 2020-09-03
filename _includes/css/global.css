@@ -204,6 +204,10 @@ img {
   align-items: center;
 }
 
+.column {
+  flex-direction: column;
+}
+
 .center {
   text-align: center;
 }
@@ -430,6 +434,10 @@ footer p {
   margin-left: 2em;
 }
 
+.side-margin {
+  margin-right: 2em;
+}
+
 .side p {
   padding-bottom: 1.5em;
 }
@@ -448,6 +456,10 @@ footer p {
     width: 100%;
     margin: auto;
     text-align: center;
+  }
+
+  .side-margin {
+    margin-right: 0;
   }
 }
 /* End Side-by-Side */

@@ -130,103 +130,128 @@
     <div class="underline-sm"></div>
   </div>
 
-  <div class="section-intro">
-    <h2>Megan dreads paying her bill each month, because it <span class="black">takes too much time</span> to enter all the payment info.</h2>
-    <h5>One of the top complaints from customers about the legacy system was the amount of time it took to make a simple payment.</h5>
-  </div>
-  {% include "svg/billpay/sprint1InitialWires.svg" %}
-  <h6>Initial wireframes for adding a new payment account</h6>
-  <div class="underline-sm"></div>
+
+
 
   <div class="side-by-side align-items">
-    <div class="section-intro">
-      <h2>Megan can easily save &amp; manage her payment accounts from the home screen.</h2>
-      <h5>1. Saved payment accounts are displayed on the home screen.</h5>
-      <h5>2. Buttons provide an easy way to add a new payment account.</h5>
+    <div class="section-intro side-margin">
+      <h2>Megan doesn't recognize the payment accounts she previously saved.</h2>
+      <h5><span class="black">Virtual usability testing</span> revealed that 2 of the 3 policyholders tested were not able to easily recognize their saved payment accounts.</h5>
     </div>
     <div>
       {% include "svg/billpay/sprint1MyAccount1.svg" %}
-      <h6><span class="black">Phase 1 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Wireframe of My Account (home) screen</h6>
+      <h6><span class="black">Phase 1 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Saved payment accounts were displayed in a text list on the home screen.</h6>
     </div>  
   </div>
+  <div style="height:50px;"></div>
 
   <div class="side-by-side align-items">
-    <div class="section-intro">
-      <h2>Megan can easily save &amp; manage her payment accounts from the home screen.</h2>
-      <h5>1. Saved payment accounts are displayed on the home screen.</h5>
-      <h5>2. Buttons provide an easy way to add a new payment account.</h5>
+    <div class="section-intro side-margin">
+      <h2>I was able to <span class="black">easily solve this problem</span> by visually displaying the payment accounts as images.</h2>
     </div>
     <div>
       {% include "svg/billpay/sprint1MyAccount2.svg" %}
-      <h6><span class="black">Phase 2 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Wireframe of My Account (home) screen</h6>
+      <h6><span class="black">Phase 2 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> The home screen was redesigned to display saved payment accounts as a card or check.</h6>
     </div>  
   </div>
+  <div style="height:50px;"></div>
 
-  <div>
-    <video width="323" height="700" controls>
-      <source src="/video/billpay/sprint1MyAccount1.mp4" type="video/mp4">
-      Sorry, your browser doesn't support videos.
-    </video>
-    <h6><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Scroll through saved payment accounts</h6>
-  </div>
-
-  <div>
-    <video width="323" height="700" controls>
-      <source src="/video/billpay/sprint1MyAccount2.mp4" type="video/mp4">
-      Sorry, your browser doesn't support videos.
-    </video>
-    <h6><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Add a new payment account</h6>
-  </div>
-
-  <div class="underline-sm"></div>
-
-  {% include "svg/billpay/sprint1PaymentInfo1.svg" %}
-  {% include "svg/billpay/sprint1PaymentInfo2.svg" %}
-
-
-
-  <div class="section-intro">
-    <h2>I conducted a <span class="black">workshop with 3 stakeholders</span> to document the data involved in processing a payment.</h2>
-    <p>We placed each data point into 1 of 3 categories:</p>
-    <ol class="numbered-list">
-      <li><span class="black">Must Have</span><br>Data that is required to process the payment.</li>
-      <li><span class="black">Should Have</span><br>Data that we should have to process the payment.</li>
-      <li><span class="black">Nice to Have</span><br>Bonus data that we'd like to collect.</li>
-    </ol>
-  </div>
-  <div class="flex wrap space-around">
-    <div>
-      <h4>Must Have</h4>
-      <div><img src="/img/billpay/must-have.png" width="275px" alt="must-have-items"></div>
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>The <span class="black">interactive prototype</span> shows Megan scrolling through the images of her saved payment accounts.</h2>
+      <h5></h5>
     </div>
-    <div>
-      <h4>Should Have</h4>
-      <div><img src="/img/billpay/should-have.png" width="275px" alt="should-have-items"></div>
-    </div>
-    <div>
-      <h4>Nice to Have</h4>
-      <div><img src="/img/billpay/nice-to-have.png" width="275px" alt="nice-to-have-items"></div>
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/billpay/scrollAccounts.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Saved payment accounts are displayed as images, and are scrollable.</h6>
     </div>
   </div>
   <div class="underline-sm"></div>
 
-  <div class="section-intro">
-    <h2>We wanted to make the process easy by <span class="black">reducing the amount of data</span> the customer enters manually.</h2>
-    <div>
-      <h4 style="margin-top:60px;">The Problem</h4>
-      <h5 class="margin-top-10">Eliminating data from the <span class="black">Must Have</span> and <span class="black">Should Have</span> categories would increase payment processing fees.</h5>
+
+
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>Megan wants to save her new debit card, but wonders if <span class="black">Add Card</span> is for both debit &amp; credit.</h2>
+      <h5>Further <span class="black">usability testing</span> revealed all 3 policyholders tested were initially unsure if Add Bank was for adding checking or savings, and if Add Card was for adding debit or credit.</h5>
     </div>
     <div>
-      <h4 style="margin-top:60px;">The Solution</h4>
-      <h5 class="margin-top-10"><span class="black">Auto-fill the application</span> with billing information from another system to reduce manual work for the user.</h5>
+      {% include "svg/billpay/sprint1MyAccount3.svg" %}
+      <h6><span class="black">Phase 1 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Add Bank and Add Card buttons were displayed on the home screen.</h6>
+    </div>  
+  </div>
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>I was able to <span class="black">make the process more intuitive</span> by replacing the buttons with an icon.</h2>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint1MyAccount4.svg" %}
+      <h6><span class="black">Phase 2 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> The Add Bank and Add Card buttons were consolidated into an Add icon.</h6>
+    </div>  
+  </div>
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>The <span class="black">interactive prototype</span> shows Megan starting the process of saving her debit card.</h2>
+    </div>
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/billpay/newButton.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> The Add icon is used to add a new payment account.</h6>
     </div>
   </div>
-  <div class="scaling-svg-container" style="padding-bottom:30%;">
-    {% include "svg/billpay/autofill-flow.svg" %}
-  </div>
-  <h6><span class="black">User flow</span> for saving a payment method to use later. <span class="black">Auto-filled</span> billing section is displayed in red.</h6>
   <div class="underline-sm"></div>
 
+
+
+
+
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>Megan gets annoyed entering a bunch of info the company already has stored.</h2>
+      <h5>During <span class="black">virtual usability testing</span>, 3 of the 4 policyholders tested commented on the amount of data they had to manually enter.</h5>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint1PaymentInfo1.svg" %}
+      <h6><span class="black">Phase 1 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> The initial design included all form fields that were present in the legacy application.</h6>
+    </div>  
+  </div>
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>I was able to <span class="black">make the process easier</span> by reducing manual data entry.</h2>
+      <h5><span class="black">Interviews with 2 stakeholders</span> revealed eliminating too much data would increase the company's payment processing fees, so we auto-filled the application with policy info from another system instead.</h5>
+    </div>
+    <div>
+      {% include "svg/billpay/sprint1PaymentInfo2.svg" %}
+      <h6><span class="black">Phase 2 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Policy information from another system was used to auto-fill the Billing Information section.</h6>
+    </div>  
+  </div>
+  <div style="height:50px;"></div>
+
+  <div class="side-by-side align-items">
+    <div class="section-intro side-margin">
+      <h2>The <span class="black">final interactive prototype</span> shows Megan saving her debit card to use later.</h2>
+    </div>
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/billpay/sprint1Full.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Phase 3 <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> It's simple to add a new account, and edit the billing info if needed.</h6>
+    </div>
+  </div>
 </section>
 
 
