@@ -60,17 +60,17 @@
           </g>
           <g id="Bars___Time_Black" data-name="Bars/_/Time Black" transform="translate(62 80)">
             <path id="Background" d="M21-19H75V-35H21Z" transform="translate(8 50)" fill="none"/>
-            <text id="_10:20" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+            <text id="_10:20" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
           </g>
         </g>
       </g>
       <g id="Buttons_Pill_Button_Default_Submit" data-name="Buttons / Pill Button / Default / Submit" transform="translate(-46 105)">
         <path id="Pill_Button" data-name="Pill Button" d="M95.425,5.153C87.659-1.136,76.98.046,67.637.2,60.95.3,54.27-.122,47.587.046,41.057.207,34.57.193,28.04.091,18.924-.052,8.466.525,3.083,9.082c-4.261,6.771-4.5,17.383,1.772,23.063,6.785,6.148,16.292,5.107,24.692,4.866,6.9-.2,13.807.409,20.714.357,4.174-.031,8.337.042,12.507-.171,2.835-.143,5.659-.273,8.5-.213,8.473.171,17.806,1.493,24.978-4.184,6.739-5.334,6.98-15.817,3.041-22.9a17.643,17.643,0,0,0-3.862-4.747c-1.017-.877-2.506.6-1.482,1.482,6.079,5.257,8.207,16.233,2.831,22.755-5.582,6.767-15.5,5.851-23.266,5.561-5.844-.217-11.654.3-17.495.339-7.11.042-14.174-.192-21.27-.391-7.61-.217-15.425,1.433-22.8-1.087-3.967-1.353-7.333-3.929-8.8-7.952a18.323,18.323,0,0,1,.094-12.307,15.891,15.891,0,0,1,8.6-9.3c4.292-1.9,9.148-2.1,13.769-2.087,5.974.014,11.937.245,17.914.084,6.673-.178,13.314.1,19.983.091,7.889-.007,16.383-1.2,24.063,1.024a18.044,18.044,0,0,1,6.383,3.272C94.981,7.477,96.474,6,95.425,5.153Z" transform="translate(327.001 548.994)" fill="#29d9c2" stroke="#29d9c2" stroke-width="2"/>
-        <text id="Pay_120" data-name="Pay $120" transform="translate(378 573)" fill="#29339b" font-size="16" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="-33.856" y="0">Pay $120</tspan></text>
+        <text id="Pay_120" data-name="Pay $120" transform="translate(378 573)" fill="#29339b" font-size="16" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-33.856" y="0">Pay $120</tspan></text>
       </g>
       <g id="Buttons_Pill_Button_Default_Submit-2" data-name="Buttons / Pill Button / Default / Submit" transform="translate(-210 105)">
         <path id="Pill_Button-2" data-name="Pill Button" d="M95.425,5.153C87.659-1.136,76.98.046,67.637.2,60.95.3,54.27-.122,47.587.046,41.057.207,34.57.193,28.04.091,18.924-.052,8.466.525,3.083,9.082c-4.261,6.771-4.5,17.383,1.772,23.063,6.785,6.148,16.292,5.107,24.692,4.866,6.9-.2,13.807.409,20.714.357,4.174-.031,8.337.042,12.507-.171,2.835-.143,5.659-.273,8.5-.213,8.473.171,17.806,1.493,24.978-4.184,6.739-5.334,6.98-15.817,3.041-22.9a17.643,17.643,0,0,0-3.862-4.747c-1.017-.877-2.506.6-1.482,1.482,6.079,5.257,8.207,16.233,2.831,22.755-5.582,6.767-15.5,5.851-23.266,5.561-5.844-.217-11.654.3-17.495.339-7.11.042-14.174-.192-21.27-.391-7.61-.217-15.425,1.433-22.8-1.087-3.967-1.353-7.333-3.929-8.8-7.952a18.323,18.323,0,0,1,.094-12.307,15.891,15.891,0,0,1,8.6-9.3c4.292-1.9,9.148-2.1,13.769-2.087,5.974.014,11.937.245,17.914.084,6.673-.178,13.314.1,19.983.091,7.889-.007,16.383-1.2,24.063,1.024a18.044,18.044,0,0,1,6.383,3.272C94.981,7.477,96.474,6,95.425,5.153Z" transform="translate(327.001 548.994)" fill="#29d9c2" stroke="#29d9c2" stroke-width="2"/>
-        <text id="Pay_Other" data-name="Pay Other" transform="translate(378 572)" fill="#29339b" font-size="16" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="-32.136" y="0">Pay Other</tspan></text>
+        <text id="Pay_Other" data-name="Pay Other" transform="translate(378 572)" fill="#29339b" font-size="16" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-32.136" y="0">Pay Other</tspan></text>
       </g>
       <g id="Group_22" data-name="Group 22" transform="translate(2 38)">
         <path id="Base" d="M0,.977V140.6a1,1,0,0,0,1,.979l84.993.212q67.191.165,134.375.337,15.392.035,30.777.078a1,1,0,0,0,1-.979c-.008-46.751-.591-93.5-.6-140.253a1,1,0,0,0-1-.979h-84.33Q99.023,0,31.823,0H1A.979.979,0,0,0,1,1.957H250.552l-1-.979c.008,46.751.591,93.5.6,140.253l1-.979-84.993-.212q-67.191-.165-134.375-.337-15.392-.035-30.777-.078l1,.979V.985A1,1,0,0,0,0,.977Z" transform="translate(105 385.01)" fill="#29339b"/>
@@ -90,12 +90,12 @@
       <g id="Icon_-_Plus" data-name="Icon - Plus" transform="translate(362.557 387.5)">
         <path id="Icon_-_Plus-2" data-name="Icon - Plus" d="M6.521,13.991q.256-2.431.43-4.868-2.834-.079-5.666-.268c-1.708-.116-1.717-2.8,0-2.684q2.916.195,5.833.272Q7.253,3.872,7.3,1.3a1.335,1.335,0,0,1,2.669,0q-.047,2.6-.185,5.193,2.709.023,5.42-.053c1.722-.049,1.713,2.634,0,2.684q-2.795.081-5.587.053-.173,2.41-.426,4.818a1.432,1.432,0,0,1-1.474,1.283A1.113,1.113,0,0,1,6.521,13.991Z" transform="translate(0 0)" fill="#29339b"/>
       </g>
-      <text id="Saved_Accounts" data-name="Saved Accounts" transform="translate(107 395)" fill="#29339b" font-size="20" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="14">Saved Accounts</tspan></text>
+      <text id="Saved_Accounts" data-name="Saved Accounts" transform="translate(107 395)" fill="#29339b" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="14">Saved Accounts</tspan></text>
       <g id="Group_65" data-name="Group 65">
-        <text id="Hello_Megan" data-name="Hello, Megan" transform="translate(114 188)" fill="#29339b" font-size="40" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="27">Hello, Megan</tspan></text>
-        <text id="_120.00" data-name="$120.00" transform="translate(114 284)" fill="#29339b" font-size="30" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="20">$120.00</tspan></text>
-        <text id="Due_2_1_20" data-name="Due 2/1/20" transform="translate(257 289)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="10">Due 2/1/20</tspan></text>
-        <text id="ACCOUNT_BALANCE" data-name="ACCOUNT BALANCE" transform="translate(114 265)" fill="#29339b" font-size="10" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="7">ACCOUNT BALANCE</tspan></text>
+        <text id="Hello_Megan" data-name="Hello, Megan" transform="translate(114 188)" fill="#29339b" font-size="40" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="27">Hello, Megan</tspan></text>
+        <text id="_120.00" data-name="$120.00" transform="translate(114 284)" fill="#29339b" font-size="30" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="20">$120.00</tspan></text>
+        <text id="Due_2_1_20" data-name="Due 2/1/20" transform="translate(257 289)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="10">Due 2/1/20</tspan></text>
+        <text id="ACCOUNT_BALANCE" data-name="ACCOUNT BALANCE" transform="translate(114 265)" fill="#29339b" font-size="10" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="7">ACCOUNT BALANCE</tspan></text>
       </g>
     </g>
   </g>

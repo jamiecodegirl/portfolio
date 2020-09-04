@@ -60,17 +60,17 @@
           </g>
           <g id="Bars___Time_Black" data-name="Bars/_/Time Black" transform="translate(62 80)">
             <path id="Background" d="M21-19H75V-35H21Z" transform="translate(8 50)" fill="none"/>
-            <text id="_10:20" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+            <text id="_10:20" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
           </g>
         </g>
       </g>
-      <text id="Hello_Megan" data-name="Hello, Megan" transform="translate(549 188)" fill="#29339b" font-size="40" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="27">Hello, Megan</tspan></text>
-      <text id="_120.00" data-name="$120.00" transform="translate(549 284)" fill="#29339b" font-size="30" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="20">$120.00</tspan></text>
-      <text id="AutoPay_on_2_1_20" data-name="AutoPay on 2/1/20" transform="translate(705 277)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="10">AutoPay on 2/1/20</tspan></text>
-      <text id="My_AutoPay" data-name="My AutoPay" transform="translate(705 298)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700" text-decoration="underline"><tspan x="0" y="10">My AutoPay</tspan></text>
+      <text id="Hello_Megan" data-name="Hello, Megan" transform="translate(549 188)" fill="#29339b" font-size="40" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="27">Hello, Megan</tspan></text>
+      <text id="_120.00" data-name="$120.00" transform="translate(549 284)" fill="#29339b" font-size="30" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="20">$120.00</tspan></text>
+      <text id="AutoPay_on_2_1_20" data-name="AutoPay on 2/1/20" transform="translate(705 277)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="10">AutoPay on 2/1/20</tspan></text>
+      <text id="My_AutoPay" data-name="My AutoPay" transform="translate(705 298)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700" text-decoration="underline"><tspan x="0" y="10">My AutoPay</tspan></text>
       <g id="Buttons_Pill_Button_Large" data-name="Buttons / Pill Button / Large" transform="translate(487 84)">
         <path id="Pill_Button" data-name="Pill Button" d="M82.537,57.114c14.663.3,29.322.053,43.985.007,11.334-.039,23.715-3.314,31.8-11.757,8.243-8.609,8.9-23.414,2.3-33.194C153.446,1.536,138.268.329,126.615.141c-6.483-.106-12.97-.22-19.453.007-5.908.209-11.8.554-17.718.518-7.438-.043-14.876.1-22.31-.177C60.373.24,53.623-.058,46.853.031,34.6.184,20.887-.473,10.188,6.55.142,13.143-2.349,27.813,2.161,38.427c4.6,10.837,17.257,16.5,28.254,18.211,6.579,1.022,13.435.5,20.071.557,6.781.06,13.563.124,20.344.078q5.855-.037,11.707-.16a1.065,1.065,0,0,0,0-2.129c-13.694.277-27.378.089-41.072.018-5.8-.028-11.185-.181-16.788-1.852A38.745,38.745,0,0,1,9.4,44.974C.682,36.929-.277,21.993,6.8,12.526c3.68-4.925,9.943-7.381,15.756-8.7a85.142,85.142,0,0,1,18.062-1.59c6.345-.06,12.676-.156,19.017.075,6.04.216,12.076.518,18.123.476,6.916-.05,13.84.114,20.756-.153,5.642-.216,11.274-.515,16.923-.507,11.962.021,25.518-.841,36.363,5.05a20.436,20.436,0,0,1,10.2,13.293,26.535,26.535,0,0,1-1.324,17.786c-4.8,10.2-17.619,15.422-28.236,16.544-3.031.319-6.1.185-9.141.2q-5.158.027-10.316.078c-6.43.057-12.864.106-19.294.06q-5.573-.043-11.143-.16A1.067,1.067,0,0,0,82.537,57.114Z" transform="translate(113 548.985)" fill="#29339b"/>
-        <text id="Make_a_Payment" data-name="Make a Payment" transform="translate(197 582)" fill="#29339b" font-size="18" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="-59.4" y="0">Make a Payment</tspan></text>
+        <text id="Make_a_Payment" data-name="Make a Payment" transform="translate(197 582)" fill="#29339b" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-59.4" y="0">Make a Payment</tspan></text>
       </g>
       <g id="Group_31" data-name="Group 31" transform="translate(436 -21)">
         <g id="Group_29" data-name="Group 29" transform="translate(0 50)">
@@ -91,9 +91,9 @@
             <path id="Icon_-_Plus-2" data-name="Icon - Plus" d="M6.521,13.991q.256-2.431.43-4.868-2.834-.079-5.666-.268c-1.708-.116-1.717-2.8,0-2.684q2.916.195,5.833.272Q7.253,3.872,7.3,1.3a1.335,1.335,0,0,1,2.669,0q-.047,2.6-.185,5.193,2.709.023,5.42-.053c1.722-.049,1.713,2.634,0,2.684q-2.795.081-5.587.053-.173,2.41-.426,4.818a1.432,1.432,0,0,1-1.474,1.283A1.113,1.113,0,0,1,6.521,13.991Z" transform="translate(0 0)" fill="#29339b"/>
           </g>
         </g>
-        <text id="Saved_Accounts" data-name="Saved Accounts" transform="translate(105 409)" fill="#29339b" font-size="20" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="14">Saved Accounts</tspan></text>
+        <text id="Saved_Accounts" data-name="Saved Accounts" transform="translate(105 409)" fill="#29339b" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="14">Saved Accounts</tspan></text>
       </g>
-      <text id="ACCOUNT_BALANCE" data-name="ACCOUNT BALANCE" transform="translate(549 265)" fill="#29339b" font-size="10" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="7">ACCOUNT BALANCE</tspan></text>
+      <text id="ACCOUNT_BALANCE" data-name="ACCOUNT BALANCE" transform="translate(549 265)" fill="#29339b" font-size="10" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="7">ACCOUNT BALANCE</tspan></text>
       <path id="Path_3423" data-name="Path 3423" d="M224.732,108.373c-27.036-2.116-56.057,1.766-81.088,15.884-12.294,6.934-29.227,20.3-27.586,40.808,1.476,18.446,17.577,29.615,29.263,35.653,28.555,14.758,64.757,16.059,94.017,4.075,11.021-4.513,23.067-11.614,31.364-22.441,11.17-14.574,6.235-35.765-4.567-47.879-14.268-16.08-34.9-20.172-53.122-20.412-16.633-.218-32.349,4.668-47.233,14.214l-.263-.631c23.551-16.68,51.561-21.019,77.622-12.55,13.307,4.323,27.2,13.182,34.293,29.269,6.856,15.551,4.188,33.492-6.069,45.13-23.264,26.4-55.853,32.333-85.564,29.36-15.812-1.582-31.68-5.912-46.1-14.747-11.641-7.132-25.48-19.04-27.391-37.164-3.527-33.435,31.43-48.65,50.43-54.254a152.111,152.111,0,0,1,36-5.871q8.028-.377,16.065.023C217.117,106.958,223.818,106.239,224.732,108.373Z" transform="translate(566.675 128.367)" fill="#29d9c2"/>
     </g>
     <g id="Group_2593" data-name="Group 2593" transform="translate(155 117)">
@@ -135,17 +135,17 @@
           </g>
           <g id="Bars___Time_Black-2" data-name="Bars/_/Time Black" transform="translate(62 80)">
             <path id="Background-2" data-name="Background" d="M21-19H75V-35H21Z" transform="translate(8 50)" fill="none"/>
-            <text id="_10:20-2" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+            <text id="_10:20-2" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
           </g>
         </g>
       </g>
-      <text id="Hello_Megan-2" data-name="Hello, Megan" transform="translate(114 188)" fill="#29339b" font-size="40" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="27">Hello, Megan</tspan></text>
-      <text id="_120.00-2" data-name="$120.00" transform="translate(114 284)" fill="#29339b" font-size="30" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="20">$120.00</tspan></text>
-      <text id="Due_2_1_20" data-name="Due 2/1/20" transform="translate(285 277)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="10">Due 2/1/20</tspan></text>
-      <text id="Setup_AutoPay" data-name="Setup AutoPay" transform="translate(285 298)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700" text-decoration="underline"><tspan x="0" y="10">Setup AutoPay</tspan></text>
+      <text id="Hello_Megan-2" data-name="Hello, Megan" transform="translate(114 188)" fill="#29339b" font-size="40" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="27">Hello, Megan</tspan></text>
+      <text id="_120.00-2" data-name="$120.00" transform="translate(114 284)" fill="#29339b" font-size="30" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="20">$120.00</tspan></text>
+      <text id="Due_2_1_20" data-name="Due 2/1/20" transform="translate(285 277)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="10">Due 2/1/20</tspan></text>
+      <text id="Setup_AutoPay" data-name="Setup AutoPay" transform="translate(285 298)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700" text-decoration="underline"><tspan x="0" y="10">Setup AutoPay</tspan></text>
       <g id="Buttons_Pill_Button_Large-2" data-name="Buttons / Pill Button / Large" transform="translate(52 84)">
         <path id="Pill_Button-2" data-name="Pill Button" d="M82.537,57.114c14.663.3,29.322.053,43.985.007,11.334-.039,23.715-3.314,31.8-11.757,8.243-8.609,8.9-23.414,2.3-33.194C153.446,1.536,138.268.329,126.615.141c-6.483-.106-12.97-.22-19.453.007-5.908.209-11.8.554-17.718.518-7.438-.043-14.876.1-22.31-.177C60.373.24,53.623-.058,46.853.031,34.6.184,20.887-.473,10.188,6.55.142,13.143-2.349,27.813,2.161,38.427c4.6,10.837,17.257,16.5,28.254,18.211,6.579,1.022,13.435.5,20.071.557,6.781.06,13.563.124,20.344.078q5.855-.037,11.707-.16a1.065,1.065,0,0,0,0-2.129c-13.694.277-27.378.089-41.072.018-5.8-.028-11.185-.181-16.788-1.852A38.745,38.745,0,0,1,9.4,44.974C.682,36.929-.277,21.993,6.8,12.526c3.68-4.925,9.943-7.381,15.756-8.7a85.142,85.142,0,0,1,18.062-1.59c6.345-.06,12.676-.156,19.017.075,6.04.216,12.076.518,18.123.476,6.916-.05,13.84.114,20.756-.153,5.642-.216,11.274-.515,16.923-.507,11.962.021,25.518-.841,36.363,5.05a20.436,20.436,0,0,1,10.2,13.293,26.535,26.535,0,0,1-1.324,17.786c-4.8,10.2-17.619,15.422-28.236,16.544-3.031.319-6.1.185-9.141.2q-5.158.027-10.316.078c-6.43.057-12.864.106-19.294.06q-5.573-.043-11.143-.16A1.067,1.067,0,0,0,82.537,57.114Z" transform="translate(113 548.985)" fill="#29339b"/>
-        <text id="Make_a_Payment-2" data-name="Make a Payment" transform="translate(197 582)" fill="#29339b" font-size="18" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="-59.4" y="0">Make a Payment</tspan></text>
+        <text id="Make_a_Payment-2" data-name="Make a Payment" transform="translate(197 582)" fill="#29339b" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-59.4" y="0">Make a Payment</tspan></text>
       </g>
       <g id="Group_30" data-name="Group 30" transform="translate(1 -21)">
         <g id="Group_29-2" data-name="Group 29" transform="translate(0 50)">
@@ -166,9 +166,9 @@
             <path id="Icon_-_Plus-4" data-name="Icon - Plus" d="M6.521,13.991q.256-2.431.43-4.868-2.834-.079-5.666-.268c-1.708-.116-1.717-2.8,0-2.684q2.916.195,5.833.272Q7.253,3.872,7.3,1.3a1.335,1.335,0,0,1,2.669,0q-.047,2.6-.185,5.193,2.709.023,5.42-.053c1.722-.049,1.713,2.634,0,2.684q-2.795.081-5.587.053-.173,2.41-.426,4.818a1.432,1.432,0,0,1-1.474,1.283A1.113,1.113,0,0,1,6.521,13.991Z" transform="translate(0 0)" fill="#29339b"/>
           </g>
         </g>
-        <text id="Saved_Accounts-2" data-name="Saved Accounts" transform="translate(105 409)" fill="#29339b" font-size="20" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="14">Saved Accounts</tspan></text>
+        <text id="Saved_Accounts-2" data-name="Saved Accounts" transform="translate(105 409)" fill="#29339b" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="14">Saved Accounts</tspan></text>
       </g>
-      <text id="ACCOUNT_BALANCE-2" data-name="ACCOUNT BALANCE" transform="translate(114 265)" fill="#29339b" font-size="10" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="7">ACCOUNT BALANCE</tspan></text>
+      <text id="ACCOUNT_BALANCE-2" data-name="ACCOUNT BALANCE" transform="translate(114 265)" fill="#29339b" font-size="10" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="7">ACCOUNT BALANCE</tspan></text>
       <path id="Path_3429" data-name="Path 3429" d="M771.283,324.476c-30.66-7.568-65.828,19.55-73.846,45.451-6.586,18.668,3.267,41.48,18.455,54.315,12.7,10.732,31.158,15.527,47.993,17,21.359,1.872,44.417-1.44,63.674-10.259,17.407-7.972,35.193-23.56,35.7-42.5.476-17.673-14.081-32.628-30.192-40.6-19.11-9.458-41.979-11.92-63.359-9.858-32.553,3.141-62.12,17.2-86.254,36.981l-.55-.512c27.155-25.819,64.048-42.858,103.73-42.973,36.6-.105,91.062,19.842,84.254,61.637-6.538,40.153-61.741,55.272-99.475,53.58-17.762-.8-37.042-5-51.784-14.563-16.728-10.853-27.117-29.644-27.389-48.33-.26-17.9,11.312-33.87,25.676-45.3A75.139,75.139,0,0,1,749.2,323.5C751.771,322.974,771.477,320.706,771.283,324.476Z" transform="translate(-446.906 -92.344)" fill="#29d9c2" stroke="#29d9c2" stroke-miterlimit="10" stroke-width="2"/>
     </g>
   </g>

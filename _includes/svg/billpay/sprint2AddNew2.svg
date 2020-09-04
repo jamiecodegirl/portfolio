@@ -61,7 +61,7 @@
             </g>
             <g id="Bars___Time_Black" data-name="Bars/_/Time Black" transform="translate(62 80)">
               <path id="Background" d="M21-19H75V-35H21Z" transform="translate(8 50)" fill="none"/>
-              <text id="_10:20" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+              <text id="_10:20" data-name="10:20" transform="translate(33 29)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
             </g>
           </g>
         </g>
@@ -74,15 +74,15 @@
           <rect width="32" height="142.21" stroke="none"/>
           <rect x="1" y="1" width="30" height="140.21" fill="none"/>
         </g>
-        <text id="How_would_you_like_to_pay_120.00_" data-name="How would you like to pay $120.00?" transform="translate(1335 218)" fill="#29339b" font-size="22" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="15">How would you like to </tspan><tspan x="0" y="45">pay $120.00?</tspan></text>
+        <text id="How_would_you_like_to_pay_120.00_" data-name="How would you like to pay $120.00?" transform="translate(1335 218)" fill="#29339b" font-size="22" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="15">How would you like to </tspan><tspan x="0" y="45">pay $120.00?</tspan></text>
         <g id="Buttons_Pill_Button_Large" data-name="Buttons / Pill Button / Large" transform="translate(1285 87)">
           <path id="Pill_Button" data-name="Pill Button" d="M82.537,57.114c14.663.3,29.322.053,43.985.007,11.334-.039,23.715-3.314,31.8-11.757,8.243-8.609,8.9-23.414,2.3-33.194C153.446,1.536,138.268.329,126.615.141c-6.483-.106-12.97-.22-19.453.007-5.908.209-11.8.554-17.718.518-7.438-.043-14.876.1-22.31-.177C60.373.24,53.623-.058,46.853.031,34.6.184,20.887-.473,10.188,6.55.142,13.143-2.349,27.813,2.161,38.427c4.6,10.837,17.257,16.5,28.254,18.211,6.579,1.022,13.435.5,20.071.557,6.781.06,13.563.124,20.344.078q5.855-.037,11.707-.16a1.065,1.065,0,0,0,0-2.129c-13.694.277-27.378.089-41.072.018-5.8-.028-11.185-.181-16.788-1.852A38.745,38.745,0,0,1,9.4,44.974C.682,36.929-.277,21.993,6.8,12.526c3.68-4.925,9.943-7.381,15.756-8.7a85.142,85.142,0,0,1,18.062-1.59c6.345-.06,12.676-.156,19.017.075,6.04.216,12.076.518,18.123.476,6.916-.05,13.84.114,20.756-.153,5.642-.216,11.274-.515,16.923-.507,11.962.021,25.518-.841,36.363,5.05a20.436,20.436,0,0,1,10.2,13.293,26.535,26.535,0,0,1-1.324,17.786c-4.8,10.2-17.619,15.422-28.236,16.544-3.031.319-6.1.185-9.141.2q-5.158.027-10.316.078c-6.43.057-12.864.106-19.294.06q-5.573-.043-11.143-.16A1.067,1.067,0,0,0,82.537,57.114Z" transform="translate(113 548.985)" fill="#29339b"/>
-          <text id="Review_Payment" data-name="Review Payment" transform="translate(197 582)" fill="#29339b" font-size="18" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="-59.175" y="0">Review Payment</tspan></text>
+          <text id="Review_Payment" data-name="Review Payment" transform="translate(197 582)" fill="#29339b" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-59.175" y="0">Review Payment</tspan></text>
         </g>
         <g id="Group_26" data-name="Group 26" transform="translate(358 3)">
-          <text id="Don_t_see_the_account_you_need_" data-name="Don’t see the account you need?" transform="translate(977 520)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="0" y="10">Don’t see the account you need?</tspan></text>
+          <text id="Don_t_see_the_account_you_need_" data-name="Don’t see the account you need?" transform="translate(977 520)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="10">Don’t see the account you need?</tspan></text>
           <g id="Buttons_Pill_Button_Small" data-name="Buttons / Pill Button / Small" transform="translate(698 -34)">
-            <text id="Add_New" data-name="Add New" transform="translate(517 566)" fill="#29339b" font-size="14" font-family="TektonPro-Bold, Tekton Pro" font-weight="700"><tspan x="-24.948" y="0">Add New</tspan></text>
+            <text id="Add_New" data-name="Add New" transform="translate(517 566)" fill="#29339b" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-24.948" y="0">Add New</tspan></text>
             <path id="Pill_Button-2" data-name="Pill Button" d="M79.318,3.481C76.649.833,73.432.15,70.1.078c-2.988-.065-5.988.076-8.976.094C54.658.208,48.2.1,41.73.012,35.333-.071,28.924.2,22.521.176c-2.974-.015-5.95-.1-8.927-.105-3.31-.011-6.844.341-9.6,2.876-4.381,4.031-5.628,13.79-1.34,18.6,4.271,4.787,10.679,3.3,15.884,3.087,13.119-.541,26.236-.552,39.355-.207,3.627.094,7.256.211,10.88.436,3.078.189,6.127.214,9-1.416C84.007,19.9,84.152,8.82,79.318,3.481c-.838-.926-2.071.61-1.23,1.54a12.884,12.884,0,0,1,2.817,9.973c-.458,3.821-2.539,6.167-5.422,7.173-2.541.89-5.1.6-7.694.454-2.988-.167-5.979-.269-8.971-.352q-17.442-.485-34.867,0c-2.924.08-5.849.182-8.77.341-2.594.142-5.158.461-7.706-.378A7.957,7.957,0,0,1,1.94,15.5c-.58-3.548.3-7.667,2.449-10.151C6.855,2.5,10.417,2.242,13.6,2.25c2.684.007,5.367.087,8.051.1,5.918.036,11.84.015,17.758-.12,6.272-.138,12.559.142,18.838.127,3.072,0,6.142-.025,9.214-.087,3.627-.069,7.63-.232,10.63,2.746C78.959,5.881,80.2,4.349,79.318,3.481Z" transform="translate(476.001 549.004)" fill="#29339b"/>
           </g>
         </g>
