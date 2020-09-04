@@ -142,57 +142,6 @@ section {
 /* End Section Headers */
 
 
-/* Start Big Green Number Section*/
-.number-block {
-  width: 60%;
-  display: flex;
-  align-items: last baseline;
-}
-
-.number {
-  color: var(--green);
-  font-weight: 900;
-  font-size: 300px;
-  padding-right: 15px;
-}
-
-.number-block h2 {
-  font-weight: 900;
-  margin: 0;
-}
-
-.number-block h5 {
-  color: var(--blue);
-  line-height: 1.6;
-  font-weight: 700;
-  margin-bottom: 0;
-  margin-top: 10px;
-}
-
-.number-block p {
-  font-size: 20px;
-  line-height: 1.6;
-  margin-top: 5px;
-}
-
-@media only screen and (max-width: 1023px) {
-  .number-block {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .number-block {
-    display: block;
-  }
-
-  .number {
-    font-size: 100px;
-  }
-}
-/* End Big Green Number Section*/
-
-
 /* Start Project Overview Section */
 #section1 h1 {
   margin-top: 0;
