@@ -4,12 +4,8 @@
       <circle id="Ellipse_3" data-name="Ellipse 3" cx="38.5" cy="38.5" r="38.5" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Group_23" data-name="Group 23" transform="translate(-498 -1667)">
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(499 1670)" fill="#fff" stroke="#707070" stroke-width="1">
-      <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
-      <circle cx="37.5" cy="37.5" r="37" fill="none"/>
-    </g>
-    <g id="Layer_2" data-name="Layer 2" transform="translate(487.46 1674.43)">
+  <g id="Group_30" data-name="Group 30" transform="translate(-1761 -1414)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1750.46 1421.43)">
       <g id="Accessories" transform="translate(10.54 -7.43)">
         <g id="Group_22" data-name="Group 22" clip-path="url(#clip-path)">
           <path id="Path_1261" data-name="Path 1261" d="M31.244,48.4l-1.5,12.179s7.13,8.458,9.815,8.126,8.634-7.393,8.634-7.393L47.31,53.42Z" transform="translate(-0.694 -1.13)" fill="#7b5234"/>
@@ -151,6 +147,10 @@
           </g>
         </g>
       </g>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1762 1417)" fill="none" stroke="#080808" stroke-width="2">
+      <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
+      <circle cx="37.5" cy="37.5" r="36.5" fill="none"/>
     </g>
   </g>
 </svg>

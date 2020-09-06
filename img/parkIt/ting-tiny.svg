@@ -10,12 +10,8 @@
       <path id="SVGID-2" data-name="SVGID" d="M35.416,36.238A14.224,14.224,0,0,0,31.251,35.2a28.82,28.82,0,0,0-6.331.521s3.1-2.482,5.513-2.408S35.649,35.634,35.416,36.238Z" transform="translate(-24.92 -33.308)" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Group_27" data-name="Group 27" transform="translate(-537 -1407)">
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(537 1407)" fill="#fff" stroke="#707070" stroke-width="1">
-      <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
-      <circle cx="37.5" cy="37.5" r="37" fill="none"/>
-    </g>
-    <g id="Layer_2" data-name="Layer 2" transform="translate(532.16 1413.78)">
+  <g id="Group_29" data-name="Group 29" transform="translate(-1696 -1128)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1692.16 1133.78)">
       <g id="Accessories" transform="translate(4.84 -5.78)">
         <g id="Group_26" data-name="Group 26" clip-path="url(#clip-path)">
           <g id="Business_Woman" data-name="Business Woman" transform="translate(22.403 11.649)">
@@ -234,6 +230,10 @@
           </g>
         </g>
       </g>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(1696 1128)" fill="none" stroke="#080808" stroke-width="2">
+      <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
+      <circle cx="37.5" cy="37.5" r="36.5" fill="none"/>
     </g>
   </g>
 </svg>
