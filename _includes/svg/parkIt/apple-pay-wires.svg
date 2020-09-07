@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" viewBox="0 0 1920 961" style="max-width:100%;">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M338.667-26.667h16.667A2.667,2.667,0,0,1,358-24v6h0a2.667,2.667,0,0,1-2.667,2.667H338.667A2.667,2.667,0,0,1,336-18v-6h0A2.667,2.667,0,0,1,338.667-26.667Z" transform="translate(0 44)" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Shape-2" data-name="Shape" d="M359-23v4a2.17,2.17,0,0,0,1.328-2A2.17,2.17,0,0,0,359-23" transform="translate(0 44)" fill="#1583d8"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Shape-3" data-name="Shape" d="M339.333-24.667h15.333A1.333,1.333,0,0,1,356-23.333v4.667h0a1.333,1.333,0,0,1-1.333,1.333H339.333A1.333,1.333,0,0,1,338-18.667v-4.667h0A1.333,1.333,0,0,1,339.333-24.667Z" transform="translate(0 44)" fill="#080808"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Shape-4" data-name="Shape" d="M323.33-24.392a8.64,8.64,0,0,1,5.953,2.378.308.308,0,0,0,.433,0l1.156-1.167a.322.322,0,0,0,.093-.229.322.322,0,0,0-.1-.227,10.9,10.9,0,0,0-15.08,0,.322.322,0,0,0-.1.227.322.322,0,0,0,.093.229l1.156,1.167a.308.308,0,0,0,.433,0,8.641,8.641,0,0,1,5.954-2.378Zm0,3.8a4.907,4.907,0,0,1,3.294,1.27.31.31,0,0,0,.433-.006l1.155-1.167a.322.322,0,0,0,.094-.23.322.322,0,0,0-.1-.229,7.159,7.159,0,0,0-9.752,0,.322.322,0,0,0-.1.229.322.322,0,0,0,.094.23l1.154,1.167a.31.31,0,0,0,.433.006,4.907,4.907,0,0,1,3.292-1.27Zm2.219,2.784a.314.314,0,0,0,.094-.231.314.314,0,0,0-.1-.226,3.422,3.422,0,0,0-4.419,0,.314.314,0,0,0-.1.226.314.314,0,0,0,.094.231l2,2.016a.311.311,0,0,0,.222.093.312.312,0,0,0,.222-.093Z" transform="translate(0 44)" fill="#080808"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Shape-5" data-name="Shape" d="M294.667-19.667h1a1,1,0,0,1,1,1v2a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1v-2a1,1,0,0,1,1-1Zm4.667-2h1a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1v-4A1,1,0,0,1,299.333-21.667ZM304-24h1a1,1,0,0,1,1,1v6.333a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1V-23A1,1,0,0,1,304-24Zm4.667-2.333h1a1,1,0,0,1,1,1v8.667a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1v-8.667a1,1,0,0,1,1-1Z" transform="translate(0 44)" fill="#080808"/>
+    </clipPath>
+    <clipPath id="clip-Apple_Pay_Wireframes">
+      <rect width="1920" height="961"/>
+    </clipPath>
+  </defs>
+  <g id="Apple_Pay_Wireframes" data-name="Apple Pay Wireframes" clip-path="url(#clip-Apple_Pay_Wireframes)">
+    <rect width="1920" height="961" fill="#fff"/>
+    <g id="Group_2522" data-name="Group 2522">
+      <g id="Rectangle_2446" data-name="Rectangle 2446" fill="#a4acbc" stroke="#707070" stroke-width="1">
+        <rect width="1920" height="961" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1919" height="960" rx="9.5" fill="none"/>
+      </g>
+      <g id="Group_2521" data-name="Group 2521">
+        <g id="Group_2500" data-name="Group 2500" transform="translate(-249 -3)">
+          <g id="Rectangle_2447" data-name="Rectangle 2447" transform="translate(474 78)" fill="#fff" stroke="#29339b" stroke-width="2">
+            <rect width="375" height="812" stroke="none"/>
+            <rect x="1" y="1" width="373" height="810" fill="none"/>
+          </g>
+          <g id="Group_253" data-name="Group 253" transform="translate(476 79)">
+            <g id="Group_113" data-name="Group 113">
+              <g id="Battery" transform="translate(-4 -4)">
+                <g id="Border" clip-path="url(#clip-path)">
+                  <path id="Fill" d="M2.667,0H19.333A2.667,2.667,0,0,1,22,2.667v6h0a2.667,2.667,0,0,1-2.667,2.667H2.667A2.667,2.667,0,0,1,0,8.667v-6H0A2.667,2.667,0,0,1,2.667,0Z" transform="translate(336 17.333)" fill="none" stroke="rgba(8,8,8,0.5)" stroke-width="2"/>
+                </g>
+                <g id="Cap" clip-path="url(#clip-path-2)">
+                  <path id="Fill-2" data-name="Fill" d="M354-28h11.328v14H354Z" transform="translate(0 44)" fill="#1583d8"/>
+                </g>
+                <g id="Capacity" clip-path="url(#clip-path-3)">
+                  <path id="Fill-3" data-name="Fill" d="M333-29.667h28v17.333H333Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <g id="Wifi" transform="translate(-4 -4)">
+                <g id="Wifi-2" data-name="Wifi" clip-path="url(#clip-path-4)">
+                  <path id="Fill-4" data-name="Fill" d="M310.694-31.669h25.272V-10.7H310.694Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <g id="Cellular_Connection" data-name="Cellular Connection" transform="translate(-4 -4)">
+                <g id="Cellular_Connection-2" data-name="Cellular Connection" clip-path="url(#clip-path-5)">
+                  <path id="Fill-5" data-name="Fill" d="M288.667-31.333h27v20.667h-27Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <path id="Background" d="M21-19H75V-35H21Z" transform="translate(-7 45)" fill="none"/>
+              <text id="_10:20" data-name="10:20" transform="translate(18 24)" fill="#080808" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+            </g>
+            <path id="Base" d="M0,.634v91.1c0,.348.578.639,1.268.639l107.867.138q85.274.107,170.538.22,19.535.023,39.059.051c.69,0,1.268-.291,1.268-.639-.01-30.506-.751-61.012-.761-91.518,0-.348-.578-.639-1.268-.639H210.946Q125.672,0,40.388,0H1.268c-1.633,0-1.633,1.278,0,1.278H317.982L316.714.634c.01,30.506.751,61.012.761,91.518l1.268-.639-107.867-.138q-85.274-.107-170.538-.22Q20.8,91.132,1.278,91.1l1.268.639V.639C2.536-.189,0-.189,0,.634Z" transform="translate(28 293.01)" fill="#080808"/>
+            <path id="Base-2" data-name="Base" d="M0,.634v91.1c0,.348.578.639,1.268.639l107.867.138q85.274.107,170.538.22,19.535.023,39.059.051c.69,0,1.268-.291,1.268-.639-.01-30.506-.751-61.012-.761-91.518,0-.348-.578-.639-1.268-.639H210.946Q125.672,0,40.388,0H1.268c-1.633,0-1.633,1.278,0,1.278H317.982L316.714.634c.01,30.506.751,61.012.761,91.518l1.268-.639-107.867-.138q-85.274-.107-170.538-.22Q20.8,91.132,1.278,91.1l1.268.639V.639C2.536-.189,0-.189,0,.634Z" transform="translate(28 519.01)" fill="#080808"/>
+            <path id="Base-3" data-name="Base" d="M0,.634v91.1c0,.348.578.639,1.268.639l107.867.138q85.274.107,170.538.22,19.535.023,39.059.051c.69,0,1.268-.291,1.268-.639-.01-30.506-.751-61.012-.761-91.518,0-.348-.578-.639-1.268-.639H210.946Q125.672,0,40.388,0H1.268c-1.633,0-1.633,1.278,0,1.278H317.982L316.714.634c.01,30.506.751,61.012.761,91.518l1.268-.639-107.867-.138q-85.274-.107-170.538-.22Q20.8,91.132,1.278,91.1l1.268.639V.639C2.536-.189,0-.189,0,.634Z" transform="translate(28 406.01)" fill="#080808"/>
+            <text id="parkIt_" data-name="parkIt!" transform="translate(98.119 319.704)" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-24.543" y="0">parkIt!</tspan></text>
+            <text id="App_Name" data-name="App Name" transform="translate(110.119 547.704)" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-36.972" y="0">App Name</tspan></text>
+            <text id="App_Name-2" data-name="App Name" transform="translate(110.119 434.704)" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-36.972" y="0">App Name</tspan></text>
+            <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(38 303)" fill="#080808" stroke="#080808" stroke-width="1">
+              <rect width="25" height="25" rx="5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+            </g>
+            <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(38 529)" fill="#080808" stroke="#080808" stroke-width="1">
+              <rect width="25" height="25" rx="5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+            </g>
+            <g id="Rectangle_13" data-name="Rectangle 13" transform="translate(38 416)" fill="#080808" stroke="#080808" stroke-width="1">
+              <rect width="25" height="25" rx="5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+            </g>
+            <text id="p" transform="translate(44 304)" fill="#fff" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="1.044" y="15">p</tspan></text>
+            <text id="A" transform="translate(44 532)" fill="#fff" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0.644" y="15">A</tspan></text>
+            <text id="A-2" data-name="A" transform="translate(44 419)" fill="#fff" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0.644" y="15">A</tspan></text>
+            <text id="Your_payment_is_due._Pay_with_Apple_Pay." data-name="Your payment is due. Pay with Apple Pay." transform="translate(187.042 357.354)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-146.142" y="0">Your payment is due. Pay with Apple Pay.</tspan></text>
+            <text id="Another_Notification" data-name="Another Notification" transform="translate(41.042 589.354)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">Another Notification</tspan></text>
+            <text id="Another_Notification-2" data-name="Another Notification" transform="translate(41.042 476.354)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">Another Notification</tspan></text>
+            <text id="_9:41" data-name="9:41" transform="translate(74 125)" fill="#080808" font-size="70" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="37.455" y="48">9:41</tspan></text>
+            <text id="Monday_June_22" data-name="Monday, June 22" transform="translate(74 200)" fill="#080808" font-size="30" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="8.76" y="20">Monday, June 22</tspan></text>
+            <text id="Now" transform="translate(302 304)" fill="#080808" font-size="12" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="7.078" y="8">Now</tspan></text>
+            <text id="_14_min_ago" data-name="14 min ago" transform="translate(276 416)" fill="#080808" font-size="12" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="3.086" y="8">14 min ago</tspan></text>
+            <text id="_1_hr_ago" data-name="1 hr ago" transform="translate(276 529)" fill="#080808" font-size="12" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="10.466" y="8">1 hr ago</tspan></text>
+            <path id="Line" d="M2.6,75.378c1.069.236,41.843.308,63.843.06,19.363-.218,38.725-.841,58.134-.907,1.169,0,7.961,0,9.175,0,1.352.136,1.133-.818,1.135-1.454s-.443-.95-2.788-.9c-19.1-.047-37.919.333-57.138.387-20.552.336-64.578.072-64.578.072l-7.987-.189S.833,72.6.758,73.8,1.53,75.141,2.6,75.378Z" transform="translate(119.747 723.488)" fill="#080808" stroke="#080808" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Group_2503" data-name="Group 2503" transform="translate(-50 3)">
+          <text id="Payment_Notification" data-name="Payment Notification" transform="translate(153 334)" fill="#fff" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="14">Payment </tspan><tspan x="0" y="38">Notification</tspan></text>
+          <g id="Group_2491" data-name="Group 2491" transform="translate(238 376)">
+            <path id="Path_3424" data-name="Path 3424" d="M118.932,280.154l-14.243,8.517.008-5.293c-14.513-.871-29.551-3.32-42.006-11.205-11.89-7.529-17.5-19.3-17.371-33.086.924,13.631,7.338,24.754,19.834,31.027,12.151,6.1,26.123,7.237,39.551,7.014l.008-5.533Z" transform="translate(-45.318 -239.087)" fill="#29d9c2"/>
+          </g>
+          <g id="Group_2498" data-name="Group 2498" transform="translate(1925 -1243)">
+            <circle id="Ellipse_568" data-name="Ellipse 568" cx="20" cy="20" r="20" transform="translate(-1825 1569)" fill="#29d9c2"/>
+            <text id="_1" data-name="1" transform="translate(-1819 1576)" fill="#fff" font-size="20" font-family="NunitoSans-Black, Nunito Sans" font-weight="800" letter-spacing="0.003em"><tspan x="8" y="20">1</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="Group_2508" data-name="Group 2508" transform="translate(-22 -3)">
+        <g id="Group_2501" data-name="Group 2501" transform="translate(-116)">
+          <g id="Rectangle_2448" data-name="Rectangle 2448" transform="translate(944 78)" fill="#fff" stroke="#29339b" stroke-width="2">
+            <rect width="375" height="812" stroke="none"/>
+            <rect x="1" y="1" width="373" height="810" fill="none"/>
+          </g>
+          <g id="Group_254" data-name="Group 254" transform="translate(946 79)">
+            <g id="Group_113-2" data-name="Group 113">
+              <g id="Battery-2" data-name="Battery" transform="translate(-4 -4)">
+                <g id="Border-2" data-name="Border" clip-path="url(#clip-path)">
+                  <path id="Fill-6" data-name="Fill" d="M2.667,0H19.333A2.667,2.667,0,0,1,22,2.667v6h0a2.667,2.667,0,0,1-2.667,2.667H2.667A2.667,2.667,0,0,1,0,8.667v-6H0A2.667,2.667,0,0,1,2.667,0Z" transform="translate(336 17.333)" fill="none" stroke="rgba(8,8,8,0.5)" stroke-width="2"/>
+                </g>
+                <g id="Cap-2" data-name="Cap" clip-path="url(#clip-path-2)">
+                  <path id="Fill-7" data-name="Fill" d="M354-28h11.328v14H354Z" transform="translate(0 44)" fill="#1583d8"/>
+                </g>
+                <g id="Capacity-2" data-name="Capacity" clip-path="url(#clip-path-3)">
+                  <path id="Fill-8" data-name="Fill" d="M333-29.667h28v17.333H333Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <g id="Wifi-3" data-name="Wifi" transform="translate(-4 -4)">
+                <g id="Wifi-4" data-name="Wifi" clip-path="url(#clip-path-4)">
+                  <path id="Fill-9" data-name="Fill" d="M310.694-31.669h25.272V-10.7H310.694Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <g id="Cellular_Connection-3" data-name="Cellular Connection" transform="translate(-4 -4)">
+                <g id="Cellular_Connection-4" data-name="Cellular Connection" clip-path="url(#clip-path-5)">
+                  <path id="Fill-10" data-name="Fill" d="M288.667-31.333h27v20.667h-27Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <path id="Background-2" data-name="Background" d="M21-19H75V-35H21Z" transform="translate(-7 45)" fill="none"/>
+              <text id="_10:20-2" data-name="10:20" transform="translate(18 24)" fill="#080808" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+            </g>
+            <path id="Base-4" data-name="Base" d="M0,1.081V155.364a1.2,1.2,0,0,0,1.268,1.082l107.867.234q85.274.182,170.538.372,19.535.039,39.059.087A1.2,1.2,0,0,0,320,156.057c-.01-51.662-.751-103.323-.761-154.985A1.2,1.2,0,0,0,317.971-.01H210.946Q125.672,0,40.388,0H1.268a1.091,1.091,0,1,0,0,2.164H317.982l-1.268-1.082c.01,51.662.751,103.323.761,154.985l1.268-1.082-107.867-.234q-85.274-.182-170.538-.372-19.535-.039-39.059-.087l1.268,1.082V1.09C2.536-.313,0-.313,0,1.081Z" transform="translate(28 147.01)" fill="#080808"/>
+            <text id="parkIt_2" data-name="parkIt!" transform="translate(98.119 173.704)" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-24.543" y="0">parkIt!</tspan></text>
+            <g id="Rectangle_11-2" data-name="Rectangle 11" transform="translate(38 157)" fill="#080808" stroke="#080808" stroke-width="1">
+              <rect width="25" height="25" rx="5" stroke="none"/>
+              <rect x="0.5" y="0.5" width="24" height="24" rx="4.5" fill="none"/>
+            </g>
+            <text id="p-2" data-name="p" transform="translate(44 158)" fill="#fff" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="1.044" y="15">p</tspan></text>
+            <text id="Your_payment_is_due._Pay_with_Apple_Pay_or_enter_payment_information_in_the_app." data-name="Your payment is due. Pay with Apple Pay or enter payment information in the app." transform="translate(46.042 207.354)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="12">Your payment is due. Pay with Apple </tspan><tspan x="0" y="38">Pay or enter payment information in </tspan><tspan x="0" y="64">the app.</tspan></text>
+            <g id="Group_189" data-name="Group 189" transform="translate(-53 -33)">
+              <path id="Oval" d="M1.6,12.83C2.686,5.186,10.326.779,17.69,1.716c6.814.869,9.183,7.775,9.268,13.825.13,9.362-11.535,12.085-18.67,9.043-4.929-2.1-7.275-6.715-6.659-11.958.115-.976-1.414-.965-1.528,0A12.371,12.371,0,0,0,6.263,25.287a17.657,17.657,0,0,0,14,1.129c4.438-1.531,7.861-5.067,8.2-9.889C28.9,10.347,26.4,2.61,19.929.636,11.5-1.932,1.392,3.514.128,12.423-.009,13.386,1.463,13.8,1.6,12.83Z" transform="translate(372.502 146.001)" fill="#080808"/>
+              <path id="Icon_-_Cross" data-name="Icon - Cross" d="M-1588.833-3277.339q-.909-.877-1.787-1.769-.879.9-1.79,1.769c-.858.827-2.169-.481-1.309-1.309q.924-.892,1.816-1.8-.885-.948-1.736-1.938c-.774-.9.531-2.212,1.309-1.309q.838.977,1.707,1.909.87-.934,1.709-1.909c.778-.907,2.08.408,1.309,1.309q-.852.994-1.737,1.94.892.909,1.817,1.8a.931.931,0,0,1-.692,1.573A.877.877,0,0,1-1588.833-3277.339Z" transform="translate(1977.499 3439.999)" fill="#080808"/>
+            </g>
+            <path id="Base_Button" data-name="Base Button" d="M300.838,3.547C300.183,1.691,296.746.588,292.6.428c-7.351-.289-14.887-.234-22.264-.3q-20.97-.2-41.957-.1c-26.59.095-53.181.453-79.763.679C121.342.939,94.071.818,66.8.906c-14,.044-27.985.179-41.965.522q-5.28.131-10.561.3A81.52,81.52,0,0,0,4.9,2.2C.8,2.849.4,4.478.311,6.162-.118,14.135-.042,22.115.168,30.088a45.227,45.227,0,0,0,.2,4.646c.294,2.2,2.487,3.477,7.393,4.123,13.031,1.717,27.456,1.085,40.814.738,14.492-.376,28.985-.161,43.494-.153q21.613.011,43.209-.124,44.347-.241,88.7-.606,22.23-.17,44.469-.354c7.267-.062,14.543-.1,21.819-.186,5.016-.058,9.048-.584,9.93-2.98,1.445-3.9.983-8.086,1.134-12.023.176-4.624.193-9.251-.008-13.879-.084-1.819-.2-3.634-.4-5.453-.16-1.4-5.2-1.413-5.041,0a133.7,133.7,0,0,1,.151,24.189c-.126,1.768-.286,3.535-.521,5.3-.16,1.158.311,2.14-3.066,2.622-3.134.449-8.091.08-11.4.11q-20.138.17-40.276.329c-53.979.424-108,1.008-161.988.836-13.073-.04-25.977.113-39.041.4-6.36.139-12.762.212-19.113-.026-3.445-.131-6.948-.329-10.3-.72C6.259,36.4,5.452,35.588,5.352,33.9c-.445-7.228-.336-14.47-.2-21.7.034-1.625.067-3.254.143-4.879a5.821,5.821,0,0,1,.1-1.907C6.04,3.7,10.082,4.047,13.451,3.937,26.767,3.506,40.1,3.28,53.441,3.17c25.3-.2,50.593-.011,75.89-.139,26.885-.139,53.761-.519,80.645-.716q20.945-.153,41.906-.11,11.266.033,22.533.153,5.759.06,11.518.15c3.52.055,9.334-.4,10.048,1.622C296.469,5.519,301.334,4.931,300.838,3.547Z" transform="translate(38.501 360.49)" fill="#080808"/>
+            <path id="Base_Button-2" data-name="Base Button" d="M300.838,3.547C300.183,1.691,296.746.588,292.6.428c-7.351-.289-14.887-.234-22.264-.3q-20.97-.2-41.957-.1c-26.59.095-53.181.453-79.763.679C121.342.939,94.071.818,66.8.906c-14,.044-27.985.179-41.965.522q-5.28.131-10.561.3A81.52,81.52,0,0,0,4.9,2.2C.8,2.849.4,4.478.311,6.162-.118,14.135-.042,22.115.168,30.088a45.227,45.227,0,0,0,.2,4.646c.294,2.2,2.487,3.477,7.393,4.123,13.031,1.717,27.456,1.085,40.814.738,14.492-.376,28.985-.161,43.494-.153q21.613.011,43.209-.124,44.347-.241,88.7-.606,22.23-.17,44.469-.354c7.267-.062,14.543-.1,21.819-.186,5.016-.058,9.048-.584,9.93-2.98,1.445-3.9.983-8.086,1.134-12.023.176-4.624.193-9.251-.008-13.879-.084-1.819-.2-3.634-.4-5.453-.16-1.4-5.2-1.413-5.041,0a133.7,133.7,0,0,1,.151,24.189c-.126,1.768-.286,3.535-.521,5.3-.16,1.158.311,2.14-3.066,2.622-3.134.449-8.091.08-11.4.11q-20.138.17-40.276.329c-53.979.424-108,1.008-161.988.836-13.073-.04-25.977.113-39.041.4-6.36.139-12.762.212-19.113-.026-3.445-.131-6.948-.329-10.3-.72C6.259,36.4,5.452,35.588,5.352,33.9c-.445-7.228-.336-14.47-.2-21.7.034-1.625.067-3.254.143-4.879a5.821,5.821,0,0,1,.1-1.907C6.04,3.7,10.082,4.047,13.451,3.937,26.767,3.506,40.1,3.28,53.441,3.17c25.3-.2,50.593-.011,75.89-.139,26.885-.139,53.761-.519,80.645-.716q20.945-.153,41.906-.11,11.266.033,22.533.153,5.759.06,11.518.15c3.52.055,9.334-.4,10.048,1.622C296.469,5.519,301.334,4.931,300.838,3.547Z" transform="translate(36.501 416.49)" fill="#080808"/>
+            <path id="Base_Button-3" data-name="Base Button" d="M300.838,3.547C300.183,1.691,296.746.588,292.6.428c-7.351-.289-14.887-.234-22.264-.3q-20.97-.2-41.957-.1c-26.59.095-53.181.453-79.763.679C121.342.939,94.071.818,66.8.906c-14,.044-27.985.179-41.965.522q-5.28.131-10.561.3A81.52,81.52,0,0,0,4.9,2.2C.8,2.849.4,4.478.311,6.162-.118,14.135-.042,22.115.168,30.088a45.227,45.227,0,0,0,.2,4.646c.294,2.2,2.487,3.477,7.393,4.123,13.031,1.717,27.456,1.085,40.814.738,14.492-.376,28.985-.161,43.494-.153q21.613.011,43.209-.124,44.347-.241,88.7-.606,22.23-.17,44.469-.354c7.267-.062,14.543-.1,21.819-.186,5.016-.058,9.048-.584,9.93-2.98,1.445-3.9.983-8.086,1.134-12.023.176-4.624.193-9.251-.008-13.879-.084-1.819-.2-3.634-.4-5.453-.16-1.4-5.2-1.413-5.041,0a133.7,133.7,0,0,1,.151,24.189c-.126,1.768-.286,3.535-.521,5.3-.16,1.158.311,2.14-3.066,2.622-3.134.449-8.091.08-11.4.11q-20.138.17-40.276.329c-53.979.424-108,1.008-161.988.836-13.073-.04-25.977.113-39.041.4-6.36.139-12.762.212-19.113-.026-3.445-.131-6.948-.329-10.3-.72C6.259,36.4,5.452,35.588,5.352,33.9c-.445-7.228-.336-14.47-.2-21.7.034-1.625.067-3.254.143-4.879a5.821,5.821,0,0,1,.1-1.907C6.04,3.7,10.082,4.047,13.451,3.937,26.767,3.506,40.1,3.28,53.441,3.17c25.3-.2,50.593-.011,75.89-.139,26.885-.139,53.761-.519,80.645-.716q20.945-.153,41.906-.11,11.266.033,22.533.153,5.759.06,11.518.15c3.52.055,9.334-.4,10.048,1.622C296.469,5.519,301.334,4.931,300.838,3.547Z" transform="translate(36.501 472.49)" fill="#080808"/>
+            <text id="Pay_with_Apple_Pay" data-name="Pay with Apple Pay" transform="translate(187.5 383.49)" fill="#080808" font-size="16" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-59.92" y="0">Pay with Apple Pay</tspan></text>
+            <text id="Pay_in_app" data-name="Pay in app" transform="translate(187.5 439.49)" fill="#080808" font-size="16" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-31.704" y="0">Pay in app</tspan></text>
+            <text id="Remind_me_later" data-name="Remind me later" transform="translate(187.5 495.49)" fill="#080808" font-size="16" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-52.904" y="0">Remind me later</tspan></text>
+            <g id="icon_-_options" data-name="icon - options" transform="translate(336.5 160.5) rotate(90)">
+              <ellipse id="Ellipse_337" data-name="Ellipse 337" cx="2" cy="1.885" rx="2" ry="1.885" fill="#080808"/>
+              <ellipse id="Ellipse_338" data-name="Ellipse 338" cx="2" cy="1.885" rx="2" ry="1.885" transform="translate(0 5.385)" fill="#080808"/>
+              <ellipse id="Ellipse_339" data-name="Ellipse 339" cx="2" cy="1.885" rx="2" ry="1.885" transform="translate(0 11.231)" fill="#080808"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_2507" data-name="Group 2507">
+          <text id="Pay_with_Apple_Pay-2" data-name="Pay with 
+Apple Pay" transform="translate(720 378)" fill="#fff" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="14">Pay with </tspan><tspan x="0" y="38">Apple Pay</tspan></text>
+          <g id="Group_2492" data-name="Group 2492" transform="translate(785 422)">
+            <path id="Path_3424-2" data-name="Path 3424" d="M118.932,280.154l-14.243,8.517.008-5.293c-14.513-.871-29.551-3.32-42.006-11.205-11.89-7.529-17.5-19.3-17.371-33.086.924,13.631,7.338,24.754,19.834,31.027,12.151,6.1,26.123,7.237,39.551,7.014l.008-5.533Z" transform="translate(-45.318 -239.087)" fill="#29d9c2"/>
+          </g>
+          <g id="Group_2499" data-name="Group 2499" transform="translate(2425 -1205)">
+            <circle id="Ellipse_567" data-name="Ellipse 567" cx="20" cy="20" r="20" transform="translate(-1757 1568)" fill="#29d9c2"/>
+            <text id="_2" data-name="2" transform="translate(-1751 1575)" fill="#fff" font-size="20" font-family="NunitoSans-Black, Nunito Sans" font-weight="800" letter-spacing="0.003em"><tspan x="7.99" y="20">2</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="Group_2510" data-name="Group 2510" transform="translate(6 -3)">
+        <g id="Group_2502" data-name="Group 2502" transform="translate(-88)">
+          <g id="Path_1088" data-name="Path 1088" transform="translate(1414 78)" fill="#fff">
+            <path d="M 374 811 L 1 811 L 1 1 L 374 1 L 374 811 Z" stroke="none"/>
+            <path d="M 2 2 L 2 810 L 373 810 L 373 2 L 2 2 M 0 0 L 375 0 L 375 812 L 0 812 L 0 0 Z" stroke="none" fill="#29339b"/>
+          </g>
+          <g id="Group_255" data-name="Group 255" transform="translate(1416 79)">
+            <g id="Group_113-3" data-name="Group 113">
+              <g id="Battery-3" data-name="Battery" transform="translate(-4 -4)">
+                <g id="Border-3" data-name="Border" clip-path="url(#clip-path)">
+                  <path id="Fill-11" data-name="Fill" d="M2.667,0H19.333A2.667,2.667,0,0,1,22,2.667v6h0a2.667,2.667,0,0,1-2.667,2.667H2.667A2.667,2.667,0,0,1,0,8.667v-6H0A2.667,2.667,0,0,1,2.667,0Z" transform="translate(336 17.333)" fill="none" stroke="rgba(8,8,8,0.5)" stroke-width="2"/>
+                </g>
+                <g id="Cap-3" data-name="Cap" clip-path="url(#clip-path-2)">
+                  <path id="Fill-12" data-name="Fill" d="M354-28h11.328v14H354Z" transform="translate(0 44)" fill="#1583d8"/>
+                </g>
+                <g id="Capacity-3" data-name="Capacity" clip-path="url(#clip-path-3)">
+                  <path id="Fill-13" data-name="Fill" d="M333-29.667h28v17.333H333Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <g id="Wifi-5" data-name="Wifi" transform="translate(-4 -4)">
+                <g id="Wifi-6" data-name="Wifi" clip-path="url(#clip-path-4)">
+                  <path id="Fill-14" data-name="Fill" d="M310.694-31.669h25.272V-10.7H310.694Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <g id="Cellular_Connection-5" data-name="Cellular Connection" transform="translate(-4 -4)">
+                <g id="Cellular_Connection-6" data-name="Cellular Connection" clip-path="url(#clip-path-5)">
+                  <path id="Fill-15" data-name="Fill" d="M288.667-31.333h27v20.667h-27Z" transform="translate(0 44)" fill="#080808"/>
+                </g>
+              </g>
+              <path id="Background-3" data-name="Background" d="M21-19H75V-35H21Z" transform="translate(-7 45)" fill="none"/>
+              <text id="_10:20-3" data-name="10:20" transform="translate(18 24)" fill="#080808" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">10:20</tspan></text>
+            </g>
+            <g id="Icon_-_Arrow_Right_1" data-name="Icon - Arrow Right 1" transform="translate(350.953 489.709)">
+              <path id="Arrow_Right_1" data-name="Arrow Right 1" d="M435.982,50.05q2.148,2.22,4.2,4.528c-.09-.337-.177-.678-.268-1.015-.007.024-.01.052-.017.076a1.05,1.05,0,0,0,1.741,1.015,61.71,61.71,0,0,0,3.968-4.931c.865-1.018-.6-2.5-1.473-1.473a60.336,60.336,0,0,1-3.968,4.931c.58.337,1.161.678,1.741,1.015.222-.959-.7-1.6-1.282-2.238q-1.559-1.715-3.169-3.378c-.931-.97-2.4.5-1.473,1.47Z" transform="translate(-47.904 445.871) rotate(-90)" fill="#080808"/>
+            </g>
+            <text id="MJONES_ZCORP.COM_555_555-5551" data-name="MJONES@ZCORP.COM
+(555) 555-5551" transform="translate(87.983 489.82)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">MJONES@ZCORP.COM</tspan><tspan x="0" y="26">(555) 555-5551</tspan></text>
+            <text id="CONTACT" transform="translate(15.983 487.82)" fill="#080808" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">CONTACT</tspan></text>
+            <g id="Group_194" data-name="Group 194" transform="translate(11 211)">
+              <text id="JUNE_MEMBERSHIP" data-name="JUNE MEMBERSHIP" transform="translate(89.983 371.82)" fill="#080808" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">JUNE MEMBERSHIP</tspan></text>
+              <text id="_149.00" data-name="$149.00" transform="translate(288.983 371.82)" fill="#080808" font-size="14" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">$149.00</tspan></text>
+            </g>
+            <g id="Group_193" data-name="Group 193" transform="translate(11 206)">
+              <text id="PAY_PARKIT_" data-name="PAY PARKIT!" transform="translate(89.983 417.82)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">PAY PARKIT!</tspan></text>
+              <text id="_149.00-2" data-name="$149.00" transform="translate(271.983 418.82)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">$149.00</tspan></text>
+            </g>
+            <g id="Group_195" data-name="Group 195" transform="translate(2 261)">
+              <g id="Icon_-_Arrow_Right_1-2" data-name="Icon - Arrow Right 1" transform="translate(348.953 133.709)">
+                <path id="Arrow_Right_1-2" data-name="Arrow Right 1" d="M435.982,50.05q2.148,2.22,4.2,4.528c-.09-.337-.177-.678-.268-1.015-.007.024-.01.052-.017.076a1.05,1.05,0,0,0,1.741,1.015,61.71,61.71,0,0,0,3.968-4.931c.865-1.018-.6-2.5-1.473-1.473a60.336,60.336,0,0,1-3.968,4.931c.58.337,1.161.678,1.741,1.015.222-.959-.7-1.6-1.282-2.238q-1.559-1.715-3.169-3.378c-.931-.97-2.4.5-1.473,1.47Z" transform="translate(-47.904 445.871) rotate(-90)" fill="#080808"/>
+              </g>
+              <text id="APPLE_CARD_6834_LAKEWOOD_DR._DENVE_" data-name="APPLE CARD
+6834 LAKEWOOD DR., DENVE…" transform="translate(85.983 133.82)" fill="#080808" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="0">APPLE CARD</tspan><tspan x="0" y="26">6834 LAKEWOOD DR., DENVE…</tspan></text>
+              <g id="Group_191" data-name="Group 191" transform="translate(-18 -19)">
+                <path id="Path_1040" data-name="Path 1040" d="M2471.085-449.381a1.3,1.3,0,0,0-.05-.334c-.4-2.387-2.129-3.507-4.568-3.571-2.512-.066-5.03-.047-7.543-.06-6.542-.032-13.087-.031-19.628.116-2.517.056-5.564-.3-6.842,2.38a6.676,6.676,0,0,0-.364,2.982l.043,10.833c.013,3.307-.021,6.618.04,9.924.1,5.4,5.8,4.727,9.876,4.786,7.145.1,14.446.255,21.579-.115,2.476-.129,5.925.118,7.251-2.44a6,6,0,0,0,.444-2.994Q2471.2-438.628,2471.085-449.381Zm-36.547.218c.389-2.484,6.116-1.666,8.054-1.7q4.877-.072,9.756-.069,4.373,0,8.746.026c1.676.011,7.283-.765,7.537,1.52q.073,6.631.146,13.261-1.585-1.465-3.185-2.914c-1.19-1.075-2.5-2.548-4.242-2.593-1.483-.039-2.7.993-3.787,1.866a34.488,34.488,0,0,0-3.732,3.5c-.309-.294-.611-.595-.928-.881-1.911-1.731-4.181-3.743-6.658-4.607-2.627-.916-4.124.607-5.9,2.31l-5.744,5.5-.036-9.126A40.053,40.053,0,0,1,2434.538-449.164Zm34.343,22.41c-.3,2.429-5.417,1.918-7.332,1.927-3.164.015-6.328-.011-9.491.006-3.124.017-6.247.1-9.371.069-1.974-.019-7.643.64-8.057-1.732a18.875,18.875,0,0,1-.084-4.039c.022-.019.045-.032.067-.053l5.743-5.5a34.57,34.57,0,0,1,2.871-2.749c1.471-1.107,2.434-.633,3.8.214,4.158,2.571,7.438,6.378,10.665,9.972,1.052,1.172,2.782-.553,1.735-1.72-1.274-1.42-2.557-2.837-3.885-4.209,1.573-1.844,4.51-5.116,6.4-4.388,1.243.48,2.608,2.263,3.594,3.164q1.65,1.508,3.282,3.035A43.873,43.873,0,0,1,2468.881-426.754Z" transform="translate(-2400.187 601.018)" fill="#080808" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+                <path id="Path_1041" data-name="Path 1041" d="M2477.271-435.13a4.378,4.378,0,0,0,4.49-4.252,4.551,4.551,0,0,0-4.5-4.5c-2.644-.032-4.157,1.907-4.22,4.375A4.235,4.235,0,0,0,2477.271-435.13Zm-.186-6.324a2.094,2.094,0,0,1,2.222,2.071,1.885,1.885,0,0,1-1.87,1.81,1.775,1.775,0,0,1-1.94-1.937C2475.524-440.567,2475.884-441.4,2477.085-441.453Z" transform="translate(-2424.394 595.381)" fill="#080808" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+              </g>
+            </g>
+            <path id="Line-2" data-name="Line" d="M59.008.658Q102.255.57,145.5.639c33.682.032,9.364.092,43.046.15Q241.28.881,294.011.954c33.515.039,26.031.061,59.546.029C382.3.955,395.051.9,423.792.721q4.583-.028,9.163-.061c1.337-.009,1.344-.626,0-.617-27.908.2-39.823.271-67.738.309-33.21.045-25.42.032-58.63,0Q253.892.3,201.2.193c-33.932-.06-9.864-.121-43.8-.159Q113-.017,68.587.023L59.008.041c-1.34,0-1.344.619,0,.617Z" transform="translate(-59.001 357.001)" fill="#080808"/>
+            <path id="Line-3" data-name="Line" d="M59.008.658Q102.255.57,145.5.639c33.682.032,9.364.092,43.046.15Q241.28.881,294.011.954c33.515.039,26.031.061,59.546.029C382.3.955,395.051.9,423.792.721q4.583-.028,9.163-.061c1.337-.009,1.344-.626,0-.617-27.908.2-39.823.271-67.738.309-33.21.045-25.42.032-58.63,0Q253.892.3,201.2.193c-33.932-.06-9.864-.121-43.8-.159Q113-.017,68.587.023L59.008.041c-1.34,0-1.344.619,0,.617Z" transform="translate(-59.001 452.001)" fill="#080808"/>
+            <path id="Line-4" data-name="Line" d="M59.008.658Q102.255.57,145.5.639c33.682.032,9.364.092,43.046.15Q241.28.881,294.011.954c33.515.039,26.031.061,59.546.029C382.3.955,395.051.9,423.792.721q4.583-.028,9.163-.061c1.337-.009,1.344-.626,0-.617-27.908.2-39.823.271-67.738.309-33.21.045-25.42.032-58.63,0Q253.892.3,201.2.193c-33.932-.06-9.864-.121-43.8-.159Q113-.017,68.587.023L59.008.041c-1.34,0-1.344.619,0,.617Z" transform="translate(-60.001 547.001)" fill="#080808"/>
+            <path id="Line-5" data-name="Line" d="M59.008.658Q102.255.57,145.5.639c33.682.032,9.364.092,43.046.15Q241.28.881,294.011.954c33.515.039,26.031.061,59.546.029C382.3.955,395.051.9,423.792.721q4.583-.028,9.163-.061c1.337-.009,1.344-.626,0-.617-27.908.2-39.823.271-67.738.309-33.21.045-25.42.032-58.63,0Q253.892.3,201.2.193c-33.932-.06-9.864-.121-43.8-.159Q113-.017,68.587.023L59.008.041c-1.34,0-1.344.619,0,.617Z" transform="translate(-59.001 310.001)" fill="#080808"/>
+            <text id="Apple_Pay" data-name="Apple Pay" transform="translate(48.119 340.704)" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-35.208" y="0">Apple Pay</tspan></text>
+            <text id="Cancel" transform="translate(331.119 340.704)" font-size="18" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-23.796" y="0">Cancel</tspan></text>
+            <path id="Oval-2" data-name="Oval" d="M3.418,27.381C5.734,11.067,22.037,1.663,37.752,3.663c14.541,1.854,19.6,16.591,19.776,29.5.277,19.977-24.614,25.789-39.841,19.3C7.169,47.983,2.163,38.133,3.478,26.946c.245-2.082-3.017-2.06-3.262,0-1.3,11.084,3.251,21.505,13.15,27.017a37.68,37.68,0,0,0,29.871,2.408c9.47-3.267,16.776-10.812,17.5-21.1.93-13.188-4.387-29.7-18.205-33.91C24.548-4.121,2.973,7.5.276,26.511-.017,28.566,3.125,29.452,3.418,27.381Z" transform="translate(156.502 688.001)" fill="#080808"/>
+            <text id="Confirm_with_Side_Button" data-name="Confirm with Side Button" transform="translate(186.119 771.705)" font-size="16" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="-81.2" y="0">Confirm with Side Button</tspan></text>
+            <path id="Base_Button-4" data-name="Base Button" d="M.065,15.992C.17,17,.6,17.429,1.13,17.5a25.191,25.191,0,0,0,2.551.132c1.693.055,3.387.055,5.08.027,3.338-.055,6.675-.221,10.013-.316,2.99-.084,5.98-.023,8.971-.061,1.558-.02,3.117-.064,4.675-.189.672-.055,1.345-.114,2.015-.221.554-.089,1.039-.3,1.118-1.469.134-1.98.04-4.092.041-6.086,0-2.121.007-4.249-.026-6.373A3.1,3.1,0,0,0,34.986.668,3.524,3.524,0,0,0,32.671.009c-1.631-.061-3.261.259-4.894.232C22,.148,16.23.361,10.458.507Q7.772.575,5.087.65q-1.249.038-2.5.077C2,.746.978.441.477,1.094,0,1.719.086,3.124.062,4.065.03,5.391.014,6.718,0,8.044c-.019,2.587-.02,5.182.047,7.769.022.873.772.88.749,0C.693,11.654.705,7.448.833,3.29c.021-.712.1-1.019.516-1.155a3.142,3.142,0,0,1,.877-.03q1.036-.034,2.07-.066,2.143-.065,4.284-.118C13.938,1.782,19.3,1.6,24.658,1.589c1.229,0,2.458,0,3.686.027,1.52.034,3.037-.341,4.555-.23a4.353,4.353,0,0,1,1.376.309c.391.161.536.657.543,1.353q.015,1.306.019,2.612.013,3.189,0,6.377c0,.837-.007,1.676-.017,2.512-.006.591-.055.807-.386.959a3.428,3.428,0,0,1-1.073.134c-1.385.148-2.773.211-4.161.248-2.77.073-5.538.011-8.308.045-3.266.041-6.529.214-9.794.307-1.707.048-3.414.08-5.12.068q-1.311-.007-2.624-.055c-.427-.016-.855-.036-1.282-.059-.341-.018-1.2.236-1.286-.568C.7,14.767-.024,15.133.065,15.992Z" transform="translate(189.969 700.714) rotate(90)" fill="#080808"/>
+            <text id="Double_Click_to_Pay" data-name="Double Click to Pay" transform="translate(267 223)" fill="#080808" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700"><tspan x="0" y="14">Double Click </tspan><tspan x="0" y="34">to Pay</tspan></text>
+            <path id="Button_Indicator" data-name="Button Indicator" d="M4,0H8A0,0,0,0,1,8,0V100a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(367 192)" fill="#080808"/>
+            <path id="Line-6" data-name="Line" d="M.23,72.231a11.422,11.422,0,0,1,2.313-.017c.7.064,1.4.246,2.106.265.042,0,.288,0,.332,0,.049-.04.121.178.121.364s-.1.338-.181.325c-.692.014-1.374-.1-2.07-.113a18.825,18.825,0,0,0-2.34-.021l-.289.055S.1,73.045.1,72.7A.6.6,0,0,1,.23,72.231Z" transform="translate(177.247 630.569)" fill="#080808"/>
+            <path id="Line-7" data-name="Line" d="M.354,72.212c.077-.049,3-.063,4.575-.012,1.388.045,2.775.173,4.166.186h.657c.1-.028.239.125.239.255s-.189.238-.357.228c-1.368.01-2.717-.068-4.095-.079-1.473-.069-4.628-.015-4.628-.015l-.572.039A.278.278,0,0,1,.1,72.538C.1,72.293.278,72.261.354,72.212Z" transform="translate(176.247 661.569)" fill="#080808"/>
+            <circle id="Ellipse_335" data-name="Ellipse 335" cx="0.5" cy="0.5" r="0.5" transform="translate(183 703)" fill="#080808"/>
+            <g id="Icon_-_Arrow_Right_1-3" data-name="Icon - Arrow Right 1" transform="translate(191.953 706.709)">
+              <path id="Arrow_Right_1-3" data-name="Arrow Right 1" d="M.3,4.9Q2.444,2.68,4.5.373c-.09.337-.177.678-.268,1.015-.007-.024-.01-.052-.017-.076A1.05,1.05,0,0,1,5.954.3,61.7,61.7,0,0,1,9.923,5.227c.865,1.018-.6,2.5-1.473,1.473A60.343,60.343,0,0,0,4.481,1.77c.58-.337,1.161-.678,1.741-1.015.222.959-.7,1.6-1.282,2.238Q3.381,4.708,1.77,6.371C.839,7.34-.634,5.867.3,4.9Z" transform="translate(0 10.186) rotate(-90)" fill="#080808"/>
+            </g>
+            <line id="Line_10" data-name="Line 10" x2="9" transform="translate(194.5 711.5)" fill="none" stroke="#080808" stroke-width="2"/>
+            <path id="Line-8" data-name="Line" d="M2.6,75.378c1.069.236,41.843.308,63.843.06,19.363-.218,38.725-.841,58.134-.907,1.169,0,7.961,0,9.175,0,1.352.136,1.133-.818,1.135-1.454s-.443-.95-2.788-.9c-19.1-.047-37.919.333-57.138.387-20.552.336-64.578.072-64.578.072l-7.987-.189S.833,72.6.758,73.8,1.53,75.141,2.6,75.378Z" transform="translate(119.747 723.488)" fill="#080808" stroke="#080808" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Group_2509" data-name="Group 2509">
+          <text id="Finish_Payment" data-name="Finish Payment" transform="translate(1768 234)" fill="#fff" font-size="20" font-family="tekton-pro, tekton-pro" font-weight="700" letter-spacing="0.003em"><tspan x="0" y="14">Finish </tspan><tspan x="0" y="38">Payment</tspan></text>
+          <g id="Group_2505" data-name="Group 2505" transform="translate(3478 -1359)">
+            <circle id="Ellipse_567-2" data-name="Ellipse 567" cx="20" cy="20" r="20" transform="translate(-1757 1568)" fill="#29d9c2"/>
+            <text id="_3_" data-name="3
+" transform="translate(-1751 1575)" fill="#fff" font-size="20" font-family="NunitoSans-Black, Nunito Sans" font-weight="800" letter-spacing="0.003em"><tspan x="8" y="20">3</tspan></text>
+          </g>
+          <g id="Group_2506" data-name="Group 2506" transform="translate(1741 278)">
+            <path id="Path_3424-3" data-name="Path 3424" d="M45.318,280.154l14.243,8.517-.008-5.293c14.513-.871,29.551-3.32,42.006-11.205,11.89-7.529,17.5-19.3,17.371-33.086-.924,13.631-7.338,24.754-19.834,31.027-12.151,6.1-26.123,7.237-39.551,7.014l-.008-5.533Z" transform="translate(-45.318 -239.087)" fill="#29d9c2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
