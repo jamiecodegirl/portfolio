@@ -9,11 +9,11 @@
 
 <section id="section1">
   <h1>parkIt!</h1>
-  <div class="main-description"></div>
+  <div class="main-description">Makes it easy for customers to find and manage parking with a membership-based app</div>
   <div class="underline"></div>
   <div>
     <h4>About the Project</h4>
-    <p></p>
+    <p><span class="black">parkIt!</span> was a freelance project for a Property Management Company in Denver, Colorado. A year prior to the project start, the company began offering unlimited monthly parking memberships with access to 20+ parking garages. The membership program wasn't very successful though, so they invested in branding &amp; technology to attract more customers and expand their business.</p>
   </div>
   <div>
     <h4>Project Timeline</h4>
@@ -25,23 +25,27 @@
   </div>
   <div>
     <h4>Interesting Facts</h4>
-    <p></p>
+    <p>The project team included 5 team members, and was 100% remote. As the <span class="black">only User Experience Designer</span> on the team, I was solely responsible for all design work, and also did most of the HTML &amp; CSS.</p>
   </div>
   <div>
     <h4>My Role</h4>
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>User Research</li>
+      <li>Branding</li>
+      <li>User Experience &amp; User Interface Design</li>
+      <li>HTML &amp; CSS within Ionic and Angular</li>
     </ul>
   </div>
 </section>
 
 <section id="section2">
   {% include "sectionheaders/numberflag1.njk" %}
+
+  <div class="section-intro">
+    <h2>I created the primary &amp; secondary logo, app icon, notification icon, and typography &amp; color palettes.</h2>
+  </div>
   {% include "svg/parkIt/branding.svg" %}
+  <h6><span class="black">Branding <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> I was responsible for creating all branding elements.</h6>
 </section>
 
 <section id="section3">
@@ -105,12 +109,23 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
-      <h2>The interactive prototype shows Max using the app to sign up for a parking membership.</h2>
+      <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
+      <h2 class="margin-top-0">The interactive prototype shows Max using the app to sign up for a parking membership.</h2>
     </div>
-    <div>
-      
-    </div> 
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/parkIt/signup.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> The new signup process takes minutes, not days.</h6>
+    </div>
   </div>
+
+  <div class="section-intro">
+    <h2>And here's a closer look at some of the screens shown in the video above.</h2>
+  </div>
+  <img src="/img/parkIt/signup.png" width="" alt="image signup process">
+  <h6>Selected screens of high-fidelity prototype for the new signup process.</h6>
 </section>
 
 <section id="section5">
@@ -175,63 +190,97 @@
 
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
-      <h2>The interactive prototype shows Max finding the nearest parking garage with available spaces.</h2>
+      <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
+      <h2 class="margin-top-0">The interactive prototype shows Max finding a nearby parking garage with available spaces.</h2>
     </div>
-    <div>
-      
-    </div> 
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/parkIt/parking.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Easily finds available parking nearby with directions.</h6>
+    </div>
   </div>
   <div style="height:50px;"></div>
 
   <div class="section-intro">
-    <h2>If Max is driving, he doesn’t have to open the app. He just says, “Hey Siri, where’s the nearest <span class="black">parkIt!</span> garage?”.</h2>
+    <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
+    <h2 class="margin-top-0">If Max is driving, he doesn’t have to open the app. He just says, “Hey Siri, where’s the nearest <span class="black">parkIt!</span> garage?”.</h2>
+  </div>
+  <div class="flex space-around wrap">
+    <div>
+      <img src="/img/parkIt/siri1.png" width="300px" alt="image of phone">
+      <h6><span class="black">1. <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Max gets Siri's attention.</h6>
+    </div>
+    <div>
+      <img src="/img/parkIt/siri2.png" width="300px" alt="image of phone">
+      <h6><span class="black">2. <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Max asks Siri to find nearby parking.</h6>
+    </div>
+    <div>
+      <img src="/img/parkIt/siri3.png" width="300px" alt="image of phone">
+      <h6><span class="black">3. <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Siri answers and offers directions.</h6>
+    </div>
   </div>
 </section>
 
 <section id="section7">
   {% include "sectionheaders/numberflag6.njk" %}
 
-  <img src="/img/parkIt/ting-tiny.svg" width="100px" alt="image of woman">
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
+      <img src="/img/parkIt/ting-tiny.svg" width="100px" alt="image of woman">
       <h2 class="margin-top-0">Ting doesn’t want to forget where she parked, so she snaps a photo of the parking space number.</h2>
       <h5>During my initial user research, I interviewed a customer who told me how he does this every time he parks in a garage.</h5>
     </div>
     <div>
-    
+      {% include "svg/parkIt/space-number.svg" %}
     </div>  
   </div>
   <div class="underline-sm"></div>
 
-  <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
+      <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
       <h2 class="margin-top-0">Max uses the <span class="black">parkIt!</span> app to see his parking history.</h2>
     </div>
     <div>
-      
+      <img src="/img/parkIt/history.png" width="375px" alt="image of history screen">
+      <h6><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Parking history ensures he never forgets where he parked.</h6>
     </div> 
   </div>
   <div style="height:50px;"></div>
 
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
+      <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
       <h2 class="margin-top-0">After entering a garage, Max receives a notification prompting him to enter his parking space number so he doesn’t forget where he parked.</h2>
     </div>
     <div>
-      
+      <img src="/img/parkIt/message-after-scan.png" width="375px" alt="image of message screen">
+      <h6><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Even his parking space number can be saved.</h6>
     </div> 
   </div>
   <div style="height:50px;"></div>
 
-  <div class="side-by-side align-items">
-    <div class="section-intro side-margin">
-      <h2 class="margin-top-0">Later when he’s looking for his car, he asks “Hey Siri, where did I <span class="black">parkIt!</span>?”.</h2>
+  <div class="section-intro">
+    <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
+    <h2 class="margin-top-0">Later when he’s looking for his car, he asks “Hey Siri, where did I <span class="black">parkIt!</span>?”.</h2>
+  </div>
+
+  <div class="flex space-around wrap">
+    <div>
+      <img src="/img/parkIt/siri1.png" width="300px" alt="image of phone">
+      <h6><span class="black">1. <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Max gets Siri's attention.</h6>
     </div>
     <div>
-      
-    </div> 
-  </div>  
+      <img src="/img/parkIt/siri4.png" width="300px" alt="image of phone">
+      <h6><span class="black">2. <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Max asks Siri where he parked.</h6>
+    </div>
+    <div>
+      <img src="/img/parkIt/siri5.png" width="300px" alt="image of phone">
+      <h6><span class="black">3. <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Siri answers and offers directions.</h6>
+    </div>
+  </div>
 </section>
 
 <section id="section8">
@@ -263,14 +312,20 @@
   <div style="height:25px;"></div>
 
   {% include "svg/parkIt/apple-pay-wires.svg" %}
-    <h6><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Paying is quick &amp; easy with payment notifications and Apple Pay.</h6>
+  <h6><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Paying is quick &amp; easy with payment notifications and Apple Pay.</h6>
   <div style="height:50px;"></div>
+
   <div class="side-by-side align-items">
     <div class="section-intro side-margin">
-      <h2>The interactive prototype shows Max paying his bill after receiving a notification from the app.</h2>
+      <img src="/img/parkIt/max-tiny.svg" width="100px" alt="image of man">
+      <h2 class="margin-top-0">The interactive prototype shows Max paying his bill after receiving a notification from the app.</h2>
     </div>
-    <div>
-      
-    </div> 
+    <div class="flex column align-items">
+      <video width="323" height="700" controls>
+        <source src="/video/parkIt/apple-pay.mp4" type="video/mp4">
+        Sorry, your browser doesn't support videos.
+      </video>
+      <h6 style="max-width:323px;"><span class="black">Max <i class="fad fa-caret-right" style="--fa-secondary-color: var(--green);"></i></span> Pays his bill in only a few steps without checks, envelopes, or stamps.</h6>
+    </div>
   </div>
 </section>
