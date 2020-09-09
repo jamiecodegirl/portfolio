@@ -25,54 +25,55 @@
   </head>
 
   <body>
-    <header>
-      <div><img src="/img/logo.png" height="65px" alt="logo"></div>
+    <div class="content">
+      <header>
+        <div><img src="/img/logo.png" height="65px" alt="logo"></div>
 
-      <div class="project-navigation flex align-items{% if page.url == '/' %} display-none{% endif %}">
-        <div class="flex align-items">
-          <i class="fad fa-chevron-left" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
-          <a class="project-nav-item" href="{{ '/' | url }}">Take Me Home</a>
-        </div>
-        <div>
-          <p> | </p>
-        </div>
-        <div class="flex align-items">
-          <a class="project-url project-nav-item" href="{{ page.url | url }}">{{ title }}</a>
-          <i class="fad fa-chevron-down" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
-        </div>
-      </div>
-
-      <div class="mobile-menu">
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
-            <i class="fad fa-times" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
-          </a>
-          <ul class="nav">
-            {%- for entry in collections.all | eleventyNavigation %}
-              <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-            {%- endfor %}
-          </ul>
-          <div class="margin-left-20">
-            {% set projectslist = collections.projects %}
-            {% include "projectslist.njk" %}
+        <div class="project-navigation flex align-items{% if page.url == '/' %} display-none{% endif %}">
+          <div class="flex align-items">
+            <i class="fad fa-chevron-left" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
+            <a class="project-nav-item" href="{{ '/' | url }}">Take Me Home</a>
+          </div>
+          <div>
+            <p> | </p>
+          </div>
+          <div class="flex align-items">
+            <a class="project-url project-nav-item" href="{{ page.url | url }}">{{ title }}</a>
+            <i class="fad fa-chevron-down" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
           </div>
         </div>
-      
-        <div id="openbtn">
-          <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
-            <i class="fad fa-bars" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
-          </a>
+
+        <div class="mobile-menu">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">
+              <i class="fad fa-times" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
+            </a>
+            <ul class="nav">
+              {%- for entry in collections.all | eleventyNavigation %}
+                <li class="nav-item {% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+              {%- endfor %}
+            </ul>
+            <div class="margin-left-20">
+              {% set projectslist = collections.projects %}
+              {% include "projectslist.njk" %}
+            </div>
+          </div>
+        
+          <div id="openbtn">
+            <a href="javascript:void(0);" class="close-icon" onclick="toggleNav()">
+              <i class="fad fa-bars" style="--fa-secondary-color: var(--green);--fa-secondary-opacity: 1.0;"></i>
+            </a>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      {{ content | safe }}
-    </main>
-
-    <div class="underline"></div>
+      <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+        {{ content | safe }}
+      </main>
+    </div>
 
     <footer>
+      <div class="underline margin-bottom-25"></div>
       <div class="footer-icons">
         <a href="https://www.linkedin.com/in/jamierthompson/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://codepen.io/jamiecodegirl/" target="_blank"><i class="fab fa-codepen"></i></a>
@@ -82,7 +83,7 @@
       <p><a href="mailto:jamieraethompson@gmail.com?subject=Message%20from%20jamiethompson.design" target="_blank">Email me</a></p>
       <p>I built this site with <a href="https://11ty.dev" target="_blank">11ty</a>. See my code on <a href="https://github.com/jamiecodegirl/portfolio" target="_blank">GitHub</a>.</p>
     </footer>
-
+    
     <script src="{{ '/js/index.js' | url }}"></script>
     <script src="https://kit.fontawesome.com/73b07144a7.js" crossorigin="anonymous"></script>
 
