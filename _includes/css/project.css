@@ -509,3 +509,29 @@ p.codepen-link {
   margin: 5px 0;
 }
 /* End Player Section */
+
+
+/* Start Moped Section */
+.moped-container {
+  width: 323px;
+  margin: auto;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .moped-container {
+    width: 275px;
+  }
+}
+
+.moped {
+  position: absolute;
+  top: 50%;
+  animation: 3s linear infinite running zoom;
+}
+
+@keyframes zoom {
+  from { transform: translate(-200px); }
+  to   { transform: translate(330px); }
+}
+/* End Moped Section */
