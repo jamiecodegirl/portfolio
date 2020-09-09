@@ -2,25 +2,25 @@
   padding: 0 0 4em 4em;
 }
 
-@media only screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .tmpl-project {
     padding: 0 0 3em 3em;
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
   .tmpl-project {
     width: 80%;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .tmpl-project {
     padding: 0 2em 2em;
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   .tmpl-project {
     padding: 0 1em 1em;
   }
@@ -31,6 +31,12 @@
   font-size: 28px;
   max-width: 650px;
   padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .main-description {
+    font-size: 20px;
+  }
 }
 
 section {
@@ -48,7 +54,7 @@ section {
   box-shadow: inset 0 -15px 0 var(--green);
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .project-navigation {
     display: none;
   }
@@ -65,7 +71,7 @@ section {
   display: block;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .content-table {
     display: none;
   }
@@ -101,7 +107,7 @@ section {
   width: 90%;
 }
 
-@media only screen and (max-width: 720px) {
+@media (max-width: 720px) {
   .section-header .right-side {
     width: 80%;
   }
@@ -117,7 +123,7 @@ section {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   .numberflag {
     height: 45px;
     width: 45px;
@@ -130,7 +136,7 @@ section {
   margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .section-intro {
     width: 100%;
   }
@@ -153,13 +159,13 @@ section {
   max-width: 70%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   #section1 p {
     max-width: 100%;
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   #section1 p {
     margin-left: 10px;
   }
@@ -194,7 +200,7 @@ section {
   height: 500px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .sprint-planning-large img {
     height: 300px;
   }
@@ -228,14 +234,14 @@ section {
   padding-left: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .number-icon {
     top: 45px;
     left: -10px;
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media (max-width: 650px) {
   .number-icon {
     top: 35px;
     height: 50px;
@@ -257,7 +263,7 @@ section {
   margin: 15px auto 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .intro-message {
     padding: 0 0.5em;
   }
@@ -272,7 +278,7 @@ section {
   margin: 2em auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .copier {
     max-width: 300px;
   }
@@ -294,7 +300,7 @@ section {
   to   { transform: translate(140px); }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   @keyframes slidein {
     from { transform: translate(0); }
     to   { transform: translate(95px); }
@@ -405,7 +411,7 @@ section {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .message {
     font-size: 2em;
   }
@@ -417,7 +423,7 @@ section {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .fake-p {
     font-size: 0.875em;
   }
@@ -448,19 +454,19 @@ section {
   padding-top: 20%;
 }
 
-@media only screen and (max-width: 1366px) {
+@media (max-width: 1366px) {
   .copier2 {
     padding-top: 30%;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .copier2 {
     padding-top: 50%;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .copier2 {
     padding-top: 70%;
   }

@@ -4,19 +4,19 @@
   margin: auto;
 }
 
-@media only screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .tmpl-home {
     padding: 100px 3em 3em;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .tmpl-home {
     padding: 100px 2em 2em 3em;
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   .tmpl-home {
     padding: 100px 1.5em 1.5em 2.5em;
   }
@@ -26,7 +26,7 @@
   max-width: 70%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .about-me {
     max-width: 100%;
   }

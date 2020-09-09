@@ -32,15 +32,15 @@ h1 {
   width: max-content;
 }
 
-@media only screen and (max-width: 550px) {
+@media (max-width: 600px) {
   h1 {
-    width: auto;
+    font-size: 50px;
   }
 }
 
-@media only screen and (max-width: 415px) {
-  h1 {
-    font-size: 50px;
+@media (max-width: 400px) {
+  h1.long-title {
+    width: auto;
   }
 }
 
@@ -49,7 +49,7 @@ h2 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   h2 {
     font-size: 30px;
   }
@@ -60,7 +60,7 @@ h3 {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   h3 {
     font-size: 28px;
   }
@@ -155,7 +155,7 @@ img {
   border-bottom: 1px solid var(--underline);
 }
 
-@media only screen and (max-width: 720px) {
+@media (max-width: 720px) {
   .underline-sm {
     width: 65%;
   }
@@ -274,7 +274,7 @@ header {
   z-index: 333;
 }
 
-@media only screen and (max-width: 1024px)  {
+@media (max-width: 1024px)  {
   header {
     width: 100%;
   }
@@ -287,7 +287,7 @@ header {
   display: none;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .mobile-menu {
     display: block;
   }
@@ -363,7 +363,7 @@ ul.nav {
   margin-top: 5em;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .project-list {
     margin-top: 0;
   }
@@ -410,7 +410,7 @@ footer p {
   margin: 0 0 16px;
 }
 
-@media only screen and (max-width: 500px)  {
+@media (max-width: 500px)  {
   .footer-icons {
     float: none;
     margin-bottom: 16px;
@@ -442,7 +442,7 @@ footer p {
   padding-bottom: 1.5em;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .side-by-side {
     display: block;
   }
